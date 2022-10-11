@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex bg-[#F5F6F7] py-24 font-Inter">
+  <section class="w-full flex bg-[#F5F6F7] py-24 font-Inter">
     <div class="m-auto w-full max-w-[1059px] relative">
       <div class="w-full flex flex-col items-center space-y-8">
         <span class="font-Inter font-semibold text-[#1B2C42] text-5xl"
@@ -753,7 +753,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 

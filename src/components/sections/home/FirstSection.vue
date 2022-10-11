@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex bg-[#F5F6F7] pt-24">
+  <section class="w-full flex bg-[#F5F6F7] pt-24">
     <div class="m-auto w-full max-w-[1384px] relative">
       <img :src="SectionImage" alt="" class="w-full h-full object-cover" />
       <div class="w-full absolute top-24">
@@ -87,7 +87,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 

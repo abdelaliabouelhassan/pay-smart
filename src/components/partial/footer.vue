@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full py-28 bg-[#0F2138] font-Inter">
+  <div class="w-full pb-28  bg-[#0F2138] font-Inter" :class="{' pt-72':showFooter, 'pt-28':!showFooter}">
     <div class="max-w-[1060px] m-auto w-full space-y-28">
       <div class="w-full flex flex-col items-start space-y-5">
         <div>
@@ -474,6 +474,20 @@ import Logo from "../Icons/Logo.vue";
 export default {
   components: {
     Logo,
+  },
+  watch: {
+    $route() {
+      if (this.$route.path === "/" || this.$route.path === "/home") {
+        this.showFooter = true;
+      } else {
+        this.showFooter = false;
+      }
+    },
+  },
+  data() {
+    return {
+      showFooter: true,
+    };
   },
 };
 </script>

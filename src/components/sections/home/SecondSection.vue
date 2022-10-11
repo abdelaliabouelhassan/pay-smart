@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex bg-white py-24">
+  <section class="w-full flex bg-white py-24">
     <div class="m-auto w-full max-w-[1059px] relative">
       <div class="w-full grid grid-cols-2 gap-10">
         <div class="col-span-2 w-full bg-[#F5F6F7] rounded-3xl overflow-hidden">
@@ -199,7 +199,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 
