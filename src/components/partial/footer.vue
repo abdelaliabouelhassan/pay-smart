@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full pb-28 bg-[#0F2138] font-Inter"
+    class="w-full pb-28 bg-[#0F2138] dark:bg-[#1F1F1F] font-Inter"
     :class="{ ' pt-72': showFooter, 'pt-28': !showFooter }"
   >
     <div class="max-w-[1060px] m-auto w-full space-y-28">
@@ -190,12 +190,13 @@
                 class="
                   w-full
                   bg-[#1B2C42]
+                  dark:bg-[#272727]
                   h-[52px]
                   outline-none
                   rounded-full
                   pl-5
                   pr-40
-                  placeholder-[#A9AFB7]
+                  placeholder-[#A9AFB7] dark:text-white
                   text-base
                   font-medium
                 "
@@ -212,6 +213,7 @@
                   right-0.5
                   top-0.5
                   bg-[#0054B8]
+                  dark:bg-[#2B71C4]
                   hover:bg-opacity-80
                   rounded-full
                 "
@@ -451,7 +453,7 @@
             >Follow Us</span
           >
           <div class="w-full grid grid-cols-3 gap-y-5">
-            <a href="#" class="bg-[#465466] w-8 h-8 rounded-full flex">
+            <a href="#" class="bg-[#465466] dark:bg-[#272727] w-8 h-8 rounded-full flex">
               <svg
                 class="m-auto"
                 width="17"
@@ -466,7 +468,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="bg-[#465466] w-8 h-8 rounded-full flex">
+            <a href="#" class="bg-[#465466] dark:bg-[#272727]  w-8 h-8 rounded-full flex">
               <svg
                 class="m-auto"
                 width="17"
@@ -481,7 +483,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="bg-[#465466] w-8 h-8 rounded-full flex">
+            <a href="#" class="bg-[#465466] dark:bg-[#272727]  w-8 h-8 rounded-full flex">
               <svg
                 class="m-auto"
                 width="17"
@@ -496,7 +498,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="bg-[#465466] w-8 h-8 rounded-full flex">
+            <a href="#" class="bg-[#465466] dark:bg-[#272727]  w-8 h-8 rounded-full flex">
               <svg
                 class="m-auto"
                 width="17"
@@ -519,7 +521,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="bg-[#465466] w-8 h-8 rounded-full flex">
+            <a href="#" class="bg-[#465466] dark:bg-[#272727]  w-8 h-8 rounded-full flex">
               <svg
                 class="m-auto"
                 width="17"
@@ -534,7 +536,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="bg-[#465466] w-8 h-8 rounded-full flex">
+            <a href="#" class="bg-[#465466] dark:bg-[#272727]  w-8 h-8 rounded-full flex">
               <svg
                 class="m-auto"
                 width="17"

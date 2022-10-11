@@ -1,22 +1,25 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] pt-24">
+  <section class="w-full flex bg-[#F5F6F7]  dark:bg-gradient-to-t from-[#282828] to-[#030303] pt-24">
     <div class="m-auto w-full max-w-[1384px] relative">
-      <img :src="SectionImage" alt="" class="w-full h-full object-cover" />
+      <img :src="SectionImage" alt="" class="w-full h-full object-cover dark:hidden" />
+      <div class="hidden dark:block pt-52">
+         <img :src="SectionImagedark" alt="" class="w-full h-full object-cover" />
+      </div>
       <div class="w-full absolute top-24">
         <div class="w-full flex flex-col items-center space-y-2">
           <div class="flex flex-col items-center -space-y-8">
             <h1
               class="
-                text-[#1B2C42]
+                text-[#1B2C42] dark:text-white
                 font-semibold font-Inter
                 text-[90px] text-center
               "
             >
-              Pay with,
+              Pay smart,
             </h1>
             <h1
               class="
-                text-[#1B2C42]
+                text-[#1B2C42] dark:text-white 
                 font-semibold font-Inter
                 text-[90px] text-center
               "
@@ -25,7 +28,7 @@
             </h1>
           </div>
           <div class=" flex flex-col items-center space-y-8">
-            <span class="font-medium font-Inter text-xl text-[#616C7C]"
+            <span class="font-medium font-Inter text-xl text-[#616C7C] dark:text-[#C3C8CD]"
               >Access, Manage and spend your crypto and fiat anytime
               easily.</span
             >
@@ -35,13 +38,13 @@
                 type="text"
                 class="
                   w-full
-                  bg-white
+                  bg-white dark:bg-[#272727]
                   h-[52px]
                   outline-none
                   rounded-full
                   pl-5
                   pr-40
-                  placeholder-[#A9AFB7]
+                  placeholder-[#A9AFB7] dark:text-white
                   text-base
                   font-medium
                 "
@@ -57,7 +60,7 @@
                   absolute
                   right-0.5
                   top-0.5
-                  bg-[#0054B8]
+                  bg-[#0054B8] dark:bg-[#2B71C4]
                   hover:bg-opacity-80
                   rounded-full
                 "
@@ -87,16 +90,20 @@
         </div>
       </div>
     </div>
+
   </section>
 </template>
 
 
 <script>
 import SectionImage from "../../../assets/homefirstsection.jpg";
+import SectionImagedark from "../../../assets/homefirstsectiondark.png";
+
 export default {
   setup() {
     return {
       SectionImage,
+      SectionImagedark,
     };
   },
 };

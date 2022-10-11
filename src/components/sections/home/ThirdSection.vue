@@ -1,13 +1,13 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] py-24 font-Inter">
+  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1C1C1C] py-24 font-Inter">
     <div class="m-auto w-full max-w-[1059px] relative">
-      <div class="w-full flex flex-col items-center space-y-8">
-        <span class="font-Inter font-semibold text-[#1B2C42] text-5xl"
+      <div class="w-full flex flex-col items-center space-y-14">
+        <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
           >Register and get the benefits</span
         >
 
-        <div class="w-full grid grid-cols-3 gap-10">
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF]">
+        <div class="w-full grid grid-cols-3 gap-10 pt-10">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -145,15 +145,15 @@
                   </defs>
                 </svg>
               </div>
-              <span class="font-semibold font-Inter text-2xl text-[#1B2C42]"
+              <span class="font-semibold font-Inter text-2xl text-[#1B2C42] dark:text-white"
                 >Onboarding</span
               >
-              <p class="text-[#465466] text-base font-medium text-center">
+              <p class="text-[#465466] text-base font-medium text-center dark:text-[#C3C8CD]">
                 Fully digital onboarding in less than 5 min.
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF]">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -328,15 +328,15 @@
                   </defs>
                 </svg>
               </div>
-              <span class="font-semibold font-Inter text-2xl text-[#1B2C42]"
+              <span class="font-semibold font-Inter text-2xl text-[#1B2C42] dark:text-white"
                 >Transfers</span
               >
-              <p class="text-[#465466] text-base font-medium text-center">
+              <p class="text-[#465466] text-base font-medium text-center dark:text-[#C3C8CD]">
                 Receive and send crypto and fiat seamlessly in one dashboard.
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF]">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -429,15 +429,15 @@
                   </defs>
                 </svg>
               </div>
-              <span class="font-semibold font-Inter text-2xl text-[#1B2C42]"
+              <span class="font-semibold font-Inter text-2xl text-[#1B2C42] dark:text-white"
                 >Exchange</span
               >
-              <p class="text-[#465466] text-base font-medium text-center">
+              <p class="text-[#465466] text-base font-medium text-center dark:text-[#C3C8CD]">
                 Fast unlimited exchange for fiat and crypto.
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF]">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -535,15 +535,15 @@
                   </defs>
                 </svg>
               </div>
-              <span class="font-semibold font-Inter text-2xl text-[#1B2C42]"
+              <span class="font-semibold font-Inter text-2xl text-[#1B2C42] dark:text-white"
                 >Cards</span
               >
-              <p class="text-[#465466] text-base font-medium text-center">
+              <p class="text-[#465466] text-base font-medium text-center dark:text-[#C3C8CD]">
                 Virtual and physical cards linked to a reward program.
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF]">
+          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF] dark:bg-[#343434]  dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -636,15 +636,15 @@
                   </defs>
                 </svg>
               </div>
-              <span class="font-semibold font-Inter text-2xl text-[#1B2C42]"
+              <span class="font-semibold font-Inter text-2xl text-[#1B2C42] dark:text-white"
                 >Early access</span
               >
-              <p class="text-[#465466] text-base font-medium text-center">
+              <p class="text-[#465466] text-base font-medium text-center dark:text-[#C3C8CD]">
                 Profile accessible in real time wherever you are.
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF]">
+          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF] dark:bg-[#343434]  dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -742,10 +742,10 @@
                   </defs>
                 </svg>
               </div>
-              <span class="font-semibold font-Inter text-2xl text-[#1B2C42]"
+              <span class="font-semibold font-Inter text-2xl text-[#1B2C42] dark:text-white"
                 >Savings</span
               >
-              <p class="text-[#465466] text-base font-medium text-center">
+              <p class="text-[#465466] text-base font-medium text-center dark:text-[#C3C8CD]">
                 Build your freedom savingon crypto.
               </p>
             </div>

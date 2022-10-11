@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex bg-[#0F2138] pt-28 pb-52 font-Inter  relative">
+  <section class="w-full flex bg-[#0F2138] dark:bg-[#1F1F1F] pt-28 pb-52 font-Inter  relative">
     <div class="m-auto w-full max-w-[1059px] ">
       <div class="w-full grid grid-cols-2">
         <div class="flex flex-col items-start space-y-10 w-full">
@@ -9,7 +9,7 @@
           <div class="flex flex-col items-start space-y-4">
             <div class="bg-[#1B2C42] rounded-3xl p-5">
               <div class="flex items-center space-x-5">
-                <div class="bg-[#0054B8] w-[50px] h-[50px] rounded-full flex">
+                <div class="bg-[#0054B8] dark:bg-[#2B71C4] w-[50px] h-[50px] rounded-full flex">
                   <span class="m-auto text-2xl font-semibold text-white"
                     >01</span
                   >
@@ -58,7 +58,7 @@
               space-x-4
               py-3
               px-6
-              bg-[#0054B8]
+              bg-[#0054B8] dark:bg-[#2B71C4]
               hover:bg-opacity-80
               rounded-full
             "
@@ -85,8 +85,8 @@
           </button>
         </div>
         <div class=" w-full">
-            <div class=" absolute right-0 xl:top-[212px] top-[328px] xl:max-w-4xl max-w-xl ">
-                  <img src="../../../assets/chartImage.jpg" class=" w-full h-full object-cover" alt="">
+            <div class=" absolute right-0 xl:top-[212px] top-[328px] max-w-[705px] h-[676px] w-full overflow-hidden bg-card " >
+                  <img src="../../../assets/chartcard.png" class=" w-full h-full object-cover" alt=""> 
             </div>
         </div>
       </div>
@@ -96,3 +96,8 @@
 
 
 
+<style scoped>
+ .bg-card {
+  background: linear-gradient(134.66deg, #5CBFEA -5.32%, #1A64BD 99.69%);border-radius: 60px 0px 0px 0px;
+ }
+</style>
