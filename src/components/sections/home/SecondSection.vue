@@ -50,7 +50,7 @@
             <div>
               <img
                 src="../../../assets/sendcard.png"
-                class="w-full h-full"
+                class="w-full h-full hover:scale-125  object-cover"
                 alt=""
               />
             </div>
@@ -102,7 +102,7 @@
             <div class="h-[366px] float-right">
               <img
                 src="../../../assets/buycard.png"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover hover:scale-125 "
                 alt=""
               />
             </div>
@@ -163,7 +163,7 @@
             <div class="float-right">
               <img
                 src="../../../assets/cardsaveing.png"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover hover:scale-125 "
                 alt=""
               />
             </div>
@@ -191,7 +191,7 @@
             <div>
               <img
                 src="../../../assets/cardwithdraw.png"
-                class="w-full h-full"
+                class="w-full h-full hover:scale-125  object-cover"
                 alt=""
               />
             </div>

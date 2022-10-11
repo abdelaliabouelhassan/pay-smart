@@ -34,7 +34,7 @@
         >
       </div>
       <div class="flex items-center space-x-4">
-        <a href="/" class="text-[#1B2C42] no-underline font-semibold text-base hover:text-opacity-60"
+        <a href="/" class="text-[#1B2C42] no-underline border border-[#E0E2E5] rounded-full py-1 px-4 font-semibold text-base hover:text-opacity-60"
           >Login</a
         >
         <div class="flex items-center space-x-2 cursor-pointer">

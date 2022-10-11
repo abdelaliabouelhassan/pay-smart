@@ -13,7 +13,7 @@
             >
               <img
                 src="../../../assets/card1.jpg"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover hover:scale-125 cursor-pointer"
                 alt=""
               />
             </div>
@@ -69,7 +69,7 @@
             >
               <img
                 src="../../../assets/card2.png"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover hover:scale-125 cursor-pointer"
                 alt=""
               />
             </div>
@@ -125,7 +125,7 @@
             >
               <img
                 src="../../../assets/card3.png"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover hover:scale-125 cursor-pointer"
                 alt=""
               />
             </div>
