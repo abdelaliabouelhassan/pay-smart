@@ -7,7 +7,7 @@
         >
 
         <div class="w-full grid grid-cols-3 gap-10 pt-10">
-          <div class="w-full bg-[#F5F6F7] dark:bg-[#1F1F1F] p-2 rounded-3xl">
+          <div class="w-full hover:bg-[#F5F6F7] dark:hover:bg-[#1F1F1F] p-2 rounded-3xl">
             <div
               class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
             >
@@ -63,7 +63,7 @@
               </button>
             </div>
           </div>
-          <div class="w-full p-2 rounded-3xl">
+          <div class="w-full p-2 rounded-3xl hover:bg-[#F5F6F7] dark:hover:bg-[#1F1F1F]">
             <div
               class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
             >
@@ -119,7 +119,7 @@
               </button>
             </div>
           </div>
-          <div class="w-full p-2 rounded-3xl">
+          <div class="w-full p-2 rounded-3xl hover:bg-[#F5F6F7] dark:hover:bg-[#1F1F1F]">
             <div
               class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
             >
