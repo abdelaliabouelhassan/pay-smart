@@ -2,34 +2,39 @@
   <div class="w-full relative">
     <div class="w-full justify-between flex items-center px-4 py-4  max-w-[1060px] m-auto absolute inset-x-0 top-0 ">
       <div>
-        <a href="/">
+        <router-link to="/">
           <MainLogo />
-        </a>
+        </router-link>
       </div>
       <div class="flex items-center space-x-10">
         <router-link
           to="/exchange"
-          class="text-[#3A495C] dark:text-[#A9AFB7] font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          class="text-[#3A495C]  font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          :class="{'dark:text-white': $route.name === 'Exchange', 'dark:text-[#A9AFB7]': $route.name !== 'Exchange'}"
           >Exchange</router-link
         >
         <router-link
           to="/custody"
-          class="text-[#3A495C] dark:text-[#A9AFB7]  font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          class="text-[#3A495C]   font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          :class="{'dark:text-white': $route.name === 'Exchange', 'dark:text-[#A9AFB7]': $route.name !== 'Custody'}"
           >Custody</router-link
         >
         <router-link
           to="/atm"
-          class="text-[#3A495C] dark:text-[#A9AFB7]  font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          class="text-[#3A495C]   font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          :class="{'dark:text-white': $route.name === 'Exchange', 'dark:text-[#A9AFB7]': $route.name !== 'Atm'}"
           >ATM</router-link
         >
         <router-link
           to="/about"
-          class="text-[#3A495C] dark:text-[#A9AFB7]  font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          class="text-[#3A495C] font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          :class="{'dark:text-white': $route.name === 'Exchange', 'dark:text-[#A9AFB7]': $route.name !== 'About'}"
           >About</router-link
         >
         <router-link
           to="/buy-crypto"
-          class="text-[#3A495C] dark:text-[#A9AFB7] font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          class="text-[#3A495C]  font-medium text-base font-PlusJakartaSans hover:text-opacity-60"
+          :class="{'dark:text-white': $route.name === 'Exchange', 'dark:text-[#A9AFB7]': $route.name !== 'Buy-Crypto'}"
           >Buy Crypto</router-link
         >
       </div>

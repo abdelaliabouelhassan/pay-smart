@@ -2,7 +2,7 @@
   <section class="w-full flex bg-white dark:bg-[#161616] py-24">
     <div class="m-auto w-full max-w-[1059px] relative">
       <div class="w-full grid grid-cols-2 gap-10">
-        <div class="col-span-2 w-full bg-[#F5F6F7] dark:bg-[#1F1F1F] rounded-3xl overflow-hidden">
+        <div class="col-span-2 w-full bg-[#F5F6F7] dark:bg-[#1F1F1F] group rounded-3xl overflow-hidden">
           <div class="w-full flex justify-between items-center">
             <div class="pl-6 py-2 w-full max-w-[532px] space-y-5">
               <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
@@ -50,13 +50,13 @@
             <div>
               <img
                 src="../../../assets/sendcard.png"
-                class="w-full h-full hover:scale-125  object-cover"
+                class="w-full h-full group-hover:scale-125  object-cover"
                 alt=""
               />
             </div>
           </div>
         </div>
-        <div class="col-span-1 w-full bg-[#F5F6F7] dark:bg-[#1F1F1F]  rounded-3xl overflow-hidden">
+        <div class="col-span-1 w-full bg-[#F5F6F7] dark:bg-[#1F1F1F] group  rounded-3xl overflow-hidden">
           <div class="w-full">
             <div class="pl-6 pt-10 w-full max-w-[532px] space-y-5">
               <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
@@ -102,7 +102,7 @@
             <div class="h-[366px] float-right">
               <img
                 src="../../../assets/buycard.png"
-                class="w-full h-full object-cover hover:scale-125 "
+                class="w-full h-full object-cover  group-hover:scale-125 "
                 alt=""
               />
             </div>
@@ -114,7 +114,7 @@
             relative
             w-full
             bg-[#F5F6F7] dark:bg-[#1F1F1F] 
-            rounded-3xl
+            rounded-3xl group
             overflow-hidden
           "
         >
@@ -163,7 +163,7 @@
             <div class="float-right">
               <img
                 src="../../../assets/cardsaveing.png"
-                class="w-full h-full object-cover hover:scale-125 "
+                class="w-full h-full object-cover  group-hover:scale-125 "
                 alt=""
               />
             </div>
@@ -177,7 +177,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-2 w-full bg-[#F5F6F7] dark:bg-[#1F1F1F]  rounded-3xl overflow-hidden">
+        <div class="col-span-2 w-full bg-[#F5F6F7] dark:bg-[#1F1F1F] group  rounded-3xl overflow-hidden">
           <div class="w-full flex justify-between items-start">
             <div class="pl-6 py-14 w-full max-w-[532px] space-y-5">
               <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
@@ -191,7 +191,7 @@
             <div>
               <img
                 src="../../../assets/cardwithdraw.png"
-                class="w-full h-full hover:scale-125  object-cover"
+                class="w-full h-full  group-hover:scale-125  object-cover"
                 alt=""
               />
             </div>
