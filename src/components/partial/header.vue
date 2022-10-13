@@ -46,7 +46,7 @@
             hover:text-opacity-60
           "
           :class="{
-            'dark:text-white': $route.name === 'Exchange',
+            'dark:text-white': $route.name === 'Custody',
             'dark:text-[#A9AFB7]': $route.name !== 'Custody',
           }"
           >Custody</router-link
@@ -76,7 +76,7 @@
             hover:text-opacity-60
           "
           :class="{
-            'dark:text-white': $route.name === 'Exchange',
+            'dark:text-white': $route.name === 'About',
             'dark:text-[#A9AFB7]': $route.name !== 'About',
           }"
           >About</router-link
@@ -91,7 +91,7 @@
             hover:text-opacity-60
           "
           :class="{
-            'dark:text-white': $route.name === 'Exchange',
+            'dark:text-white': $route.name === 'Buy-Crypto',
             'dark:text-[#A9AFB7]': $route.name !== 'Buy-Crypto',
           }"
           >Buy Crypto</router-link
