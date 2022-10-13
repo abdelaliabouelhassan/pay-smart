@@ -4,7 +4,7 @@ import Exchange from '../views/Exchange.vue'
 import Custody from '../views/Custody.vue'
 import Atm from '../views/Atm.vue'
 import About from '../views/About.vue'
-import BuyCrypto from '../views/BuyCrypto.vue'
+import BuyCrypto from '../views/buyCrypto.vue'
 
 const routes = [
     { path: '/', component: Home },
