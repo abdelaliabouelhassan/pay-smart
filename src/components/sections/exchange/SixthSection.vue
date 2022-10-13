@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex bg-white dark:bg-[#161616] py-28  font-Inter relative">
-    <div class="m-auto w-full max-w-[1059px]">
+    <div class="m-auto w-full max-w-[1150px]">
       <div class="w-full flex flex-col items-center space-y-14">
         <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
           >Latest news</span

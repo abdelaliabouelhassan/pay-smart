@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex bg-white relative dark:bg-[#161616] py-60">
-    <div class="m-auto w-full max-w-[1059px] ">
+    <div class="m-auto w-full max-w-[1150px] ">
        <div class="w-full grid grid-cols-2 gap-10">
           <div class="flex flex-col items-start space-y-4 max-w-[539px]">
             <div class=" flex flex-col items-start space-y-4">

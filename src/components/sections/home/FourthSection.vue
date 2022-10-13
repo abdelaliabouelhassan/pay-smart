@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex bg-[#0F2138] dark:bg-[#1F1F1F] pt-28 pb-52 font-Inter  relative">
-    <div class="m-auto w-full max-w-[1059px] ">
+    <div class="m-auto w-full max-w-[1150px] ">
       <div class="w-full grid grid-cols-2">
         <div class="flex flex-col items-start space-y-10 w-full">
           <h1 class="font-semibold text-5xl text-white">

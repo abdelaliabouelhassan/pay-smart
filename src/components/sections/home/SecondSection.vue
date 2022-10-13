@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex bg-white dark:bg-[#161616] py-24">
-    <div class="m-auto w-full max-w-[1059px] relative">
+    <div class="m-auto w-full max-w-[1150px] relative">
       <div class="w-full grid grid-cols-2 gap-10">
         <div class="col-span-2 w-full bg-[#F5F6F7] dark:bg-[#1F1F1F] group rounded-3xl overflow-hidden">
           <div class="w-full flex justify-between items-center">

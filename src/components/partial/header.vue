@@ -8,7 +8,7 @@
         items-center
         px-4
         py-4
-        max-w-[1060px]
+        max-w-[1150px]
         m-auto
         absolute
         inset-x-0

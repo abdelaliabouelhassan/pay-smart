@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex font-Inter bg-white relative dark:bg-[#161616] py-60">
-    <div class="m-auto w-full max-w-[1059px]">
+    <div class="m-auto w-full max-w-[1150px]">
       <div class="w-full grid grid-cols-2 gap-24">
         <div class="flex flex-col items-start space-y-8 max-w-[539px] pt-16">
           <div class="flex flex-col items-start space-y-4 max-w-[265px]">
@@ -189,9 +189,9 @@
         </div>
 
         <div class="w-full h-full ">
-          <div class=" rounded-3xl m-auto overflow-hidden  max-w-[515px] h-[561px] ">
+          <div class=" rounded-3xl m-auto overflow-hidden  group max-w-[515px] h-[561px] ">
             <img
-              class="object-cover w-full h-full"
+              class="object-cover w-full h-full group-hover:scale-125"
               src="../../../assets/coinlock.png"
               alt=""
             />

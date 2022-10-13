@@ -13,7 +13,7 @@
       class="w-full relative  bg-no-repeat bg-contain h-[680px]   bg-right-bottom"
       v-bind:style="{ backgroundImage: 'url(' + bgsection2 + ')' }"
     >
-      <div class="w-full max-w-[1059px] m-auto pt-28 pb-10 px-5">
+      <div class="w-full max-w-[1150px] m-auto pt-28 pb-10 px-5">
         <div class="w-full grid grid-cols-2 gap-10">
           <div class="flex flex-col items-start space-y-8 max-w-[539px]">
             <h1 class="font-semibold text-6xl text-[#1B2C42] dark:text-white">

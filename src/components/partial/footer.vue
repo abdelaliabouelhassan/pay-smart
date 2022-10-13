@@ -3,7 +3,7 @@
     class="w-full pb-28 bg-[#0F2138] dark:bg-[#1F1F1F] font-Inter"
     :class="{ ' pt-72': showFooter, 'pt-28': !showFooter }"
   >
-    <div class="max-w-[1060px] m-auto w-full space-y-28">
+    <div class="max-w-[1150px] m-auto w-full space-y-28">
       <div class="w-full flex flex-col items-start space-y-5">
         <div>
           <Logo />

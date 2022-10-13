@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex bg-[#F5F8FC] dark:bg-[#1C1C1C] pt-28 pb-96 font-Inter relative">
-    <div class="m-auto w-full max-w-[1059px]">
+    <div class="m-auto w-full max-w-[1150px]">
       <div class="w-full flex flex-col items-center space-y-14">
        <div class=" flex flex-col items-center space-y-8 max-w-[423px] pb-14">
          <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-6xl"

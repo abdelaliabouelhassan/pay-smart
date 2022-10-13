@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex bg-[#F5F6F7]  dark:bg-gradient-to-t from-[#282828] to-[#030303] pt-24">
-    <div class="m-auto w-full max-w-[1384px] relative">
+    <div class="m-auto w-full max-w-[1484px] relative">
       <img :src="SectionImage" alt="" class="w-full h-full object-cover dark:hidden" />
       <div class="hidden dark:block pt-52">
          <img :src="SectionImagedark" alt="" class="w-full h-full object-cover" />
