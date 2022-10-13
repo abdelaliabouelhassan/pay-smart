@@ -7,7 +7,7 @@
             col-span-2
             w-full
             bg-[#F5F6F7]
-            dark:bg-[#1F1F1F]
+            dark:bg-[#272727]
             rounded-3xl
             overflow-hidden
             group
@@ -203,7 +203,7 @@
             col-span-2
             w-full
             bg-[#F5F6F7]
-            dark:bg-[#1F1F1F]
+            dark:bg-[#272727]
             rounded-3xl
             overflow-hidden pt-10
             group

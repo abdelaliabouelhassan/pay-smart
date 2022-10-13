@@ -5,9 +5,7 @@
       flex
       bg-[#F5F6F7]
       font-Inter
-      dark:bg-gradient-to-t
-      from-[#282828]
-      to-[#030303]
+      dark:bg-[#1C1C1C]
       pt-24
     "
   >

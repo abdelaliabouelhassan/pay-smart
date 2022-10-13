@@ -7,7 +7,7 @@
             Get Started in Minutes
           </h1>
           <div class="flex flex-col items-start space-y-4">
-            <div class="bg-[#1B2C42] rounded-3xl p-5">
+            <div class="bg-[#1B2C42] dark:bg-[#272727] rounded-3xl p-5">
               <div class="flex items-center space-x-5">
                 <div class="bg-[#0054B8] dark:bg-[#2B71C4] w-[50px] h-[50px] rounded-full flex">
                   <span class="m-auto text-2xl font-semibold text-white"

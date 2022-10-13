@@ -7,7 +7,7 @@
         >
 
         <div class="w-full grid grid-cols-3 gap-10 pt-10">
-          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#272727] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -153,7 +153,7 @@
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#272727] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -336,7 +336,7 @@
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#272727] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -437,7 +437,7 @@
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#343434] border-[#ECEDEF] dark:border-[#343434]">
+          <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#272727] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -543,7 +543,7 @@
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF] dark:bg-[#343434]  dark:border-[#343434]">
+          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF] dark:bg-[#272727]  dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg
@@ -644,7 +644,7 @@
               </p>
             </div>
           </div>
-          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF] dark:bg-[#343434]  dark:border-[#343434]">
+          <div class="w-full bg-white p-6 rounded-3xl border border-[#ECEDEF] dark:bg-[#272727]  dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>
                 <svg

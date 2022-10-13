@@ -20,7 +20,7 @@
               p-6
               rounded-3xl
               border
-              dark:bg-[#343434]
+              dark:bg-[#272727]
               border-[#ECEDEF]
               dark:border-[#343434]
             "
@@ -146,7 +146,7 @@
               p-6
               rounded-3xl
               border
-              dark:bg-[#343434]
+              dark:bg-[#272727]
               border-[#ECEDEF]
               dark:border-[#343434]
             "
@@ -222,7 +222,7 @@
               p-6
               rounded-3xl
               border
-              dark:bg-[#343434]
+              dark:bg-[#272727]
               border-[#ECEDEF]
               dark:border-[#343434]
             "
@@ -295,7 +295,7 @@
               p-6
               rounded-3xl
               border
-              dark:bg-[#343434]
+              dark:bg-[#272727]
               border-[#ECEDEF]
               dark:border-[#343434]
             "
@@ -417,7 +417,7 @@
               p-6
               rounded-3xl
               border border-[#ECEDEF]
-              dark:bg-[#343434] dark:border-[#343434]
+              dark:bg-[#272727] dark:border-[#343434]
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
@@ -532,7 +532,7 @@
               p-6
               rounded-3xl
               border border-[#ECEDEF]
-              dark:bg-[#343434] dark:border-[#343434]
+              dark:bg-[#272727] dark:border-[#343434]
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
