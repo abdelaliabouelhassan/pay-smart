@@ -5,6 +5,7 @@ import Custody from '../views/Custody.vue'
 import Atm from '../views/Atm.vue'
 import About from '../views/About.vue'
 import BuyCrypto from '../views/BuyCrypto.vue'
+
 const routes = [
     { path: '/', component: Home },
     { path: '/home', component: Home,name:'home' },
