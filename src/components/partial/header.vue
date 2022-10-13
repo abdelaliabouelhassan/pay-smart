@@ -61,7 +61,7 @@
             hover:text-opacity-60
           "
           :class="{
-            'dark:text-white': $route.name === 'Exchange',
+            'dark:text-white': $route.name === 'Atm',
             'dark:text-[#A9AFB7]': $route.name !== 'Atm',
           }"
           >ATM</router-link
@@ -91,8 +91,8 @@
             hover:text-opacity-60
           "
           :class="{
-            'dark:text-white': $route.name === 'Buy-Crypto',
-            'dark:text-[#A9AFB7]': $route.name !== 'Buy-Crypto',
+            'dark:text-white': $route.name === 'BuyCrypto',
+            'dark:text-[#A9AFB7]': $route.name !== 'BuyCrypto',
           }"
           >Buy Crypto</router-link
         >
