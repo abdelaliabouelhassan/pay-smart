@@ -24,7 +24,6 @@
         <router-link
           to="/exchange"
           class="
-            text-[#3A495C]
             font-medium
             text-base
             font-PlusJakartaSans
@@ -33,13 +32,14 @@
           :class="{
             'dark:text-white': $route.name === 'Exchange',
             'dark:text-[#A9AFB7]': $route.name !== 'Exchange',
+            'text-white': $route.name === 'Career',
+            'text-[#3A495C]': $route.name !== 'Career',
           }"
           >Exchange</router-link
         >
         <router-link
           to="/custody"
           class="
-            text-[#3A495C]
             font-medium
             text-base
             font-PlusJakartaSans
@@ -48,13 +48,14 @@
           :class="{
             'dark:text-white': $route.name === 'Custody',
             'dark:text-[#A9AFB7]': $route.name !== 'Custody',
+            'text-white': $route.name === 'Career',
+            'text-[#3A495C]': $route.name !== 'Career',
           }"
           >Custody</router-link
         >
         <router-link
           to="/atm"
           class="
-            text-[#3A495C]
             font-medium
             text-base
             font-PlusJakartaSans
@@ -63,13 +64,14 @@
           :class="{
             'dark:text-white': $route.name === 'Atm',
             'dark:text-[#A9AFB7]': $route.name !== 'Atm',
+            'text-white': $route.name === 'Career',
+            'text-[#3A495C]': $route.name !== 'Career',
           }"
           >ATM</router-link
         >
         <router-link
           to="/about"
           class="
-            text-[#3A495C]
             font-medium
             text-base
             font-PlusJakartaSans
@@ -78,13 +80,14 @@
           :class="{
             'dark:text-white': $route.name === 'About',
             'dark:text-[#A9AFB7]': $route.name !== 'About',
+            'text-white': $route.name === 'Career',
+            'text-[#3A495C]': $route.name !== 'Career',
           }"
           >About</router-link
         >
         <router-link
           to="/buy-crypto"
           class="
-            text-[#3A495C]
             font-medium
             text-base
             font-PlusJakartaSans
@@ -93,6 +96,8 @@
           :class="{
             'dark:text-white': $route.name === 'BuyCrypto',
             'dark:text-[#A9AFB7]': $route.name !== 'BuyCrypto',
+            'text-white': $route.name === 'Career',
+            'text-[#3A495C]': $route.name !== 'Career',
           }"
           >Buy Crypto</router-link
         >
@@ -101,7 +106,6 @@
         <a
           href="/"
           class="
-            text-[#1B2C42]
             dark:text-white
             no-underline
             border
@@ -114,6 +118,10 @@
             text-base
             hover:text-opacity-60
           "
+          :class="{
+            'text-white': $route.name === 'Career',
+            'text-[#1B2C42]': $route.name !== 'Career',
+          }"
           >Login</a
         >
         <div
@@ -128,18 +136,21 @@
             />
           </div>
           <span
-            class="
-              text-base
-              font-semibold font-Inter
-              text-[#3A495C]
-              dark:text-[#A9AFB7]
-            "
+            class="text-base font-semibold font-Inter dark:text-[#A9AFB7]"
+            :class="{
+              'text-white': $route.name === 'Career',
+              'text-[#3A495C]': $route.name !== 'Career',
+            }"
             >{{ selectedLang.name }}</span
           >
           <div>
             <svg
-              :class="{ 'top-arrow': show }"
-              class="fill-current dark:text-[#A9AFB7] text-[#3A495C]"
+              :class="{
+                'top-arrow': show,
+                'text-white': $route.name === 'Career',
+                'text-[#3A495C]': $route.name !== 'Career',
+              }"
+              class="fill-current dark:text-[#A9AFB7]"
               width="18"
               height="10"
               viewBox="0 0 18 10"
@@ -219,12 +230,17 @@
             <svg
               v-else
               @click="DarkMode = true"
+              
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6 text-black hover:text-gray-400"
+              class="w-6 h-6  hover:text-gray-400"
+               :class="{
+                'text-white': $route.name === 'Career',
+                'text-black': $route.name !== 'Career',
+              }"
             >
               <path
                 stroke-linecap="round"

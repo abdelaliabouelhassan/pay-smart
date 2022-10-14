@@ -5,6 +5,7 @@ import Custody from '../views/Custody.vue'
 import Atm from '../views/Atm.vue'
 import About from '../views/About.vue'
 import BuyCrypto from '../views/buyCrypto.vue'
+import Career from '../views/Career.vue'
 
 const routes = [
     { path: '/', component: Home },
@@ -14,6 +15,7 @@ const routes = [
     { path: '/atm', component: Atm,name:'Atm' },
     { path: '/about', component: About,name:'About' },
     { path: '/buy-crypto', component: BuyCrypto,name:'BuyCrypto' },
+    { path: '/career', component: Career,name:'Career' },
 ]
 
 const router = createRouter({

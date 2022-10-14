@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:hidden">
+  <div  class="dark:hidden" v-if="$route.name != 'Career'">
     <svg
       width="50"
       height="50"
@@ -27,7 +27,7 @@
       </defs>
     </svg>
   </div>
-  <div class="dark:block hidden">
+  <div class="" :class="{'dark:block hidden':$route.name != 'Career','dark:block ':$route.name === 'Career'}">
     <svg
       width="50"
       height="50"
