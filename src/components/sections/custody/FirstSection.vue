@@ -6,16 +6,16 @@
       bg-[#F5F6F7]
       font-Inter
       dark:bg-[#1C1C1C]
-      pt-24
+      pt-24 h-[100vh] 
     "
   >
     <div
-      class="w-full relative  bg-no-repeat bg-contain h-[680px]    bg-right-bottom"
+      class="w-full relative  bg-no-repeat bg-contain    bg-right-bottom"
       v-bind:style="{ backgroundImage: 'url(' + bgsection2 + ')' }"
     >
       <div class="w-full max-w-[1150px] m-auto pt-28 pb-10 px-5 z-50">
         <div class="w-full grid grid-cols-2 gap-10 z-50">
-          <div class="flex flex-col items-start space-y-6 w-full max-w-[539px] z-50">
+          <div class="flex flex-col items-start space-y-6 w-full max-w-[539px] z-50 pt-28">
           <div class=" w-full flex flex-col items-start space-y-3 z-50">
               <span class=" text-2xl text-[#3A495C] font-medium font-Inter dark:text-[#ECEDEF]">The Next Generation</span>
             <h1 class="font-semibold text-6xl text-[#1B2C42] dark:text-white lg:whitespace-nowrap">
@@ -63,7 +63,7 @@
 
           <div class=" w-full h-full">
             <div class=" absolute  bottom-0">
-              <img src="../../../assets/wallexSafe.png" alt="">
+              <img src="../../../assets/wallexSafe.png" class=" w-full h-full" alt="">
             </div>
           </div>
         </div>

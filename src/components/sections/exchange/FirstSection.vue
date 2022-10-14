@@ -6,14 +6,14 @@
       bg-[#F5F6F7]
       font-Inter
       dark:bg-[#1C1C1C]
-      pt-24
+      pt-24 h-[100vh] 
     "
   >
     <div
-      class="w-full relative  bg-no-repeat bg-contain h-[680px]   bg-right-bottom"
+      class="w-full h-full   bg-no-repeat bg-contain    bg-right-bottom"
       v-bind:style="{ backgroundImage: 'url(' + bgsection2 + ')' }"
     >
-      <div class="w-full max-w-[1150px] m-auto pt-28 pb-10 px-5">
+      <div class="w-full max-w-[1150px] m-auto pt-36 pb-10 px-5">
         <div class="w-full grid grid-cols-2 gap-10">
           <div class="flex flex-col items-start space-y-8 max-w-[539px]">
             <h1 class="font-semibold text-6xl text-[#1B2C42] dark:text-white">
@@ -61,7 +61,7 @@
 
           <div class=" w-full h-full">
             <div class=" absolute  bottom-0">
-              <img src="../../../assets/mobileswap.png" alt="">
+              <img src="../../../assets/mobileswap.png" class="h-[595px]" alt="">
             </div>
           </div>
         </div>

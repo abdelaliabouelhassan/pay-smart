@@ -10,7 +10,7 @@
             dark:bg-[#272727]
             rounded-3xl
             overflow-hidden
-            group
+            group  cursor-pointer
           "
         >
           <div class="w-full flex justify-between items-start">
@@ -42,7 +42,7 @@
             <div>
               <img
                 src="../../../assets/coincard.png"
-                class="w-full h-full group-hover:scale-125 object-cover"
+                class="w-full h-full group-hover:scale-110 object-cover"
                 alt=""
               />
             </div>
@@ -55,7 +55,7 @@
             bg-[#2B71C4]
             rounded-3xl
             overflow-hidden
-            group
+            group  cursor-pointer
           "
         >
           <div class="w-full">
@@ -127,7 +127,7 @@
             dark:bg-[#272727]
             rounded-3xl
             overflow-hidden
-            group
+            group  cursor-pointer
           "
         >
           <div class="w-full">
@@ -192,7 +192,7 @@
             <div class="float-right mt-4">
               <img
                 src="../../../assets/safe2.png"
-                class="w-full h-full object-cover group-hover:scale-125"
+                class="w-full h-full object-cover group-hover:scale-110"
                 alt=""
               />
             </div>
@@ -206,7 +206,7 @@
             dark:bg-[#272727]
             rounded-3xl
             overflow-hidden pt-10
-            group
+            group  cursor-pointer
           "
         >
           <div class="w-full flex justify-between items-start">
@@ -272,7 +272,7 @@
             <div>
               <img
                 src="../../../assets/laptop_mobile.png"
-                class="w-full h-full group-hover:scale-125 object-cover"
+                class="w-full h-full group-hover:scale-110 object-cover"
                 alt=""
               />
             </div>

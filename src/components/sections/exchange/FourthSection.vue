@@ -10,7 +10,7 @@
             dark:bg-[#1F1F1F]
             rounded-3xl
             overflow-hidden
-            group
+            group  cursor-pointer
           "
         >
           <div class="w-full flex justify-between pt-10 items-start">
@@ -41,7 +41,7 @@
             <div>
               <img
                 src="../../../assets/trading.png"
-                class="w-full h-full group-hover:scale-125 object-cover"
+                class="w-full h-full group-hover:scale-110 object-cover"
                 alt=""
               />
             </div>
@@ -54,7 +54,7 @@
             bg-[#D0F7FF]
             dark:bg-[#3D828F]
             rounded-3xl
-            overflow-hidden group
+            overflow-hidden group  cursor-pointer
           "
         >
           <div class="w-full">
@@ -85,7 +85,7 @@
             <div class="h-[366px] float-right">
               <img
                 src="../../../assets/deep.png"
-                class="w-full h-full object-cover group-hover:scale-125"
+                class="w-full h-full object-cover group-hover:scale-110"
                 alt=""
               />
             </div>
@@ -99,10 +99,10 @@
             bg-[#FFE2EF]
             dark:bg-[#8F3D60]
             rounded-3xl
-            overflow-hidden group
+            overflow-hidden group  cursor-pointer
           "
         >
-          <div class="w-full">
+          <div class="w-full ">
             <div class="pl-6 pt-10 w-full max-w-[532px] space-y-5">
               <span
                 class="
@@ -127,10 +127,10 @@
                 technologies and rigorous protocol to keep your funds safe.
               </p>
             </div>
-            <div class="float-right mt-4">
+            <div class=" absolute right-0 bottom-0  ">
               <img
                 src="../../../assets/safe.png"
-                class="w-full h-full object-cover group-hover:scale-125"
+                class="w-full h-full object-cover group-hover:scale-110"
                 alt=""
               />
             </div>
@@ -143,7 +143,7 @@
             bg-[#F5F6F7]
             dark:bg-[#1F1F1F]
             rounded-3xl
-            overflow-hidden group
+            overflow-hidden group  cursor-pointer
           "
         >
           <div class="w-full flex justify-between items-start">
@@ -174,7 +174,7 @@
             <div>
               <img
                 src="../../../assets/support.png"
-                class="w-full h-full group-hover:scale-125 object-cover"
+                class="w-full h-full group-hover:scale-110 object-cover"
                 alt=""
               />
             </div>

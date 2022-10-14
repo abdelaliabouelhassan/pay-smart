@@ -1,16 +1,41 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7]  dark:bg-gradient-to-t from-[#282828] to-[#030303] pt-24">
-    <div class="m-auto w-full max-w-[1484px] relative">
-      <img :src="SectionImage" alt="" class="w-full h-full object-cover dark:hidden" />
-      <div class="hidden dark:block pt-52">
-         <img :src="SectionImagedark" alt="" class="w-full h-full object-cover" />
+  <section
+    class="
+      w-full
+      flex
+      bg-[#F5F6F7]
+      dark:bg-gradient-to-t
+      from-[#282828]
+      to-[#030303]
+      pt-48
+    "
+  >
+    <div class="m-auto w-full relative">
+      <div class="w-full h-full relative overflow-hidden">
+        <img
+          src="../../../assets/homehero.png"
+          alt=""
+          class="w-full h-[100vh] object-fill max-w-[1484px] m-auto"
+        />
+
+        <img
+          src="../../../assets/hoverheroeffect.png"
+          class="w-full absolute object-cover bottom-0 dark:hidden"
+          alt=""
+        />
+        <img
+          src="../../../assets/hoverheroeffectdark.png"
+          class="w-full absolute object-cover bottom-0 dark:block hidden"
+          alt=""
+        />
       </div>
-      <div class="w-full absolute top-24">
+      <div class="w-full absolute -top-20">
         <div class="w-full flex flex-col items-center space-y-2">
           <div class="flex flex-col items-center -space-y-8">
             <h1
               class="
-                text-[#1B2C42] dark:text-white
+                text-[#1B2C42]
+                dark:text-white
                 font-semibold font-Inter
                 text-[90px] text-center
               "
@@ -19,7 +44,8 @@
             </h1>
             <h1
               class="
-                text-[#1B2C42] dark:text-white 
+                text-[#1B2C42]
+                dark:text-white
                 font-semibold font-Inter
                 text-[90px] text-center
               "
@@ -27,8 +53,13 @@
               Pay with Wallex
             </h1>
           </div>
-          <div class=" flex flex-col items-center space-y-8">
-            <span class="font-medium font-Inter text-xl text-[#616C7C] dark:text-[#C3C8CD]"
+          <div class="flex flex-col items-center space-y-8">
+            <span
+              class="
+                font-medium font-Inter
+                text-xl text-[#616C7C]
+                dark:text-[#C3C8CD]
+              "
               >Access, Manage and spend your crypto and fiat anytime
               easily.</span
             >
@@ -38,13 +69,15 @@
                 type="text"
                 class="
                   w-full
-                  bg-white dark:bg-[#272727]
+                  bg-white
+                  dark:bg-[#272727]
                   h-[52px]
                   outline-none
                   rounded-full
                   pl-5
                   pr-40
-                  placeholder-[#A9AFB7] dark:text-white
+                  placeholder-[#A9AFB7]
+                  dark:text-white
                   text-base
                   font-medium
                 "
@@ -60,7 +93,8 @@
                   absolute
                   right-0.5
                   top-0.5
-                  bg-[#0054B8] dark:bg-[#2B71C4]
+                  bg-[#0054B8]
+                  dark:bg-[#2B71C4]
                   hover:bg-opacity-80
                   rounded-full
                 "
@@ -90,23 +124,12 @@
         </div>
       </div>
     </div>
-
   </section>
 </template>
 
 
 <script>
-import SectionImage from "../../../assets/homefirstsection.jpg";
-import SectionImagedark from "../../../assets/homefirstsectiondark.png";
-
-export default {
-  setup() {
-    return {
-      SectionImage,
-      SectionImagedark,
-    };
-  },
-};
+export default {};
 </script>
 
 
