@@ -343,8 +343,8 @@
               "
               >Careers</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/affliate"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -352,7 +352,7 @@
                 font-Inter
                 hover:text-opacity-75
               "
-              >Affiliates</a
+              >Affiliates</router-link
             >
             <a
               href="#"

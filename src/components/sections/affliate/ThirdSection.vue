@@ -1,10 +1,10 @@
 <template>
-  <section class="w-full flex bg-[#0F2138] dark:bg-[#1F1F1F] pt-28 pb-52 font-Inter  relative">
-    <div class="m-auto w-full max-w-[1150px] ">
+  <section class="w-full flex bg-[#0F2138] dark:bg-[#1C1C1C] pt-28 pb-52 font-Inter  relative">
+    <div class="m-auto w-full max-w-[1150px]  ">
       <div class="w-full grid grid-cols-2">
         <div class="flex flex-col items-start space-y-10 w-full">
           <h1 class="font-semibold text-5xl text-white">
-            Get Started in Minutes
+            HOW IT WORKS?
           </h1>
           <div class="flex flex-col items-start space-y-4">
             <div class="bg-[#1B2C42] dark:bg-[#272727] rounded-3xl p-5">
@@ -16,10 +16,10 @@
                 </div>
                 <div class="flex flex-col items-start space-y-2 max-w-[276px]">
                   <span class="text-2xl font-semibold text-white"
-                    >Create a Free Account</span
+                    >Apply Easily</span
                   >
                   <p class="text-lg font-medium text-[#C3C8CD]">
-                    Create your account and follow the onboarding step by step
+                    Click "Get Started" and complete the registration and verification.
                   </p>
                 </div>
               </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="flex flex-col items-start space-y-2 max-w-[276px]">
                   <span class="text-2xl font-semibold text-white"
-                    >Verify your identity</span
+                    >Invite your friends to register on Wallex BG</span
                   >
                 </div>
               </div>
@@ -46,7 +46,7 @@
                   >
                 </div>
                 <div class="flex flex-col items-start space-y-2 max-w-[276px]">
-                  <span class="text-2xl font-semibold text-white">All Set</span>
+                  <span class="text-2xl font-semibold text-white">Earn EURST</span>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@
           </button>
         </div>
         <div class=" w-full">
-            <div class=" absolute right-0 bottom-0 max-w-[705px] h-[676px] w-full overflow-hidden bg-card " >
+            <div  class=" absolute right-0  bottom-0  max-w-[705px] h-[676px] w-full overflow-hidden bg-card " >
                   <img src="../../../assets/chartcard.png" class=" w-full h-full object-cover" alt=""> 
             </div>
         </div>
