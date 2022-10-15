@@ -354,8 +354,8 @@
               "
               >Affiliates</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/ambassadors"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -363,7 +363,7 @@
                 font-Inter
                 hover:text-opacity-75
               "
-              >Ambassadors</a
+              >Ambassadors</router-link
             >
           </div>
         </div>

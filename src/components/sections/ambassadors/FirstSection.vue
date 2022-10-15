@@ -1,7 +1,17 @@
 <template>
   <section class="w-full flex bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
     <div class="w-full relative">
-      <div class="w-full h-full max-w-[1170px] flex items-start m-auto">
+      <div
+        class="
+          w-full
+          h-full
+          max-w-[1170px]
+          flex
+          items-start
+          justify-between
+          m-auto
+        "
+      >
         <div class="w-[418px] pt-24 pl-2">
           <div class="flex flex-col items-start space-y-8 w-full z-50">
             <div class="w-full flex flex-col items-start space-y-3 z-50">
@@ -11,7 +21,7 @@
                   font-medium font-Inter
                   dark:text-[#ECEDEF]
                 "
-                >Become an Affiliate</span
+                >Wallex BG</span
               >
               <h1
                 class="
@@ -21,8 +31,18 @@
                   lg:whitespace-nowrap
                 "
               >
-                Wallex Aflliates
+                Ambassadors
               </h1>
+              <p
+                class="
+                  text-lg
+                  font-normal font-Inter
+                  text-[#616C7C]
+                  dark:text-[#A9AFB7]
+                "
+              >
+                Become a Brand Ambassador
+              </p>
             </div>
 
             <button
@@ -61,22 +81,45 @@
             </button>
           </div>
         </div>
-        <div class="w-full h-[542px] max-w-[677.6px] relative z-10">
-          <img
-            src="../../../assets/users.png"
-            class="w-full h-full absolute xl:-right-28 lg:-right-20 "
-            alt=""
-          />
+        <div class=" pr-36">
+          <div class="w-full h-[566px] max-w-[424px] relative z-10">
+            <img src="../../../assets/userf.png" class="w-full h-full" alt="" />
+            <img
+              src="../../../assets/wallexcoin4.png"
+              alt=""
+              class="absolute bottom-0 -left-36 animate-bounce-wallex"
+            />
+            <img
+              src="../../../assets/tether1.png"
+              alt=""
+              class="absolute -bottom-10 -right-36 animate-bounce-bitcoin"
+            />
+            <img
+              src="../../../assets/bitcoin-2.png"
+              alt=""
+              class="absolute top-56 -right-0 animate-bounce-solana"
+            />
+              <img
+              src="../../../assets/ethereum4.png"
+              alt=""
+              class="absolute top-24 -left-14 animate-bounce-tether"
+            />
+             <img
+          src="../../../assets/solana2.png"
+          alt=""
+          class=" absolute top-0 right-0 animate-bounce-ethereum3"
+        />
+          </div>
         </div>
       </div>
-      <div class="w-full h-full absolute top-0 hidden dark:block ">
+      <div class="w-full h-full absolute top-0 hidden dark:block">
         <img
           src="../../../assets/darkbg.png"
           class="w-full h-full bg-cover"
           alt=""
         />
       </div>
-      <div class="w-full h-full absolute top-0 dark:hidden ">
+      <div class="w-full h-full absolute top-0 dark:hidden">
         <img
           src="../../../assets/bgsection2.png"
           class="w-full h-full bg-cover"
