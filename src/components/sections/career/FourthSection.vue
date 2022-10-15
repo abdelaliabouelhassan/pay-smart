@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex bg-white dark:bg-[#1C1C1C] py-24">
+  <section class="w-full flex bg-white dark:bg-[#1C1C1C] py-24 font-Inter">
     <div class="m-auto w-full max-w-[1150px] relative">
       <div class="w-full grid grid-cols-2 gap-10">
         <div
@@ -42,9 +42,9 @@
                 digital assets.
               </p>
             </div>
-            <div class="absolute -bottom-10 left-0">
+            <div class="absolute bottom-0 right-0">
               <img
-                src="../../../assets/vesion.png"
+                src="../../../assets/wallexcoinsmall.png"
                 class="w-full h-full object-cover group-hover:scale-110"
                 alt=""
               />
@@ -70,7 +70,7 @@
               alt=""
             />
           </div>
-          <div class="w-full px-10 pt-10 pb-20 absolute top-0 left-0">
+          <div class="w-full px-10 pt-10  absolute top-0 left-0">
             <div class="w-full max-w-[532px] space-y-5">
               <span class="font-Inter font-semibold text-[#FFFFFF] text-5xl"
                 >Our Mission</span
@@ -131,10 +131,10 @@
               class="
                 text-lg
                 font-medium
-                text-center
+                text-start
                 dark:text-[#A9AFB7]
                 text-[#616C7C]
-                max-w-[691px]
+                max-w-[691px] font-Inter
                 z-50
               "
             >
@@ -148,7 +148,7 @@
             >
               <div
                 class="
-                  dark:bg-[#3C3C3C]
+                  dark:bg-[#2B71C4]
                   bg-[#FFFFFF]
                   p-5
                   flex
@@ -180,7 +180,7 @@
               </div>
               <div
                 class="
-                  dark:bg-[#3C3C3C]
+                  dark:bg-[#2B71C4]
                   bg-[#FFFFFF]
                   p-5
                   flex
@@ -231,7 +231,7 @@
               </div>
               <div
                 class="
-                  dark:bg-[#3C3C3C]
+                  dark:bg-[#2B71C4]
                   bg-[#FFFFFF]
                   p-5
                   flex
@@ -264,7 +264,7 @@
               </div>
               <div
                 class="
-                  dark:bg-[#3C3C3C]
+                  dark:bg-[#2B71C4]
                   bg-[#FFFFFF]
                   p-5
                   flex

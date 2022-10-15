@@ -4,11 +4,7 @@
       w-full
       flex flex-col
       font-Inter
-      relative
-      bg-gradient-to-t
-      from-[#73ADF1]
-      to-[#196ECF]
-      dark:from-[#282828] dark:to-[#030303]
+      relative dark:bg-dark-gradient bg-light-gradient
       pt-28
     "
   >

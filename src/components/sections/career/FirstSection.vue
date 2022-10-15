@@ -7,14 +7,14 @@
       font-Inter
       dark:bg-[#1C1C1C]
       pt-24
-      h-[100vh]
+       
     "
   >
     <div
-      class="w-full h-full bg-no-repeat bg-contain bg-right-bottom"
+      class="w-full h-full bg-no-repeat bg-contain bg-right-bottom relative"
     
     >
-      <div class="w-full max-w-[1150px] m-auto pt-36 pb-10 px-5">
+      <div class="w-full max-w-[1150px] m-auto pt-24 pb-48 px-5">
         <div class="w-full grid grid-cols-2 gap-10">
           <div class="flex flex-col items-start space-y-8 max-w-[539px]">
             <div class="flex flex-col items-start space-y-4">
@@ -22,7 +22,7 @@
                 Careers at Wallex
               </h1>
               <p class="font-semibold text-6xl text-white">
-                Unlock the Best of Your self and Become Free
+                Unlock the Best <br> of Your self and Become Free
               </p>
               <span class="text-[#C3C8CD]  font-normal font-Inter text-lg"
                 >Alternative Banking solution delivering innovation and

@@ -9,15 +9,14 @@
             dark:text-white
             text-5xl
           "
-          >Our Benifits</span
+          >Our Benefits</span
         >
 
         <div class="w-full grid grid-cols-3 gap-10 pt-10">
           <div
             class="
-              w-full
-              bg-white
-              p-6
+              w-full h-[286px]
+              bg-white flex
               rounded-3xl
               border
               dark:bg-[#272727]
@@ -25,7 +24,7 @@
               dark:border-[#343434]
             "
           >
-            <div class="w-full flex flex-col items-center space-y-5">
+            <div class="w-full m-auto flex flex-col items-center space-y-5">
               <div>
                 <svg
                   width="80"
@@ -80,15 +79,14 @@
             class="
               w-full
               bg-white
-              p-6
               rounded-3xl
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434]
+              dark:border-[#343434] h-[286px] flex
             "
           >
-            <div class="w-full flex flex-col items-center space-y-5">
+            <div class="w-full flex m-auto flex-col items-center space-y-5">
               <div>
                 <svg
                   width="80"
@@ -145,15 +143,14 @@
             class="
               w-full
               bg-white
-              p-6
               rounded-3xl
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434]
+              dark:border-[#343434] h-[286px] flex
             "
           >
-            <div class="w-full flex flex-col items-center space-y-5">
+            <div class="w-full flex flex-col m-auto items-center space-y-5">
               <div>
                 <svg
                   width="80"
@@ -208,15 +205,14 @@
             class="
               w-full
               bg-white
-              p-6
               rounded-3xl
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434]
+              dark:border-[#343434] h-[286px] flex
             "
           >
-            <div class="w-full flex flex-col items-center space-y-5">
+            <div class="w-full flex flex-col m-auto items-center space-y-5">
               <div>
                 <svg
                   width="80"
@@ -295,15 +291,14 @@
             class="
               w-full
               bg-white
-              p-6
               rounded-3xl
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434]
+              dark:border-[#343434] h-[286px] flex
             "
           >
-            <div class="w-full flex flex-col items-center space-y-5">
+            <div class="w-full flex flex-col m-auto items-center space-y-5">
               <div>
                 <svg
                   width="80"
@@ -353,15 +348,14 @@
             class="
               w-full
               bg-white
-              p-6
               rounded-3xl
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434]
+              dark:border-[#343434] h-[286px] flex
             "
           >
-            <div class="w-full flex flex-col items-center space-y-5">
+            <div class="w-full flex flex-col m-auto items-center space-y-5">
               <div>
                 <svg
                   width="80"
