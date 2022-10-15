@@ -8,16 +8,32 @@
       from-[#282828]
       to-[#030303]
       pt-48
+      relative
     "
   >
-    <div class="m-auto w-full relative">
-      <div class="w-full h-full relative overflow-hidden">
-        <img
-          src="../../../assets/homehero.png"
+    <div class="m-auto w-full pt-96">
+      <div class="w-full h-full overflow-hidden">
+       <div class=" max-w-[712px] w-full m-auto relative">
+         <img
+          src="../../../assets/mobilewallex.png"
           alt=""
-          class="w-full h-[100vh] object-fill max-w-[1484px] m-auto"
+          class="w-full object-fill max-w-[712px] "
         />
+         <img
+          src="../../../assets/wallexcoin3.png"
+          alt=""
+          class=" absolute top-0 -left-72 animate-bounce-wallex"
+        />
+          <img
+            src="../../../assets/tether.png"
+            alt=""
+            class=" absolute top-24 -right-24 animate-bounce-tether">
+          <img
+            src="../../../assets/bitcoin-1.png"
+            alt=""
+            class=" absolute bottom-10 -right-64 animate-bounce-bitcoin">
 
+       </div>
         <img
           src="../../../assets/hoverheroeffect.png"
           class="w-full absolute object-cover bottom-0 dark:hidden"
@@ -29,9 +45,9 @@
           alt=""
         />
       </div>
-      <div class="w-full absolute -top-20">
+      <div class="w-full absolute top-32">
         <div class="w-full flex flex-col items-center space-y-2">
-          <div class="flex flex-col items-center -space-y-8">
+          <div class="flex flex-col items-center -space-y-8 relative">
             <h1
               class="
                 text-[#1B2C42]
@@ -52,6 +68,12 @@
             >
               Pay with Wallex
             </h1>
+            <div class="absolute top-28 -left-56">
+              <img src="../../../assets/ethereum3.png" class="  animate-bounce-ethereum3" alt="" />
+            </div>
+             <div class="absolute top-28 -right-56">
+              <img src="../../../assets/solana.png" class=" animate-bounce-solana" alt="" />
+            </div>
           </div>
           <div class="flex flex-col items-center space-y-8">
             <span
