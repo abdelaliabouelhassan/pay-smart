@@ -321,8 +321,8 @@
               "
               >About Us</a
             >
-            <a
-              href="#"
+            <router-link
+              to="/news"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -330,7 +330,7 @@
                 font-Inter
                 hover:text-opacity-75
               "
-              >Newsroom</a
+              >Newsroom</router-link
             >
             <router-link
               to="/career"

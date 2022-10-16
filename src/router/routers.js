@@ -8,7 +8,7 @@ import BuyCrypto from '../views/buyCrypto.vue'
 import Career from '../views/Career.vue'
 import Affliate from '../views/Affliate.vue'
 import Ambassadors from '../views/Ambassadors.vue'
-
+import News from '../views/News.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/home', component: Home,name:'home' },
@@ -20,6 +20,7 @@ const routes = [
     { path: '/career', component: Career,name:'Career' },
     { path: '/affliate', component: Affliate,name:'Affliate' },
     { path: '/ambassadors', component: Ambassadors,name:'Ambassadors' },
+    { path: '/news', component: News,name:'News' },
 ]
 
 const router = createRouter({
