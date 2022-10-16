@@ -281,8 +281,8 @@
               "
               >Rewards</a
             >
-            <a
-              href="#"
+            <router-link
+              to="/custody"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -290,10 +290,10 @@
                 font-Inter
                 hover:text-opacity-75
               "
-              >Custody</a
+              >Custody</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/exchange"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -301,7 +301,7 @@
                 font-Inter
                 hover:text-opacity-75
               "
-              >Exchange</a
+              >Exchange</router-link
             >
           </div>
         </div>
@@ -310,8 +310,8 @@
             >About</span
           >
           <div class="flex flex-col items-start space-y-4">
-            <a
-              href="#"
+            <router-link
+              to="about"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -319,7 +319,7 @@
                 font-Inter
                 hover:text-opacity-75
               "
-              >About Us</a
+              >About Us</router-link
             >
             <router-link
               to="/news"
