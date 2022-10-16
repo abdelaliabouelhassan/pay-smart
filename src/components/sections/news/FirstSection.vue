@@ -6,8 +6,8 @@
       bg-[#F5F6F7]
       font-Inter
       dark:bg-[#1C1C1C]
-      pt-36
-      overflow-hidden
+       pt-52
+      overflow-hidden h-[100vh]
     "
   >
     <div class="w-full relative pb-28 z-50">
@@ -20,7 +20,7 @@
                 dark:text-[#FFFFFF]
                 font-semibold
                 text-5xl
-                font-Inter
+                font-Inter leading-[58px]
                 z-50
               "
             >

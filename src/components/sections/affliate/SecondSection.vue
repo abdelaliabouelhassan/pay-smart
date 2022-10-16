@@ -25,7 +25,7 @@
         "
       >
         <span class="font-semibold text-base font-Inter dark:text-[#FFFFFF] text-[#0054B8]"
-          >View All Job</span
+          >Get Started</span
         >
         <div>
           <svg

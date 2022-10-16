@@ -1,7 +1,8 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
-    <div class="w-full relative">
-      <div class="w-full h-full max-w-[1170px] flex items-start m-auto">
+  <section class="w-full h-[100vh] flex bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
+    <div class="w-full relative h-[100vh]">
+      <div class=" w-full absolute bottom-[9rem]">
+        <div class="w-full h-full max-w-[1170px] flex items-start m-auto">
         <div class="w-[418px] pt-24 pl-2">
           <div class="flex flex-col items-start space-y-8 w-full z-50">
             <div class="w-full flex flex-col items-start space-y-3 z-50">
@@ -68,6 +69,7 @@
             alt=""
           />
         </div>
+      </div>
       </div>
       <div class="w-full h-full absolute top-0 hidden dark:block ">
         <img

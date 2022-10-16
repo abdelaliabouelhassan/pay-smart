@@ -244,7 +244,7 @@
       </div>
       <div class="w-full grid grid-cols-5 gap-12">
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter text-[#616C7C]"
+          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Products</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -306,7 +306,7 @@
           </div>
         </div>
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter text-[#616C7C]"
+          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >About</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -344,7 +344,7 @@
               >Careers</router-link
             >
             <router-link
-              to="/affliate"
+              to="/affiliate"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -368,7 +368,7 @@
           </div>
         </div>
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter text-[#616C7C]"
+          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Legal</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -420,7 +420,7 @@
           </div>
         </div>
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter text-[#616C7C]"
+          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Support</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -435,8 +435,8 @@
               "
               >Contact</a
             >
-            <a
-              href="#"
+            <router-link
+              to="/faq"
               class="
                 text-[#E0E2E5]
                 font-medium
@@ -444,12 +444,12 @@
                 font-Inter
                 hover:text-opacity-75
               "
-              >FAQ</a
+              >FAQ</router-link
             >
           </div>
         </div>
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter text-[#616C7C]"
+          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Follow Us</span
           >
           <div class="w-full grid grid-cols-3 gap-y-5">

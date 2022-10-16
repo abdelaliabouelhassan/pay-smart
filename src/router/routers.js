@@ -10,6 +10,7 @@ import Affliate from '../views/Affliate.vue'
 import Ambassadors from '../views/Ambassadors.vue'
 import News from '../views/News.vue'
 import NewsDetails from '../views/NewsDetails.vue'
+import Faq from '../views/Faq.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/home', component: Home,name:'home' },
@@ -19,10 +20,11 @@ const routes = [
     { path: '/about', component: About,name:'About' },
     { path: '/buy-crypto', component: BuyCrypto,name:'BuyCrypto' },
     { path: '/career', component: Career,name:'Career' },
-    { path: '/affliate', component: Affliate,name:'Affliate' },
+    { path: '/affiliate', component: Affliate,name:'Affliate' },
     { path: '/ambassadors', component: Ambassadors,name:'Ambassadors' },
     { path: '/news', component: News,name:'News' },
     { path: '/news-details/:slug', component: NewsDetails,name:'NewsDetails' },
+    { path: '/faq', component: Faq,name:'Faq' },
 ]
 
 const router = createRouter({

@@ -1,7 +1,8 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
-    <div class="w-full relative">
-      <div
+  <section class="w-full relative flex h-[100vh] bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
+    <div class="w-full h-[100vh]">
+     <div class=" w-full absolute bottom-0">
+       <div
         class="
           w-full
           h-full
@@ -14,8 +15,9 @@
       >
         <div class="w-[418px] pt-24 pl-2">
           <div class="flex flex-col items-start space-y-8 w-full z-50">
-            <div class="w-full flex flex-col items-start space-y-3 z-50">
-              <span
+            <div class="w-full flex flex-col items-start space-y-7 z-50">
+             <div class=" space-y-4">
+               <span
                 class="
                   text-2xl text-[#3A495C]
                   font-medium font-Inter
@@ -33,6 +35,7 @@
               >
                 Ambassadors
               </h1>
+             </div>
               <p
                 class="
                   text-lg
@@ -112,6 +115,7 @@
           </div>
         </div>
       </div>
+     </div>
       <div class="w-full h-full absolute top-0 hidden dark:block">
         <img
           src="../../../assets/darkbg.png"

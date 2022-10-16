@@ -7,7 +7,7 @@
         <div class="flex flex-col items-start space-y-8 max-w-[539px]">
           <div class="flex flex-col items-start space-y-4">
             <h1 class="font-semibold text-5xl text-[#1B2C42] dark:text-white">
-              WHAT IS A WALLEX BG BRAND AMBASSADOR?
+              WHAT IS A <br> WALLEX BG BRAND AMBASSADOR?
             </h1>
           </div>
           <p class="text-[#616C7C] dark:text-[#A9AFB7] text-lg font-medium">

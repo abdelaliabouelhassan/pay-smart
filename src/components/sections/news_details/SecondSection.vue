@@ -3,7 +3,7 @@
     <div class="m-auto w-full max-w-[1150px]">
       <div class="w-full flex flex-col items-center space-y-14">
         <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
-          >Latest news</span
+          >Recommended for you</span
         >
 
         <div class="w-full grid grid-cols-3 gap-10 pt-10">

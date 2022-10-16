@@ -109,8 +109,8 @@ export default {
     return {
          data:[{
             title:'What is the Wallex Affiliate Program?',
-            content:'After they complete the verification process and dThe Wallex Affiliate Program allows you to create a unique referral code through which you can invite your community to register on the Wallex platform. For any client using the referral code during the registration, you will have a chance to earn 10 EURST.eposit 100 EUR you will earn your EURST.',
-            active:false
+            content:'After they complete the verification process and The Wallex Affiliate Program allows you to create a unique referral code through which you can invite your community to register on the Wallex platform. For any client using the referral code during the registration, you will have a chance to earn 10 EURST.eposit 100 EUR you will earn your EURST.',
+            active:true
         },
         {
             title:'Who can become an affiliate?',
