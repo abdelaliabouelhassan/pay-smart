@@ -40,6 +40,7 @@
               for you or a crypto trading platform...
             </p>
             <button
+             @click="goToDetails('dynamics-that-will-control')"
               class="
                 flex
                 items-center
@@ -192,6 +193,9 @@ export default {
     },
     setActive(index){
         this.active = index
+    },
+    goToDetails(slug){
+        this.$router.push({name:'NewsDetails', params:{slug:slug}})
     }
   },
 };

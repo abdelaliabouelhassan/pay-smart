@@ -9,6 +9,7 @@ import Career from '../views/Career.vue'
 import Affliate from '../views/Affliate.vue'
 import Ambassadors from '../views/Ambassadors.vue'
 import News from '../views/News.vue'
+import NewsDetails from '../views/NewsDetails.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/home', component: Home,name:'home' },
@@ -21,6 +22,7 @@ const routes = [
     { path: '/affliate', component: Affliate,name:'Affliate' },
     { path: '/ambassadors', component: Ambassadors,name:'Ambassadors' },
     { path: '/news', component: News,name:'News' },
+    { path: '/news-details/:slug', component: NewsDetails,name:'NewsDetails' },
 ]
 
 const router = createRouter({

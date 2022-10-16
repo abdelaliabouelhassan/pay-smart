@@ -75,6 +75,7 @@
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
               </a>
               <button
+                @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                 class="
                   flex
                   items-center
@@ -167,6 +168,7 @@
                   Can Crypto Address the Biggest Obstacle Facing the Unbanked?
                 </a>
                 <button
+                @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                   class="
                     flex
                     items-center
@@ -257,6 +259,7 @@
                   Can Crypto Address the Biggest Obstacle Facing the Unbanked?
                 </a>
                 <button
+                @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                   class="
                     flex
                     items-center
@@ -342,6 +345,7 @@
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
               </a>
               <button
+              @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                 class="
                   flex
                   items-center
@@ -423,6 +427,7 @@
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
               </a>
               <button
+              @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                 class="
                   flex
                   items-center
@@ -504,6 +509,7 @@
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
               </a>
               <button
+              @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                 class="
                   flex
                   items-center
@@ -585,6 +591,7 @@
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
               </a>
               <button
+              @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                 class="
                   flex
                   items-center
@@ -666,6 +673,7 @@
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
               </a>
               <button
+              @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                 class="
                   flex
                   items-center
@@ -747,6 +755,7 @@
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
               </a>
               <button
+              @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
                 class="
                   flex
                   items-center
@@ -785,7 +794,17 @@
 
         <div class="max-w-[348px] w-full m-auto pt-10">
           <div class="grid grid-cols-6 w-full">
-            <button class="w-12 h-12 rounded-full bg-[#0F2138] dark:[#1B2C42] flex hover:bg-opacity-60">
+            <button
+              class="
+                w-12
+                h-12
+                rounded-full
+                bg-[#0F2138]
+                dark:[#1B2C42]
+                flex
+                hover:bg-opacity-60
+              "
+            >
               <div class="m-auto">
                 <svg
                   width="10"
@@ -803,35 +822,122 @@
                 </svg>
               </div>
             </button>
-             <button class="w-12 h-12 rounded-full bg-[#0054B8] dark:border-[#2B71C4] dark:bg-[#2B71C4] border-[#0054B8] border flex hover:bg-opacity-60">
+            <button
+              class="
+                w-12
+                h-12
+                rounded-full
+                bg-[#0054B8]
+                dark:border-[#2B71C4] dark:bg-[#2B71C4]
+                border-[#0054B8] border
+                flex
+                hover:bg-opacity-60
+              "
+            >
               <div class="m-auto text-white text-base font-Inter font-semibold">
-              1
+                1
               </div>
             </button>
-             <button class="w-12 h-12 rounded-full bg-[#E6EEF8] dark:bg-[#26272C] dark:border-[#26272C] border-[#E6EEF8] border flex hover:bg-opacity-60 dark:hover:bg-[#0054B8] ">
-              <div class="m-auto text-[#0054B8] text-base font-Inter font-semibold dark:text-white">
-              2
+            <button
+              class="
+                w-12
+                h-12
+                rounded-full
+                bg-[#E6EEF8]
+                dark:bg-[#26272C] dark:border-[#26272C]
+                border-[#E6EEF8] border
+                flex
+                hover:bg-opacity-60
+                dark:hover:bg-[#0054B8]
+              "
+            >
+              <div
+                class="
+                  m-auto
+                  text-[#0054B8] text-base
+                  font-Inter font-semibold
+                  dark:text-white
+                "
+              >
+                2
               </div>
             </button>
-              <button class="w-12 h-12 rounded-full bg-[#E6EEF8] dark:bg-[#26272C] dark:border-[#26272C] border-[#E6EEF8] border flex hover:bg-opacity-60 dark:hover:bg-[#0054B8] ">
-              <div class="m-auto text-[#0054B8] text-base font-Inter font-semibold dark:text-white">
-              3
+            <button
+              class="
+                w-12
+                h-12
+                rounded-full
+                bg-[#E6EEF8]
+                dark:bg-[#26272C] dark:border-[#26272C]
+                border-[#E6EEF8] border
+                flex
+                hover:bg-opacity-60
+                dark:hover:bg-[#0054B8]
+              "
+            >
+              <div
+                class="
+                  m-auto
+                  text-[#0054B8] text-base
+                  font-Inter font-semibold
+                  dark:text-white
+                "
+              >
+                3
               </div>
             </button>
-              <button class="w-12 h-12 rounded-full bg-[#E6EEF8] dark:bg-[#26272C] dark:border-[#26272C] border-[#E6EEF8] border flex hover:bg-opacity-60 dark:hover:bg-[#0054B8] ">
-              <div class="m-auto text-[#0054B8] text-base font-Inter font-semibold dark:text-white">
-              4
+            <button
+              class="
+                w-12
+                h-12
+                rounded-full
+                bg-[#E6EEF8]
+                dark:bg-[#26272C] dark:border-[#26272C]
+                border-[#E6EEF8] border
+                flex
+                hover:bg-opacity-60
+                dark:hover:bg-[#0054B8]
+              "
+            >
+              <div
+                class="
+                  m-auto
+                  text-[#0054B8] text-base
+                  font-Inter font-semibold
+                  dark:text-white
+                "
+              >
+                4
               </div>
             </button>
-             <button class="w-12 h-12 rounded-full bg-[#0F2138] dark:[#1B2C42] flex hover:bg-opacity-60">
+            <button
+              class="
+                w-12
+                h-12
+                rounded-full
+                bg-[#0F2138]
+                dark:[#1B2C42]
+                flex
+                hover:bg-opacity-60
+              "
+            >
               <div class="m-auto">
-               <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L9.70711 8.29289C10.0976 8.68342 10.0976 9.31658 9.70711 9.70711L1.70711 17.7071C1.31658 18.0976 0.683417 18.0976 0.292893 17.7071C-0.0976311 17.3166 -0.0976311 16.6834 0.292893 16.2929L7.58579 9L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z" fill="white"/>
-</svg>
-
+                <svg
+                  width="10"
+                  height="18"
+                  viewBox="0 0 10 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L9.70711 8.29289C10.0976 8.68342 10.0976 9.31658 9.70711 9.70711L1.70711 17.7071C1.31658 18.0976 0.683417 18.0976 0.292893 17.7071C-0.0976311 17.3166 -0.0976311 16.6834 0.292893 16.2929L7.58579 9L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z"
+                    fill="white"
+                  />
+                </svg>
               </div>
             </button>
-
           </div>
         </div>
       </div>
@@ -839,3 +945,14 @@
   </section>
 </template>
 
+
+
+<script>
+export default {
+  methods:{
+     goToDetails(slug){
+        this.$router.push({name:'NewsDetails', params:{slug:slug}})
+    }
+  }
+}
+</script>
