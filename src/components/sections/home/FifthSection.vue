@@ -12,7 +12,7 @@
               class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
-                src="../../../assets/card1.jpg"
+                src="../../../assets/news20.png"
                 class="w-full h-full object-cover hover:scale-125 cursor-pointer"
                 alt=""
               />
