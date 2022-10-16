@@ -645,7 +645,7 @@
                 Step 4: Buy and Sell Crypto
               </h2>
             </div>
-            <div class="h-[392px] ">
+            <div class="h-[392px]">
               <svg
                 class="w-full h-full"
                 viewBox="0 0 697 392"
@@ -674,6 +674,328 @@
                   />
                 </defs>
               </svg>
+            </div>
+          </div>
+          <div class="w-full flex flex-col items-start space-y-5 pt-10">
+            <div class="w-full flex flex-col items-start space-y-4">
+              <h2
+                class="
+                  text-[32px]
+                  font-semibold font-Inter
+                  text-[#1B2C42]
+                  dark:text-white
+                "
+              >
+                Step 5: Earn Rewards
+              </h2>
+            </div>
+
+            <div class="w-full flex flex-col items-start space-y-10">
+              <div
+                class="
+                  col-span-2
+                  w-full
+                  bg-[#F5F6F7]
+                  h-[344px]
+                  dark:bg-[#1E1F23]
+                  group
+                  rounded-3xl
+                  overflow-hidden
+                  cursor-pointer
+                  relative
+                "
+              >
+                <div class="w-full flex justify-between items-start">
+                  <div class="pl-10 pt-10 w-full max-w-[552px] space-y-3">
+                    <span
+                      class="
+                        font-Inter font-semibold
+                        text-[#1B2C42]
+                        dark:text-white
+                        text-[32px]
+                      "
+                      >Spend Crypto With Card</span
+                    >
+                    <p
+                      class="
+                        text-[#616C7C]
+                        dark:text-[#A9AFB7]
+                        text-lg
+                        font-medium font-Inter
+                        max-w-[392px]
+                      "
+                    >
+                      Receive your virtual or physical card and spend your
+                      crypto or fiat currencies, with real-time conversion and
+                      instant rewards of up to 10% back on your spending, paid
+                      in WLXT or up to 3% in fiat.
+                    </p>
+                    <div class="pt-4">
+                      <button
+                        class="
+                          flex
+                          items-center
+                          space-x-4
+                          bg-[#0054B8]
+                          dark:bg-[#2B71C4]
+                          py-2
+                          px-6
+                          rounded-full
+                          hover:bg-opacity-80
+                        "
+                      >
+                        <span
+                          class="text-white font-Inter font-semibold text-base"
+                          >Get Rewarded</span
+                        >
+                        <div>
+                          <svg
+                            width="10"
+                            height="18"
+                            viewBox="0 0 10 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L9.70711 8.29289C10.0976 8.68342 10.0976 9.31658 9.70711 9.70711L1.70711 17.7071C1.31658 18.0976 0.683417 18.0976 0.292893 17.7071C-0.0976311 17.3166 -0.0976311 16.6834 0.292893 16.2929L7.58579 9L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      absolute
+                      bottom-0
+                      right-0
+                      max-w-[365px] max-h-[291px]
+                    "
+                  >
+                    <img
+                      src="../../../assets/mobilegift.png"
+                      class="w-full h-full group-hover:scale-110 object-cover"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-span-2
+                  w-full
+                  bg-[#F5F6F7]
+                  h-[276px]
+                  dark:bg-[#1E1F23]
+                  group
+                  rounded-3xl
+                  overflow-hidden
+                  cursor-pointer
+                  relative
+                "
+              >
+                <div class="w-full flex justify-between items-start">
+                  <div class="pl-10 pt-10 w-full max-w-[552px] space-y-3">
+                    <span
+                      class="
+                        font-Inter font-semibold
+                        text-[#1B2C42]
+                        dark:text-white
+                        text-[32px]
+                      "
+                      >Saving</span
+                    >
+                    <p
+                      class="
+                        text-[#616C7C]
+                        dark:text-[#A9AFB7]
+                        text-lg
+                        font-medium font-Inter
+                        max-w-[392px]
+                      "
+                    >
+                      Earn up to 8.5% p.a. on your crypto, <br />
+                      and up to 18% p.a. in stablecoins.
+                    </p>
+                    <div class="w-full">
+                      <div class="px-2 absolute left-5 bottom-10 z-40">
+                        <div
+                          class="
+                            bg-[#1B2C42CC]
+                            dark:bg-[#1E1F2333]
+                            p-4
+                            rounded-3xl
+                          "
+                          style="backdrop-filter: blur(24px)"
+                        >
+                          <span
+                            class="text-white text-lg font-Inter font-semibold"
+                            >Save and invest to make your life easier with our
+                            solutions</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="absolute bottom-0 right-0">
+                    <img
+                      src="../../../assets/piggybank.png"
+                      class="w-full h-full group-hover:scale-110 object-cover"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-span-2
+                  w-full
+                  bg-[#F5F6F7]
+                  h-[210px]
+                  dark:bg-[#1E1F23]
+                  group
+                  rounded-3xl
+                  overflow-hidden
+                  cursor-pointer
+                  relative
+                "
+              >
+                <div class="w-full flex justify-between items-start">
+                  <div class="pl-10 pt-8 w-full max-w-[552px] space-y-3">
+                    <span
+                      class="
+                        font-Inter font-semibold
+                        text-[#1B2C42]
+                        dark:text-white
+                        text-[32px]
+                      "
+                      >Send and Withdraw</span
+                    >
+                    <p
+                      class="
+                        text-[#616C7C]
+                        dark:text-[#A9AFB7]
+                        text-lg
+                        font-medium font-Inter
+                        max-w-[392px]
+                      "
+                    >
+                      Send crypto and fiat to the Wallex users instantly with no
+                      fees. Withdraw fiat and crypto with a low fee.
+                    </p>
+                  </div>
+                  <div class="absolute bottom-0 right-0">
+                    <img
+                      src="../../../assets/roket.png"
+                      class="w-full h-full group-hover:scale-110 object-cover"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" w-full pt-10">
+            <div
+            class="w-full pt-10 h-[186px] border-[#E0E2E5] dark:border-[#26272C]"
+            style="
+              border-width: 1px 0px;
+              border-style: solid;
+              border-radius: 24px;
+            "
+          >
+            <div class="flex flex-col items-start space-y-4">
+              <span class="text-[32px] font-semibold font-Inter dark:text-white text-[#1B2C42]"
+                >Was this article helpful?</span
+              >
+              <div class="flex items-center space-x-4">
+                <button
+                  class="
+                    h-[44px]
+                    w-[120px]
+                    border border-[#0054B8] dark:border-[#2B71C4]
+                    bg-[#0054B8] dark:bg-[#2B71C4]
+                    flex
+                    rounded-full
+                    hover:bg-opacity-60
+                  "
+                >
+                  <div class="flex items-center space-x-4 m-auto">
+                    <svg
+                      width="20"
+                      height="14"
+                      viewBox="0 0 20 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M19.7071 0.292893C20.0976 0.683417 20.0976 1.31658 19.7071 1.70711L7.70711 13.7071C7.31658 14.0976 6.68342 14.0976 6.29289 13.7071L0.292893 7.70711C-0.0976311 7.31658 -0.0976311 6.68342 0.292893 6.29289C0.683417 5.90237 1.31658 5.90237 1.70711 6.29289L7 11.5858L18.2929 0.292893C18.6834 -0.0976311 19.3166 -0.0976311 19.7071 0.292893Z"
+                        fill="white"
+                      />
+                    </svg>
+
+                    <span class="text-base font-semibold font-Inter text-white"
+                      >Yes</span
+                    >
+                  </div>
+                </button>
+                <button
+                  class="
+                    h-[44px]
+                    w-[120px]
+                    border border-[#E6EEF8] dark:border-[#26272C]
+                    bg-[#E6EEF8] dark:bg-[#26272C]
+                    flex
+                    rounded-full
+                    hover:bg-opacity-60
+                  "
+                >
+                  <div class="flex items-center space-x-4 m-auto">
+                    <svg
+                     class=" fill-current text-[#0054B8] dark:text-white"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                       class=" fill-current"
+                        d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L6.58586 8.00008L0.292893 14.293C-0.0976306 14.6836 -0.0976309 15.3167 0.292893 15.7073C0.683418 16.0978 1.31658 16.0978 1.70711 15.7073L8.00008 9.41429L14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L9.41429 8.00008L15.7071 1.70726C16.0976 1.31673 16.0976 0.683569 15.7071 0.293044C15.3166 -0.09748 14.6834 -0.09748 14.2929 0.293044L8.00008 6.58586L1.70711 0.292893Z"
+                        
+                      />
+                    </svg>
+
+                    <span
+                      class="text-base font-semibold font-Inter text-[#0054B8] dark:text-white"
+                      >No</span
+                    >
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class=" w-full pt-10">
+            <div class=" w-full flex flex-col items-start space-y-6">
+                <span class=" dark:text-white text-[32px] font-Inter font-semibold text-[#1B2C42]">Other articles</span>
+                <div class=" w-full flex flex-col items-start space-y-5">
+                    <span class=" text-xl dark:text-white font-Inter font-semibold text-[#1B2C42]">Let’s get started in 5 quick and easy steps:</span>
+                    <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Wallex Solutions</a>
+                     <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Account Security & Sign in</a>
+                      <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">KYC & KYB, and Verification Process</a>
+                       <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Financial Operations</a>
+                        <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Wallex Regional Card Services</a>
+                         <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Wallex Regional Education & FAQs</a>
+                          <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Policies, Terms & Compliance Rules</a>
+                </div>
             </div>
           </div>
         </div>
