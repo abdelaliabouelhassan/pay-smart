@@ -11,6 +11,7 @@ import Ambassadors from '../views/Ambassadors.vue'
 import News from '../views/News.vue'
 import NewsDetails from '../views/NewsDetails.vue'
 import Faq from '../views/Faq.vue'
+import FaqDetails from '../views/FaqDetails.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/home', component: Home,name:'home' },
@@ -25,6 +26,7 @@ const routes = [
     { path: '/news', component: News,name:'News' },
     { path: '/news-details/:slug', component: NewsDetails,name:'NewsDetails' },
     { path: '/faq', component: Faq,name:'Faq' },
+    { path: '/faq-details/:slug', component: FaqDetails,name:'FaqDetails' },
 ]
 
 const router = createRouter({

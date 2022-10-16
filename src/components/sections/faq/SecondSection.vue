@@ -80,7 +80,7 @@
                   </button>
                 </div>
                 <div
-                  v-if="item.active"
+                  v-if="item.active" @click="Details"
                   class="pl-4 text-base font-normal space-y-4"
                   :class="{
                     'text-[#ECEDEF]': index == 0,
@@ -166,7 +166,7 @@
                   </button>
                 </div>
                 <div
-                  v-if="item.active"
+                  v-if="item.active" @click="Details"
                   class="pl-4 text-base font-normal space-y-4"
                   :class="{
                     'text-[#ECEDEF]': index == -1,
@@ -200,20 +200,20 @@ export default {
               title: "Wallex Regional",
               active: true,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title:
                 "Policies Securities and other Information about Wallex BG",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Fees",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p>Why choose us?<p>",
             },
           ],
         },
@@ -227,13 +227,13 @@ export default {
               title: "Common Login Issues",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Account Security",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
           ],
         },
@@ -247,19 +247,19 @@ export default {
               title: "FIAT operations",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Cryptocurrency operations",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Financial Documents",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
           ],
         },
@@ -273,37 +273,37 @@ export default {
               title: "Platform Usage Guides",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "FAQs",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "OTC",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Fraud monitoring",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Security Audit",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Affiliate, Referral and Partner programs",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
           ],
         },
@@ -317,19 +317,19 @@ export default {
               title: "Wallex BG",
               active: true,
               content:
-                "<p>How to create a Wallex BG account?<p><p>Can I create multiple accounts?<p><p>Can I switch from a Personal to Company in Wallex BG account?<p><p>How can I create a Corporate Profile in Wallex BG?<p><p>What is the difference between Personal and Corporate account?</p>",
+                "<p class='cursor-pointer'>How to create a Wallex BG account?<p><p class='cursor-pointer'>Can I create multiple accounts?<p><p class='cursor-pointer'>Can I switch from a Personal to Company in Wallex BG account?<p><p class='cursor-pointer'>How can I create a Corporate Profile in Wallex BG?<p><p class='cursor-pointer'>What is the difference between Personal and Corporate account?</p>",
             },
             {
               title: "WallexCustody",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "WallexExchange",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
           ],
         },
@@ -343,19 +343,19 @@ export default {
               title: "Verification Processes",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+               "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "KYC (Know Your Customer)",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "KYB (Know Your Business)",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
           ],
         },
@@ -368,13 +368,13 @@ export default {
               title: "Card Usage and Services",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "Common Card Issues",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
           ],
         },
@@ -387,19 +387,24 @@ export default {
               title: "Compliance Rules",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
             {
               title: "AML/CTF and Privacy Policies",
               active: false,
               content:
-                "<p>Getting Started<p><p>Who are we?<p><p>About Us<p><p>Why choose us?<p>",
+                "<p class='cursor-pointer'>Getting Started<p><p class='cursor-pointer'>Who are we?<p><p class='cursor-pointer'>About Us<p><p class='cursor-pointer'>Why choose us?<p>",
             },
           ],
         },
       ],
     };
   },
+  methods:{
+    Details(){
+      this.$router.push({ name: "FaqDetails", params: { slug: 'compliance-rules' } });
+    }
+  }
 };
 </script>
 
