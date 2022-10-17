@@ -90,27 +90,27 @@
             <img
               src="../../../assets/wallexcoin4.png"
               alt=""
-              class="absolute bottom-0 -left-36 animate-bounce-wallex"
+              class="absolute bottom-0 -left-36 bounce-wallex"
             />
             <img
               src="../../../assets/tether1.png"
               alt=""
-              class="absolute -bottom-10 -right-36 animate-bounce-bitcoin"
+              class="absolute -bottom-10 -right-36 bounce-bitcoin"
             />
             <img
               src="../../../assets/bitcoin-2.png"
               alt=""
-              class="absolute top-56 -right-0 animate-bounce-solana"
+              class="absolute top-56 -right-0 bounce-solana"
             />
               <img
               src="../../../assets/ethereum4.png"
               alt=""
-              class="absolute top-24 -left-14 animate-bounce-tether"
+              class="absolute top-24 -left-14 bounce-tether"
             />
              <img
           src="../../../assets/solana2.png"
           alt=""
-          class=" absolute top-0 right-0 animate-bounce-ethereum3"
+          class=" absolute top-0 right-0 bounce-ethereum3"
         />
           </div>
         </div>

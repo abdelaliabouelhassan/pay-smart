@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full relative z-50">
+  <header class="w-full relative z-50">
     <div
       class="
         w-full
@@ -252,7 +252,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </header>
 </template>
 
 

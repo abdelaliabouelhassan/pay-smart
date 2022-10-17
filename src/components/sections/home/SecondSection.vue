@@ -359,7 +359,7 @@
             </div>
           </div>
           <div class="w-full px-2 absolute bottom-2">
-            <div class="w-full bg-[#1B2C42CC] dark:bg-[#1F1F1F80] p-5 rounded-3xl">
+            <div class="w-full bg-[#1B2C42CC] dark:bg-[#1F1F1F80] p-5 rounded-3xl" style="backdrop-filter: blur(24px);">
               <span class="text-white text-lg font-Inter font-semibold"
                 >Save and invest to make your life easier with our
                 solutions</span

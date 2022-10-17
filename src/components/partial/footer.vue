@@ -1,5 +1,5 @@
 <template>
-  <div
+  <footer
     class="w-full pb-28 bg-[#0F2138] dark:bg-[#1F1F1F] font-Inter"
     :class="{ ' pt-72': showFooter, 'pt-28': !showFooter }"
   >
@@ -556,10 +556,10 @@
       </div>
       <div class="w-full flex flex-col items-center space-y-4">
         <span
-          class="text-base font-medium text-[#616C7C] font-Inter text-center"
+          class="text-base font-medium text-[#616C7C] dark:text-[#737373] font-Inter text-center"
           >Copyright © 2022 Wallex</span
         >
-        <p class="text-base font-medium text-[#616C7C] font-Inter text-center">
+        <p class="text-base font-medium text-[#616C7C] font-Inter text-center dark:text-[#737373]">
           Website operated By Wallex Digital Custody LTD. With UIC: 206590780.
           The company has a certificate N.BB-51/18.02.2022 from the National
           Revenue Agency ( NRA ) for registration in the public register of
@@ -576,7 +576,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>

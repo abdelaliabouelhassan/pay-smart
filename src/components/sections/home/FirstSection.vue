@@ -22,16 +22,16 @@
          <img
           src="../../../assets/wallexcoin3.png"
           alt=""
-          class=" absolute top-0 -left-72 animate-bounce-wallex"
+          class=" absolute top-0 -left-72 bounce-wallex"
         />
           <img
             src="../../../assets/tether.png"
             alt=""
-            class=" absolute top-24 -right-24 animate-bounce-tether">
+            class=" absolute top-24 -right-24 bounce-tether">
           <img
             src="../../../assets/bitcoin-1.png"
             alt=""
-            class=" absolute bottom-10 -right-64 animate-bounce-bitcoin">
+            class=" absolute bottom-10 -right-64 bounce-bitcoin">
 
        </div>
         <img
@@ -69,10 +69,10 @@
               Pay with Wallex
             </h1>
             <div class="absolute top-28 -left-56">
-              <img src="../../../assets/ethereum3.png" class="  animate-bounce-ethereum3" alt="" />
+              <img src="../../../assets/ethereum3.png" class="  bounce-ethereum3" alt="" />
             </div>
              <div class="absolute top-28 -right-56">
-              <img src="../../../assets/solana.png" class=" animate-bounce-solana" alt="" />
+              <img src="../../../assets/solana.png" class=" bounce-solana" alt="" />
             </div>
           </div>
           <div class="flex flex-col items-center space-y-8">
