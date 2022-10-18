@@ -1,24 +1,24 @@
 <template>
-  <section class="w-full flex bg-[#0F2138] dark:bg-[#1F1F1F] pt-28 pb-52 font-Inter  relative">
-    <div class="m-auto w-full max-w-[1150px] ">
-      <div class="w-full grid grid-cols-2">
+  <section class="w-full flex bg-[#0F2138] dark:bg-[#1F1F1F] md:pt-28 pt-14 md:pb-52 pb-14 font-Inter  relative">
+    <div class="m-auto w-full max-w-[1150px] p-6 ">
+      <div class="w-full grid grid-cols-1 lg:grid-cols-2">
         <div class="flex flex-col items-start space-y-10 w-full">
-          <h1 class="font-semibold text-5xl text-white">
+          <h1 class="font-semibold md:text-5xl text-[32px] text-white">
             Get Started in Minutes
           </h1>
           <div class="flex flex-col items-start space-y-4">
             <div class="bg-[#1B2C42] dark:bg-[#272727] rounded-3xl p-5">
-              <div class="flex items-center space-x-5">
+              <div class="flex items-start space-x-5">
                 <div class="bg-[#0054B8] dark:bg-[#2B71C4] w-[50px] h-[50px] rounded-full flex">
-                  <span class="m-auto text-2xl font-semibold text-white"
+                  <span class="m-auto md:text-2xl text-lg font-semibold text-white"
                     >01</span
                   >
                 </div>
-                <div class="flex flex-col items-start space-y-2 max-w-[276px]">
+                <div class="flex flex-col items-start space-y-2 max-w-[230px] md:max-w-[276px]">
                   <span class="text-2xl font-semibold text-white"
                     >Create a Free Account</span
                   >
-                  <p class="text-lg font-medium text-[#C3C8CD]">
+                  <p class="md:text-lg text-sm font-medium text-[#C3C8CD]">
                     Create your account and follow the onboarding step by step
                   </p>
                 </div>
@@ -27,7 +27,7 @@
             <div class="rounded-3xl p-5">
               <div class="flex items-center space-x-5">
                 <div class="bg-[#3A495C] w-[50px] h-[50px] rounded-full flex">
-                  <span class="m-auto text-2xl font-semibold text-white"
+                  <span class="m-auto  md:text-2xl text-lg font-semibold text-white"
                     >02</span
                   >
                 </div>
@@ -41,7 +41,7 @@
             <div class="rounded-3xl p-5">
               <div class="flex items-center space-x-5">
                 <div class="bg-[#3A495C] w-[50px] h-[50px] rounded-full flex">
-                  <span class="m-auto text-2xl font-semibold text-white"
+                  <span class="m-auto md:text-2xl text-lg font-semibold text-white"
                     >03</span
                   >
                 </div>
@@ -84,8 +84,8 @@
             </div>
           </button>
         </div>
-        <div class=" w-full">
-            <div class=" absolute right-0 bottom-0 max-w-[705px] h-[676px] w-full overflow-hidden bg-card " >
+        <div class=" w-full hidden lg:block">
+            <div class=" absolute right-0 bottom-0 max-w-[600px] xl:max-w-[705px] h-[676px] w-full overflow-hidden bg-card " >
                   <img src="../../../assets/chartcard.png" class=" w-full h-full object-cover" alt=""> 
             </div>
         </div>

@@ -1,17 +1,17 @@
 <template>
   <footer
-    class="w-full pb-28 bg-[#0F2138] dark:bg-[#1F1F1F] font-Inter"
+    class="w-full pb-28 px-6 bg-[#0F2138] dark:bg-[#1F1F1F] font-Inter"
     :class="{ ' pt-72': showFooter, 'pt-28': !showFooter }"
   >
-    <div class="max-w-[1150px] m-auto w-full space-y-28">
-      <div class="w-full flex flex-col items-start space-y-5">
-        <div>
+    <div class="max-w-[1150px] m-auto w-full space-y-10 md:space-y-28">
+      <div class="w-full flex flex-col items-start space-y-5 pb-10 md:pb-0">
+        <div class=" pb-10 md:pb-0">
           <Logo />
         </div>
 
-        <div class="w-full flex items-start justify-between">
+        <div class="w-full flex md:flex-row flex-col items-start md:justify-between space-y-10 md:space-y-0">
           <div class="flex flex-col items-start space-y-4">
-            <span class="text-lg font-semibold text-white">Get the app</span>
+            <span class="md:text-lg text-xs font-semibold text-white">Get the app</span>
 
             <div class="flex items-center space-x-4">
               <button class="bg-[#1B2C42] dark:bg-[#272727] p-2 rounded-md hover:bg-opacity-80">
@@ -183,7 +183,7 @@
             </div>
           </div>
           <div class="flex flex-col items-start space-y-4">
-            <span class="text-lg font-semibold text-white">Join Now</span>
+            <span class="md:text-lg text-xs font-semibold text-white">Join Now</span>
             <div class="relative max-w-[404px] w-full">
               <input
                 type="text"
@@ -197,7 +197,7 @@
                   pl-5
                   pr-40
                   placeholder-[#A9AFB7] dark:text-white
-                  text-base
+                  md:text-base text-xs
                   font-medium
                 "
                 placeholder="Your work email"
@@ -210,15 +210,15 @@
                   py-3
                   px-6
                   absolute
-                  right-0.5
-                  top-0.5
+                  md:right-0.5 right-1
+                  md:top-0.5 top-1
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
                   hover:bg-opacity-80
                   rounded-full
                 "
               >
-                <span class="font-semibold text-base font-Inter text-white"
+                <span class="md:font-semibold font-medium text-xs md:text-base font-Inter text-white"
                   >Get Started</span
                 >
                 <div>
@@ -242,9 +242,9 @@
           </div>
         </div>
       </div>
-      <div class="w-full grid grid-cols-5 gap-12">
+      <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12">
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
+          <span class="md:text-xl text-sm font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Products</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -253,7 +253,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+                md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -264,7 +264,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -275,7 +275,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+                md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -286,7 +286,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+                md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -297,7 +297,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+                md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -306,7 +306,7 @@
           </div>
         </div>
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
+          <span class="md:text-xl text-sm font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >About</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -315,7 +315,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -326,7 +326,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -337,7 +337,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -348,7 +348,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+                md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -359,7 +359,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+              md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -368,7 +368,7 @@
           </div>
         </div>
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
+          <span class="md:text-xl text-sm font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Legal</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -377,7 +377,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+                md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -388,7 +388,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -400,7 +400,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+              md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -411,7 +411,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -420,7 +420,7 @@
           </div>
         </div>
         <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
+          <span class="md:text-xl text-sm font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Support</span
           >
           <div class="flex flex-col items-start space-y-4">
@@ -429,7 +429,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -440,7 +440,7 @@
               class="
                 text-[#E0E2E5]
                 font-medium
-                text-base
+               md:text-base text-sm
                 font-Inter
                 hover:text-opacity-75
               "
@@ -448,11 +448,11 @@
             >
           </div>
         </div>
-        <div class="flex flex-col items-start space-y-5">
-          <span class="text-xl font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
+        <div class="flex flex-col items-center md:items-start space-y-5 col-span-2 md:col-span-1 w-full">
+          <span class="md:text-xl text-sm font-semibold font-Inter dark:text-[#737373] text-[#616C7C]"
             >Follow Us</span
           >
-          <div class="w-full grid grid-cols-3 gap-y-5">
+          <div class=" md:grid flex items-center space-x-4 md:space-x-0 grid-cols-3 md:gap-x-4 md:gap-y-5">
             <a href="#" class="bg-[#465466] dark:bg-[#272727] w-8 h-8 rounded-full flex">
               <svg
                 class="m-auto"
@@ -554,12 +554,12 @@
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-col items-center space-y-4">
+      <div class="w-full flex flex-col items-center space-y-4 pt-10 md:pt-0">
         <span
-          class="text-base font-medium text-[#616C7C] dark:text-[#737373] font-Inter text-center"
+          class="md:text-base text-xs font-medium text-[#616C7C] dark:text-[#737373] font-Inter text-center"
           >Copyright © 2022 Wallex</span
         >
-        <p class="text-base font-medium text-[#616C7C] font-Inter text-center dark:text-[#737373]">
+        <p class="md:text-base text-xs font-medium text-[#616C7C] font-Inter text-center dark:text-[#737373]">
           Website operated By Wallex Digital Custody LTD. With UIC: 206590780.
           The company has a certificate N.BB-51/18.02.2022 from the National
           Revenue Agency ( NRA ) for registration in the public register of

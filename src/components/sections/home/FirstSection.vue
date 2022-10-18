@@ -11,27 +11,27 @@
       relative
     "
   >
-    <div class="m-auto w-full pt-96">
+    <div class="m-auto w-full md:pt-96 pt-72 ">
       <div class="w-full h-full overflow-hidden">
        <div class=" max-w-[712px] w-full m-auto relative">
          <img
           src="../../../assets/mobilewallex.png"
           alt=""
-          class="w-full object-fill max-w-[712px] "
+          class="w-full object-fill m-auto max-w-[283px] md:max-w-[712px] "
         />
          <img
           src="../../../assets/wallexcoin3.png"
           alt=""
-          class=" absolute top-0 -left-72 bounce-wallex"
+          class=" absolute top-0 -left-72 bounce-wallex md:block hidden"
         />
           <img
             src="../../../assets/tether.png"
             alt=""
-            class=" absolute top-24 -right-24 bounce-tether">
+            class=" absolute top-24 -right-24 bounce-tether md:block hidden">
           <img
             src="../../../assets/bitcoin-1.png"
             alt=""
-            class=" absolute bottom-10 -right-64 bounce-bitcoin">
+            class=" absolute bottom-10 -right-64 bounce-bitcoin md:block hidden">
 
        </div>
         <img
@@ -45,15 +45,15 @@
           alt=""
         />
       </div>
-      <div class="w-full absolute top-32">
+      <div class="w-full absolute top-32 overflow-hidden px-6">
         <div class="w-full flex flex-col items-center space-y-2">
-          <div class="flex flex-col items-center -space-y-8 relative">
+          <div class="flex flex-col items-center md:-space-y-8  relative">
             <h1
               class="
                 text-[#1B2C42]
                 dark:text-white
                 font-semibold font-Inter
-                text-[90px] text-center
+                md:text-[90px] text-center text-[32px]
               "
             >
               Pay smart,
@@ -63,15 +63,15 @@
                 text-[#1B2C42]
                 dark:text-white
                 font-semibold font-Inter
-                text-[90px] text-center
+                  md:text-[90px] text-center text-[32px]
               "
             >
               Pay with Wallex
             </h1>
-            <div class="absolute top-28 -left-56">
+            <div class="absolute top-28 -left-56 md:block hidden">
               <img src="../../../assets/ethereum3.png" class="  bounce-ethereum3" alt="" />
             </div>
-             <div class="absolute top-28 -right-56">
+             <div class="absolute top-28 -right-56 md:block hidden">
               <img src="../../../assets/solana.png" class=" bounce-solana" alt="" />
             </div>
           </div>
@@ -79,8 +79,8 @@
             <span
               class="
                 font-medium font-Inter
-                text-xl text-[#616C7C]
-                dark:text-[#C3C8CD]
+                md:text-xl text-lg text-[#616C7C]
+                dark:text-[#C3C8CD] text-center
               "
               >Access, Manage and spend your crypto and fiat anytime
               easily.</span
@@ -100,7 +100,7 @@
                   pr-40
                   placeholder-[#A9AFB7]
                   dark:text-white
-                  text-base
+                  md:text-base text-xs
                   font-medium
                 "
                 placeholder="Your work email"
