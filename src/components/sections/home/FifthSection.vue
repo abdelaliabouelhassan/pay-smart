@@ -340,16 +340,16 @@
           </div>
         </div>
 
-        <div class=" w-full absolute  -bottom-[185px] px-4">
+        <div class=" w-full absolute -bottom-[120px]  md:-bottom-[185px] px-4">
           <div
           class="
-            max-w-[1150px]
+            max-w-[1150px] m-auto
             overflow-hidden
             w-full
             bg-[#0054B8]
             dark:bg-[#1E1F23]
             md:h-[400px] h-[250px]
-            rounded-3xl
+            rounded-3xl 
           "
         >
           <img
