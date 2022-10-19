@@ -1,7 +1,7 @@
 <template>
   <section class="w-full flex bg-white dark:bg-[#161616] py-10 md:py-28  font-Inter relative">
     <div class="m-auto w-full max-w-[1150px] p-6">
-      <div class="w-full flex flex-col items-center space-y-4 md:space-y-14">
+      <div class="w-full flex flex-col items-center -space-y-2 md:space-y-14">
         <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-[32px] text-center md:text-5xl"
           >Latest news</span
         >

@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1C1C1C] py-24 font-Inter">
+  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1C1C1C] py-20 font-Inter">
     <div class="m-auto w-full max-w-[1150px] relative p-6">
       <div class="w-full flex flex-col items-center space-y-4 md:space-y-14">
         <span
@@ -26,7 +26,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-4 md:pb-0">
                 <svg
                   width="80"
                   height="80"
@@ -139,7 +139,7 @@
               </p>
             </div>
           </div>
-          <div
+          <div  
             class="
               w-full
               bg-white
@@ -152,7 +152,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-4 md:pb-0">
                 <svg
                   width="80"
                   height="80"
@@ -228,7 +228,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-4 md:pb-0">
                 <svg
                   width="80"
                   height="80"
@@ -301,7 +301,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-4 md:pb-0">
                 <svg
                   width="80"
                   height="80"
@@ -421,7 +421,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-4 md:pb-0">
                 <svg
                   width="80"
                   height="80"
@@ -536,7 +536,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-4 md:pb-0">
                 <svg
                   width="80"
                   height="80"

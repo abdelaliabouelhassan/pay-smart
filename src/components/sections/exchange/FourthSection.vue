@@ -14,7 +14,7 @@
           "
         >
           <div class="w-full flex lg:flex-row flex-col items-end lg:justify-between space-y-5  lg:items-start">
-            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-5">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-3 md:space-y-5">
               <span
                 class="
                   font-Inter font-semibold
@@ -58,13 +58,13 @@
           "
         >
           <div class="w-full">
-            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0  lg:pr-5 w-full max-w-[532px] space-y-5">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0  lg:pr-5 w-full max-w-[532px] space-y-3 md:space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  md:text-5xl text-2xl leading-[48px]
+                  md:text-5xl text-2xl leading-[36px]
                 "
                 >Deep Liquidity & Fast Withdrawals</span
               >
@@ -103,7 +103,7 @@
           "
         >
           <div class="w-full ">
-            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 lg:pr-5 w-full max-w-[532px] space-y-5">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 lg:pr-5 w-full max-w-[532px] space-y-3 md:space-y-5">
               <span
                 class="
                   font-Inter font-semibold
@@ -147,7 +147,7 @@
           "
         >
           <div class="w-full flex lg:flex-row flex-col items-end lg:justify-between space-y-5  lg:items-start">
-            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-5">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-3 md:space-y-5">
               <span
                 class="
                   font-Inter font-semibold
