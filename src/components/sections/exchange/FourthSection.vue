@@ -1,6 +1,6 @@
 <template>
-  <section class="w-full flex bg-white dark:bg-[#161616] pt-96 pb-24">
-    <div class="m-auto w-full max-w-[1150px] relative">
+  <section class="w-full flex bg-white dark:bg-[#161616] md:pt-96 pt-24 pb-24">
+    <div class="m-auto w-full max-w-[1150px] relative p-6">
       <div class="w-full grid grid-cols-2 gap-10">
         <div
           class="
@@ -13,14 +13,14 @@
             group  cursor-pointer
           "
         >
-          <div class="w-full flex justify-between pt-10 items-start">
-            <div class="pl-6 w-full max-w-[532px] space-y-5">
+          <div class="w-full flex lg:flex-row flex-col items-end lg:justify-between space-y-5  lg:items-start">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl
                 "
                 >Trading</span
               >
@@ -28,7 +28,7 @@
                 class="
                   text-[#616C7C]
                   dark:text-[#C3C8CD]
-                  text-lg
+                  md:text-lg text-sm
                   font-medium font-Inter
                 "
               >
@@ -38,7 +38,7 @@
                 future.
               </p>
             </div>
-            <div>
+            <div class=" max-w-[383px] md:max-w-max">
               <img
                 src="../../../assets/trading.png"
                 class="w-full h-full group-hover:scale-110 object-cover"
@@ -49,7 +49,7 @@
         </div>
         <div
           class="
-            col-span-1
+            lg:col-span-1 col-span-2
             w-full
             bg-[#D0F7FF]
             dark:bg-[#3D828F]
@@ -58,13 +58,13 @@
           "
         >
           <div class="w-full">
-            <div class="pl-6 pt-10 w-full max-w-[532px] space-y-5">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0  lg:pr-5 w-full max-w-[532px] space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl leading-[48px]
                 "
                 >Deep Liquidity & Fast Withdrawals</span
               >
@@ -72,7 +72,7 @@
                 class="
                   text-[#616C7C]
                   dark:text-[#C3C8CD]
-                  text-lg
+                  md:text-lg text-sm
                   font-medium font-Inter
                   max-w-[440px]
                 "
@@ -93,7 +93,7 @@
         </div>
         <div
           class="
-            col-span-1
+            lg:col-span-1 col-span-2
             relative
             w-full
             bg-[#FFE2EF]
@@ -103,13 +103,13 @@
           "
         >
           <div class="w-full ">
-            <div class="pl-6 pt-10 w-full max-w-[532px] space-y-5">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 lg:pr-5 w-full max-w-[532px] space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl
                 "
                 >Security & Safe Store</span
               >
@@ -117,7 +117,7 @@
                 class="
                   text-[#616C7C]
                   dark:text-[#C3C8CD]
-                  text-lg
+                  md:text-lg text-base
                   font-medium font-Inter
                   max-w-[440px]
                 "
@@ -127,7 +127,7 @@
                 technologies and rigorous protocol to keep your funds safe.
               </p>
             </div>
-            <div class=" absolute right-0 bottom-0  ">
+            <div class=" lg:absolute right-0 bottom-0 max-w-[328px] lg:max-w-max float-right lg:float-none  ">
               <img
                 src="../../../assets/safe.png"
                 class="w-full h-full object-cover group-hover:scale-110"
@@ -146,14 +146,14 @@
             overflow-hidden group  cursor-pointer
           "
         >
-          <div class="w-full flex justify-between items-start">
-            <div class="pl-6 py-14 w-full max-w-[532px] space-y-5">
+          <div class="w-full flex lg:flex-row flex-col items-end lg:justify-between space-y-5  lg:items-start">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl
                 "
                 >OTC Desk & Support</span
               >
@@ -161,7 +161,7 @@
                 class="
                   text-[#616C7C]
                   dark:text-[#C3C8CD]
-                  text-lg
+                  md:text-lg text-sm
                   font-medium font-Inter
                 "
               >

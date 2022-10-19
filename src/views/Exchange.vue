@@ -2,10 +2,11 @@
     <div class=" w-full">
          <FirstSection />
          <SecondSection />
-         <ThirdSection />
-         <FourthSection />
-         <FifthSection />
-         <SixthSection />
+          <ThirdSection />
+           <FourthSection />
+            <FifthSection />
+             <SixthSection /> 
+         
     </div>
 </template>
 

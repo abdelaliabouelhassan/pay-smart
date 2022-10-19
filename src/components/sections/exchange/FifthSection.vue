@@ -1,18 +1,18 @@
 <template>
   <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1C1C1C] py-24 font-Inter">
-    <div class="m-auto w-full max-w-[1150px] relative">
-      <div class="w-full flex flex-col items-center space-y-14">
+    <div class="m-auto w-full max-w-[1150px] relative p-6">
+      <div class="w-full flex flex-col items-center space-y-4 md:space-y-14">
         <span
           class="
             font-Inter font-semibold
             text-[#1B2C42]
             dark:text-white
-            text-5xl
+            md:text-5xl text-[32px] text-center
           "
           >Register and get the benefits</span
         >
 
-        <div class="w-full grid grid-cols-3 gap-10 pt-10">
+        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
           <div
             class="
               w-full
@@ -129,9 +129,9 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
-                  text-center
+                  text-center 
                   dark:text-[#C3C8CD]
                 "
               >
@@ -205,7 +205,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -278,7 +278,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -400,7 +400,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -515,7 +515,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -586,7 +586,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
