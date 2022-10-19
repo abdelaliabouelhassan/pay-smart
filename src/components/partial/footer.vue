@@ -11,7 +11,7 @@
 
         <div class="w-full flex md:flex-row flex-col items-start md:justify-between space-y-10 md:space-y-0">
           <div class="flex flex-col items-start space-y-4">
-            <span class="md:text-lg text-xs font-semibold text-white">Get the app</span>
+            <span class="md:text-lg text-xs font-medium md:font-semibold text-white">Get the app</span>
 
             <div class="flex items-center space-x-4">
               <button class="bg-[#1B2C42] dark:bg-[#272727] p-2 rounded-md hover:bg-opacity-80">
@@ -183,7 +183,7 @@
             </div>
           </div>
           <div class="flex flex-col items-start space-y-4">
-            <span class="md:text-lg text-xs font-semibold text-white">Join Now</span>
+            <span class="md:text-lg text-xs font-medium md:font-semibold text-white">Join Now</span>
             <div class="relative max-w-[404px] w-full">
               <input
                 type="text"

@@ -371,7 +371,7 @@
               "
             >
               <div class="max-w-[487px]">
-                <span class="font-semibold text-2xl md:text-6xl text-white"
+                <span class="md:font-semibold font-medium text-2xl md:text-6xl text-white"
                   >Ready to use Wallex?</span
                 >
               </div>
