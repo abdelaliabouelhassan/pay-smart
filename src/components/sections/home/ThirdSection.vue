@@ -6,7 +6,7 @@
           >Register and get the benefits</span
         >
 
-        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
+        <div  class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 pt-10">
           <div class="w-full bg-white p-6 rounded-3xl border dark:bg-[#272727] border-[#ECEDEF] dark:border-[#343434]">
             <div class="w-full flex flex-col items-center space-y-2">
               <div>

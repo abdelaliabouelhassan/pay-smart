@@ -1,12 +1,12 @@
 <template>
-  <section class="w-full flex bg-white dark:bg-[#161616] py-28  font-Inter relative">
-    <div class="m-auto w-full max-w-[1150px]">
-      <div class="w-full flex flex-col items-center space-y-14">
-        <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
+  <section class="w-full flex bg-white dark:bg-[#161616] py-10 md:py-28  font-Inter relative">
+    <div class="m-auto w-full max-w-[1150px] p-6">
+      <div class="w-full flex flex-col items-center -space-y-2 md:space-y-14">
+        <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-[32px] text-center md:text-5xl"
           >Latest news</span
         >
 
-        <div class="w-full grid grid-cols-3 gap-10 pt-10">
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pt-10">
           <div class="w-full hover:bg-[#F5F6F7] dark:hover:bg-[#1F1F1F] p-2 rounded-3xl">
             <div
               class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"

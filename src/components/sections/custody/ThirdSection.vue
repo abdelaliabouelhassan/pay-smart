@@ -1,6 +1,6 @@
 <template>
   <section class="w-full flex bg-white dark:bg-[#1C1C1C] py-24">
-    <div class="m-auto w-full max-w-[1150px] relative">
+    <div class="m-auto w-full max-w-[1150px] relative p-6">
       <div class="w-full grid grid-cols-2 gap-10">
         <div
           class="
@@ -13,23 +13,23 @@
             group  cursor-pointer
           "
         >
-          <div class="w-full flex justify-between items-start">
-            <div class="pl-6 w-full max-w-[532px] space-y-5 pt-10">
+          <div class="w-full flex lg:flex-row flex-col items-end space-y-4 lg:space-y-0 lg:justify-between lg:items-start">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-4 md:space-y-5 ">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl
                 "
-                >Wallex <br />
+                >Wallex <br  class=" hidden lg:block"/>
                 Custody Pro</span
               >
               <p
                 class="
                   text-[#616C7C]
                   dark:text-[#C3C8CD]
-                  text-lg
+                  md:text-lg text-sm
                   font-medium font-Inter
                 "
               >
@@ -42,7 +42,12 @@
             <div>
               <img
                 src="../../../assets/coincard.png"
-                class="w-full h-full group-hover:scale-110 object-cover"
+                class="w-full h-full group-hover:scale-110 object-cover lg:block hidden"
+                alt=""
+              />
+               <img
+                src="../../../assets/coincard11.png"
+                class="w-full h-full group-hover:scale-110 object-cover lg:hidden"
                 alt=""
               />
             </div>
@@ -50,24 +55,24 @@
         </div>
         <div
           class="
-            col-span-1
+            md:col-span-1 col-span-2
             w-full
             bg-[#2B71C4]
             rounded-3xl
             overflow-hidden
-            group  cursor-pointer
+            group  cursor-pointer 
           "
         >
           <div class="w-full">
-            <div class="pl-6 pt-10 w-full max-w-[532px] space-y-5">
-              <span class="font-Inter font-semibold text-[#FFFFFF] text-5xl"
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0  w-full md:max-w-[532px] space-y-4 md:space-y-5">
+              <span class="font-Inter font-semibold text-[#FFFFFF] text-2xl md:text-5xl"
                 >Escrow</span
               >
               <p
                 class="
-                  text-[#FAFBFB] text-lg
+                  text-[#FAFBFB] text-sm md:text-lg
                   font-medium font-Inter
-                  max-w-[440px]
+                  md:max-w-[440px]
                 "
               >
                 Platform for both parties in a deal where the parties wish to
@@ -87,7 +92,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-3
+                  md:py-3 py-2
                   px-6
                   bg-[#FFFFFF]
                   hover:bg-opacity-80
@@ -120,7 +125,7 @@
         </div>
         <div
           class="
-            col-span-1
+             md:col-span-1 col-span-2
             relative
             w-full
             bg-[#F5F6F7]
@@ -131,13 +136,13 @@
           "
         >
           <div class="w-full">
-            <div class="pl-6 pt-10 w-full max-w-[532px] space-y-5">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full max-w-[532px] space-y-4 md:space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl
                 "
                 >Vault</span
               >
@@ -145,7 +150,7 @@
                 class="
                   text-[#616C7C]
                   dark:text-[#A9AFB7]
-                  text-lg
+                  md:text-lg text-sm
                   font-medium font-Inter
                   max-w-[440px]
                 "
@@ -160,7 +165,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-3
+                  md:py-3 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -192,7 +197,7 @@
             <div class="float-right mt-4">
               <img
                 src="../../../assets/safe2.png"
-                class="w-full h-full object-cover group-hover:scale-110"
+                class="md:w-full w-[214px] h-[205px] md:h-full object-cover group-hover:scale-110"
                 alt=""
               />
             </div>
@@ -203,29 +208,29 @@
             col-span-2
             w-full
             bg-[#F5F6F7]
-            dark:bg-[#272727]
+            dark:bg-[#c58383]
             rounded-3xl
-            overflow-hidden pt-10
+            overflow-hidden
             group  cursor-pointer
           "
         >
-          <div class="w-full flex justify-between items-start">
-            <div class="pl-6  w-full max-w-[532px] space-y-5">
+          <div class="w-full flex lg:flex-row flex-col items-end  lg:space-y-0 lg:justify-between lg:items-start">
+            <div class="lg:pl-10 lg:pt-10 p-6 lg:p-0 w-full lg:max-w-[532px] space-y-4 md:space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-[#1B2C42]
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl
                 "
-                >Open <br />
+                >Open <br  class=" hidden md:block"/>
                 API Custody</span
               >
               <p
                 class="
                   text-[#616C7C]
                   dark:text-[#A9AFB7]
-                  text-lg
+                  md:text-lg text-sm
                   font-medium font-Inter
                 "
               >
@@ -240,7 +245,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-3
+                  md:py-3 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -272,7 +277,12 @@
             <div>
               <img
                 src="../../../assets/laptop_mobile.png"
-                class="w-full h-full group-hover:scale-110 object-cover"
+                class="w-full h-full group-hover:scale-110 object-cover md:block hidden"
+                alt=""
+              />
+               <img
+                src="../../../assets/laptop_mobile11.png"
+                class="w-full h-full group-hover:scale-110 object-cover md:hidden"
                 alt=""
               />
             </div>

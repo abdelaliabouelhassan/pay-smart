@@ -1,18 +1,18 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1F1F1F] py-24 font-Inter">
-    <div class="m-auto w-full max-w-[1150px] relative">
+  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1F1F1F] py-10 md:py-24 font-Inter">
+    <div class="m-auto w-full max-w-[1150px] relative p-6">
       <div class="w-full flex flex-col items-center space-y-14">
         <span
           class="
             font-Inter font-semibold
             text-[#1B2C42]
             dark:text-white
-            text-5xl
+            md:text-5xl text-[32px] text-center
           "
           >Register and get the benefits</span
         >
 
-        <div class="w-full grid grid-cols-3 gap-10 pt-10">
+        <div  class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 pt-10">
           <div
             class="
               w-full
@@ -26,7 +26,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-5 md:pb-0">
                 <svg
                   width="81"
                   height="80"
@@ -77,7 +77,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466]md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -100,7 +100,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-5 md:pb-0">
                 <svg
                   width="81"
                   height="80"
@@ -246,7 +246,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -269,7 +269,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-5 md:pb-0">
                 <svg
                   width="81"
                   height="80"
@@ -313,7 +313,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -337,7 +337,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-5 md:pb-0">
                 <svg
                   width="80"
                   height="80"
@@ -436,7 +436,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -460,7 +460,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-5 md:pb-0">
                 <svg
                   width="81"
                   height="80"
@@ -511,7 +511,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]
@@ -534,7 +534,7 @@
             "
           >
             <div class="w-full flex flex-col items-center space-y-2">
-              <div>
+              <div class=" pb-5 md:pb-0">
                 <svg
                   width="81"
                   height="80"
@@ -578,7 +578,7 @@
               >
               <p
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
                   dark:text-[#C3C8CD]

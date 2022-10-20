@@ -6,23 +6,23 @@
       bg-[#F5F6F7]
       font-Inter
       dark:bg-[#1C1C1C]
-      pt-24 h-[100vh] 
+      md:pt-24 md:h-[100vh]  relative overflow-hidden
     "
   >
     <div
-      class="w-full relative  bg-no-repeat bg-contain    bg-right-bottom"
-      v-bind:style="{ backgroundImage: 'url(' + bgsection2 + ')' }"
+      class="w-full   bg-no-repeat bg-contain    bg-right-bottom"
+     
     >
-      <div class="w-full max-w-[1150px] m-auto pt-28 pb-10 px-5 z-50">
-        <div class="w-full grid grid-cols-2 gap-10 z-50">
-          <div class="flex flex-col items-start space-y-6 w-full max-w-[539px] z-50 pt-28">
-          <div class=" w-full flex flex-col items-start space-y-3 z-50">
-              <span class=" text-2xl text-[#3A495C] font-medium font-Inter dark:text-[#ECEDEF]">The Next Generation</span>
-            <h1 class="font-semibold text-6xl text-[#1B2C42] dark:text-white lg:whitespace-nowrap">
+      <div class="w-full max-w-[1150px] m-auto md:pt-28 pt-5 pb-10 px-5 z-50">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 z-50">
+          <div class="flex flex-col items-start space-y-2 md:space-y-6 w-full md:max-w-[539px] z-50 pt-28">
+          <div class=" w-full flex flex-col items-start space-y-2 md:space-y-3 z-50">
+              <span class=" md:text-2xl text-base text-[#3A495C] font-semibold md:font-medium font-Inter dark:text-[#ECEDEF]">The Next Generation</span>
+            <h1 class="font-semibold  text-[32px] md:text-6xl text-[#1B2C42] dark:text-white lg:whitespace-nowrap">
              Custody of Assets
             </h1>
           </div>
-            <p class="font-normal text-[#616C7C] dark:text-[#A9AFB7] text-lg z-50">
+            <p class="md:font-normal font-medium  text-[#616C7C] dark:text-[#A9AFB7] text-lg z-50 pb-6 md:pb-0">
               Qualified Custody for your Assets in Secure, Compliant, Accessible and Specialized Financial Service.
             </p>
             <button
@@ -31,7 +31,7 @@
                 flex
                 items-center
                 space-x-5
-                py-3
+                md:py-3 py-2
                 px-6
                 bg-[#0054B8]
                 dark:bg-[#2B71C4]
@@ -61,16 +61,25 @@
             </button>
           </div>
 
-          <div class=" w-full h-full">
-            <div class=" absolute  bottom-0">
-              <img src="../../../assets/wallexSafe.png" class=" w-full h-full" alt="">
+         
+           <div class=" w-full md:h-full h-[208px]  ">
+            <div class=" absolute   w-full   bottom-0 right-5 md:right-auto md:w-auto z-50">
+              <img src="../../../assets/wallexSafe.png" class=" max-w-[302px] md:max-w-max m-auto w-full h-full z-50" alt="">
             </div>
           </div>
         </div>
       </div>
-       <div class=" w-full h-full absolute top-0 hidden dark:block z-10 ">
-        <img src="../../../assets/darkbg.png" class=" w-full h-full bg-cover" alt="">
-    </div>
+        <img
+          src="../../../assets/hoverheroeffect.png"
+          class="w-full h-full md:h-auto absolute object-none md:object-cover bottom-[-81px] md:bottom-0 dark:hidden"
+          alt=""
+        />
+        <img
+          src="../../../assets/hoverheroeffectdark.png"
+          class="w-full h-full absolute object-none md:object-cover bottom-[-81px] md:bottom-0 dark:block md:hidden"
+          alt=""
+        />
+    
     </div>
   </section>
 </template>

@@ -1,14 +1,14 @@
 <template>
-  <section class="w-full flex font-Inter bg-white relative dark:bg-[#161616] py-60">
-    <div class="m-auto w-full max-w-[1150px]">
-      <div class="w-full grid grid-cols-2 gap-24">
-        <div class="flex flex-col items-start space-y-8 max-w-[539px] pt-16">
-          <div class="flex flex-col items-start space-y-4 max-w-[265px]">
-            <h1 class="font-semibold text-5xl text-[#1B2C42] dark:text-white">
+  <section class="w-full flex font-Inter bg-white relative dark:bg-[#161616] md:py-60 py-9">
+    <div class="m-auto w-full max-w-[1150px] p-6">
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-24">
+        <div class="flex flex-col items-start space-y-2 md:space-y-8 max-w-[539px] md:pt-16">
+          <div class="flex flex-col items-start space-y-4 md:max-w-[265px]">
+            <h1 class="font-semibold text-[32px] md:text-5xl text-[#1B2C42] dark:text-white">
               Explore our Solution
             </h1>
           </div>
-          <p class="font-medium text-[#616C7C]  dark:text-[#A9AFB7] text-lg">
+          <p class="font-medium text-[#616C7C]  dark:text-[#A9AFB7]  text-sm md:text-lg">
             We offer a custody solution designed from the ground up for the
             unique challenges of storing and management of Fiat & Crypto assets.
             We operate very similarly to traditional fiduciary and custodial
@@ -18,7 +18,7 @@
             held to the same capital requirements, and audited in the same way
             as a traditional financial custody.
           </p>
-          <div class="flex items-center space-x-4">
+          <div class="flex items-center space-x-4 pt-4 md:pt-0">
               <button class="bg-[#1B2C42] dark:bg-[#272727] p-2 rounded-md hover:bg-opacity-80">
                 <div class="flex items-center space-x-2">
                   <div>
@@ -189,10 +189,15 @@
         </div>
 
         <div class="w-full h-full ">
-          <div class=" rounded-3xl m-auto overflow-hidden  group max-w-[515px] h-[561px] ">
+          <div class=" rounded-3xl m-auto overflow-hidden  group md:max-w-[515px] h-[200px] md:h-[561px] ">
             <img
-              class="object-cover w-full h-full group-hover:scale-125"
+              class="object-cover w-full h-full group-hover:scale-125 md:block hidden"
               src="../../../assets/coinlock.png"
+              alt=""
+            />
+             <img
+              class=" w-full h-full group-hover:scale-125 md:hidden"
+              src="../../../assets/coinlock11.png"
               alt=""
             />
           </div>
