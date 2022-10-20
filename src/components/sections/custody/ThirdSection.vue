@@ -30,7 +30,7 @@
                   text-[#616C7C]
                   dark:text-[#C3C8CD]
                   md:text-lg text-sm
-                  font-medium font-Inter
+                  font-medium font-Inter  leading-[24px] md:leading-[30px]
                 "
               >
                 Wallex Custody Pro is the platform for safe custody of assets –
@@ -70,9 +70,9 @@
               >
               <p
                 class="
-                  text-[#FAFBFB] text-sm md:text-lg
+                  text-[#FAFBFB] text-sm md:text-lg leading-[24px] md:leading-[30px]
                   font-medium font-Inter
-                  md:max-w-[440px]
+                  md:max-w-[440px] max-w-[303px]
                 "
               >
                 Platform for both parties in a deal where the parties wish to
@@ -152,7 +152,7 @@
                   dark:text-[#A9AFB7]
                   md:text-lg text-sm
                   font-medium font-Inter
-                  max-w-[440px]
+                  max-w-[440px] leading-[24px] md:leading-[30px]
                 "
               >
                 The platform where individuals and businesses can reliably keep
@@ -208,7 +208,7 @@
             col-span-2
             w-full
             bg-[#F5F6F7]
-            dark:bg-[#c58383]
+            dark:bg-[#272727]
             rounded-3xl
             overflow-hidden
             group  cursor-pointer
@@ -229,9 +229,9 @@
               <p
                 class="
                   text-[#616C7C]
-                  dark:text-[#A9AFB7]
+                  dark:text-[#C3C8CD]
                   md:text-lg text-sm
-                  font-medium font-Inter
+                  font-medium font-Inter leading-[24px] md:leading-[30px]
                 "
               >
                 Connect your apps and services. Plug-in seamlessly via our

@@ -80,7 +80,7 @@
                   text-[#465466]md:text-base text-sm
                   font-medium
                   text-center
-                  dark:text-[#C3C8CD]
+                  dark:text-[#C3C8CD] leading-[24px] md:leading-[26px]
                 "
               >
                 Unlimited assets storage in a secure environment.
@@ -249,7 +249,7 @@
                   text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
-                  dark:text-[#C3C8CD]
+                  dark:text-[#C3C8CD] leading-[24px] md:leading-[26px]
                 "
               >
                 Faster and smooth onboarding.
@@ -316,7 +316,7 @@
                   text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
-                  dark:text-[#C3C8CD]
+                  dark:text-[#C3C8CD] leading-[24px] md:leading-[26px]
                 "
               >
                 Qualified custodian protecting your assets from any kind of
@@ -439,7 +439,7 @@
                   text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
-                  dark:text-[#C3C8CD]
+                  dark:text-[#C3C8CD] leading-[24px] md:leading-[26px]
                 "
               >
                 Plug-in seamlessly via our industry-standard RESTful CUSTODY
@@ -514,7 +514,7 @@
                   text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
-                  dark:text-[#C3C8CD]
+                  dark:text-[#C3C8CD] leading-[24px] md:leading-[26px]
                 "
               >
                 Flexible pricing, with free setup and no minimums.
@@ -581,7 +581,7 @@
                   text-[#465466] md:text-base text-sm
                   font-medium
                   text-center
-                  dark:text-[#C3C8CD]
+                  dark:text-[#C3C8CD] leading-[24px] md:leading-[26px]
                 "
               >
                 24/7 automatized transactions and exchanges

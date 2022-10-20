@@ -22,7 +22,7 @@
              Custody of Assets
             </h1>
           </div>
-            <p class="md:font-normal font-medium  text-[#616C7C] dark:text-[#A9AFB7] text-lg z-50 pb-6 md:pb-0">
+            <p class="md:font-normal font-medium  text-[#616C7C] dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]  text-lg z-50 pb-6 md:pb-0">
               Qualified Custody for your Assets in Secure, Compliant, Accessible and Specialized Financial Service.
             </p>
             <button

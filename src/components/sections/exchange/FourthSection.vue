@@ -45,8 +45,8 @@
                 alt=""
               />
             </div>
-             <div class=" max-w-[383px] h-[245px]   md:hidden">
-             <svg width="323" height="196" viewBox="0 0 323 196" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+             <div class=" max-w-[383px] h-[245px]   md:hidden relative">
+             <svg width="323" height="196" class=" absolute bottom-0 right-0" viewBox="0 0 323 196" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect width="383" height="245" fill="url(#pcc00)"/>
 <defs>
 <pattern id="pcc00" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -155,7 +155,12 @@
             <div class=" lg:absolute right-0 bottom-0 max-w-[328px] lg:max-w-max float-right lg:float-none  ">
               <img
                 src="../../../assets/safe.png"
-                class="w-full h-full object-cover group-hover:scale-110"
+                class="w-full h-full object-cover group-hover:scale-110 md:block hidden"
+                alt=""
+              />
+              <img
+                src="../../../assets/safe11.png"
+                class="w-full h-full object-cover group-hover:scale-110 md:hidden"
                 alt=""
               />
             </div>

@@ -8,7 +8,7 @@
               Explore our Solution
             </h1>
           </div>
-          <p class="font-medium text-[#616C7C]  dark:text-[#A9AFB7]  text-sm md:text-lg">
+          <p class="font-medium text-[#616C7C] leading-[24px] md:leading-[30px] dark:text-[#A9AFB7]  text-sm md:text-lg">
             We offer a custody solution designed from the ground up for the
             unique challenges of storing and management of Fiat & Crypto assets.
             We operate very similarly to traditional fiduciary and custodial

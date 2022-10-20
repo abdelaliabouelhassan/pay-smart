@@ -90,7 +90,7 @@
                   no-underline
                   font-Inter font-semibold
                   text-2xl text-[#1B2C42]
-                  dark:text-white
+                  dark:text-white leading-[36px]
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
@@ -194,7 +194,7 @@
                   no-underline
                   font-Inter font-semibold
                   text-2xl text-[#1B2C42]
-                  dark:text-white
+                  dark:text-white leading-[36px]
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
@@ -297,8 +297,8 @@
                 class="
                   no-underline
                   font-Inter font-semibold
-                  text-2xl text-[#1B2C42]
-                  dark:text-white
+                  text-2xl text-[#1B2C42] 
+                  dark:text-white leading-[36px]
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
