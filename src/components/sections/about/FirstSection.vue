@@ -1,19 +1,19 @@
 <template>
-  <section class="w-full bg-white dark:bg-[#161616] font-Inter space-y-64 py-36">
-    <div class="w-full  max-w-[1150px] m-auto">
-      <div class="w-full flex justify-between items-center">
+  <section class="w-full bg-white dark:bg-[#161616] font-Inter space-y-20 md:space-y-64 md:py-36 py-28">
+    <div class="w-full  max-w-[1150px] m-auto p-6">
+      <div class="w-full flex md:flex-row flex-col items-start space-y-4 md:space-y-0 md:justify-between md:items-center">
         <div class="flex flex-col items-start space-y-2">
-          <span class="font-medium text-[#3A495C] dark:text-[#ECEDEF] font-Inter text-2xl"
+          <span class="font-medium text-[#3A495C] dark:text-[#ECEDEF] font-Inter text-2xl hidden md:block"
             >About Us</span
           >
-          <p class="text-[#1B2C42] dark:text-white font-semibold text-6xl font-Inter max-w-xl">
+          <p class="text-[#1B2C42] dark:text-white font-semibold text-[32px] leading-[42px] md:leading-[68px] md:text-6xl font-Inter max-w-xl">
             The All in <br />
             One Trust and Compliant Solution
           </p>
         </div>
         <div class="flex flex-col items-start space-y-8">
           <span
-            class="font-normal text-[#616C7C] dark:text-[#A9AFB7] font-Inter text-lg max-w-[267px]"
+            class="font-normal text-[#616C7C] dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] font-Inter text-lg max-w-[267px] leading-[30px]"
             >Alternative Banking solution delivering innovation and
             freedom.</span
           >
@@ -22,7 +22,7 @@
               flex
               items-center
               space-x-5
-              py-3
+              md:py-3 py-2
               px-6
               bg-[#0054B8]
               dark:bg-[#2B71C4]
@@ -55,8 +55,8 @@
     </div>
 
 
-    <div class=" w-full max-w-[1150px] bg-[#F5F8FC] dark:bg-[#1C1C1C]  h-[369px] m-auto rounded-3xl flex">
-        <div class=" m-auto -mt-52 ">
+    <div class=" w-full max-w-[343px]  h-[131px] md:max-w-[900px] lg:max-w-[1150px] bg-[#F5F8FC] dark:bg-[#1C1C1C]  md:h-[369px] m-auto rounded-3xl flex">
+        <div class=" m-auto  -mt-16 md:-mt-52 ">
             <img src="../../../assets/LogoCard.png" class=" w-full h-full object-cover dark:hidden" alt="">
              <img src="../../../assets/LogoCardDark.png" class=" w-full h-full object-cover hidden dark:block" alt="">
             <div class=" h-1 w-full  blur-[50px]"></div>

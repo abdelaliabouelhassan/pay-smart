@@ -5,17 +5,17 @@
       flex flex-col
       font-Inter
       relative dark:bg-dark-gradient bg-light-gradient
-      pt-28
+      md:pt-28 pt-16
     "
   >
     <div
-      class="m-auto w-full flex flex-col items-center space-y-8 max-w-[1150px]"
+      class="m-auto w-full flex flex-col items-center space-y-8 max-w-[1150px] px-6"
     >
       <div class="flex flex-col items-center space-y-14">
-        <div class="flex flex-col items-center space-y-8">
+        <div class="flex flex-col items-center space-y-8 ">
           <span
             class="
-              text-6xl text-white
+              md:text-6xl text-[32px] text-white leading-[42px] md:leading-[68px]
               dark:text-white
               font-Inter font-semibold
               text-center
@@ -29,17 +29,24 @@
               dark:text-[#A9AFB7]
               text-[#ECEDEF]
               font-medium
-              text-2xl
-              font-Inter
+              md:text-2xl text-base leading-[26px] 
+              font-Inter text-center
             "
-            >Simone Mazzuca – CEO & Founder</span
+            ><span class=" md:block hidden">Simone Mazzuca – CEO & Founder</span>
+            <span class=" md:hidden">Simone Mazzuca <br> CEO & Founder</span>
+            </span
           >
         </div>
 
-        <div class="w-full h-full">
+        <div class="w-full h-full relative">
           <img
             src="../../../assets/expert.png"
-            class="w-full h-full object-cover"
+            class="w-full h-full object-cover md:block hidden"
+            alt=""
+          />
+           <img
+            src="../../../assets/expert110.png"
+            class="w-full h-full object-cover md:hidden  bottom-0 right-0"
             alt=""
           />
         </div>
@@ -48,10 +55,10 @@
 
     <div class="w-full bg-[#0F2138] dark:bg-[#1C1C1C] py-16 flex">
       <div class="m-auto flex flex-col items-center space-y-4">
-        <span class="text-white font-Inter font-semibold text-6xl"
+        <span class="text-white font-Inter font-semibold text-[32px] md:text-6xl"
           >Careers</span
         >
-        <span class="text-[#C3C8CD] dark:text-[#A9AFB7] font-medium text-2xl"
+        <span class="text-[#C3C8CD] dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] text-center font-medium text-sm md:text-2xl leading-[24px]"
           >JOIN US TO BUILD THE BANKING SYSTEM OF THE FUTURE</span
         >
         <div class=" pt-5">
@@ -60,7 +67,7 @@
               flex
               items-center
               space-x-5
-              py-3
+              md:py-3 py-2
               px-6
               bg-[#0054B8]
               dark:bg-[#2B71C4]
