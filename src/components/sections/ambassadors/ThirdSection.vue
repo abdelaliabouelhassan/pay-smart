@@ -1,24 +1,24 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1F1F1F] py-24 font-Inter">
-    <div class="m-auto w-full max-w-[1150px] relative">
-      <div class="w-full flex flex-col items-center space-y-14">
-        <div class="flex flex-col items-center space-y-4">
+  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1F1F1F] py-12 md:py-24 font-Inter">
+    <div class="m-auto w-full max-w-[1150px] relative p-6">
+      <div class="w-full flex flex-col items-center space-y-2 md:space-y-14">
+        <div class="flex flex-col items-center space-y-2 md:space-y-4">
           <span
             class="
               font-Inter font-semibold
               text-[#1D1D1D]
               dark:text-white
-              text-5xl text-center
+              md:text-5xl text-[32px] text-center max-w-[342px] md:max-w-max
             "
             >What Do You Get When You <br />
             Become a Brand Ambassador?</span
           >
           <p
             class="
-              text-base text-center text-[#555555]
+              md:text-base text-sm text-center text-[#555555]
               dark:text-[#A9AFB7]
               font-Inter font-normal
-              max-w-[793px]
+              md:max-w-[793px] max-w-[343px] leading-[24px] md:leading-[26px]
             "
           >
             By becoming an ambassador and sharing more, you’ll have the chance
@@ -27,7 +27,7 @@
           </p>
         </div>
 
-        <div class="w-full grid grid-cols-2 max-w-[696px] m-auto gap-10 pt-10">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 max-w-[696px] m-auto gap-5 md:gap-10 pt-10">
           <div
             class="
               w-full
@@ -143,7 +143,7 @@
               >
               <span
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm leading-[24px] md:leading-[26px]
                   font-medium font-Inter
                   max-w-[276px]
                   text-center
@@ -220,7 +220,7 @@
               >
               <span
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm leading-[24px] md:leading-[26px]
                   font-medium font-Inter
                   max-w-[276px]
                   text-center
@@ -295,7 +295,7 @@
               >
               <span
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm leading-[24px] md:leading-[26px]
                   font-medium font-Inter
                   max-w-[276px]
                   text-center
@@ -373,7 +373,7 @@
               >
               <span
                 class="
-                  text-[#465466] text-base
+                  text-[#465466] md:text-base text-sm leading-[24px] md:leading-[26px]
                   font-medium font-Inter
                   max-w-[276px]
                   text-center
