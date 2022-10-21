@@ -302,7 +302,7 @@
             :class="{
               'dark:text-white': $route.name === 'Exchange',
               'dark:text-[#A9AFB7]': $route.name !== 'Exchange',
-              'text-white': $route.name === 'Career',
+              
               'text-[#3A495C]': $route.name !== 'Career',
             }"
             >Exchange</router-link
@@ -319,7 +319,7 @@
             :class="{
               'dark:text-white': $route.name === 'Custody',
               'dark:text-[#A9AFB7]': $route.name !== 'Custody',
-              'text-white': $route.name === 'Career',
+           
               'text-[#3A495C]': $route.name !== 'Career',
             }"
             >Custody</router-link
@@ -336,7 +336,7 @@
             :class="{
               'dark:text-white': $route.name === 'Atm',
               'dark:text-[#A9AFB7]': $route.name !== 'Atm',
-              'text-white': $route.name === 'Career',
+             
               'text-[#3A495C]': $route.name !== 'Career',
             }"
             >ATM</router-link
@@ -353,7 +353,7 @@
             :class="{
               'dark:text-white': $route.name === 'About',
               'dark:text-[#A9AFB7]': $route.name !== 'About',
-              'text-white': $route.name === 'Career',
+             
               'text-[#3A495C]': $route.name !== 'Career',
             }"
             >About</router-link
@@ -370,7 +370,7 @@
             :class="{
               'dark:text-white': $route.name === 'BuyCrypto',
               'dark:text-[#A9AFB7]': $route.name !== 'BuyCrypto',
-              'text-white': $route.name === 'Career',
+             
               'text-[#3A495C]': $route.name !== 'Career',
             }"
             >Buy Crypto</router-link
@@ -394,7 +394,7 @@
               hover:text-opacity-60
             "
             :class="{
-              'text-white': $route.name === 'Career',
+             
               'text-[#1B2C42]': $route.name !== 'Career',
             }"
             >Login</a
@@ -413,7 +413,7 @@
             <span
               class="text-base font-semibold font-Inter dark:text-[#A9AFB7]"
               :class="{
-                'text-white': $route.name === 'Career',
+                
                 'text-[#3A495C]': $route.name !== 'Career',
               }"
               >{{ selectedLang.name }}</span
@@ -422,7 +422,7 @@
               <svg
                 :class="{
                   'top-arrow': show,
-                  'text-white': $route.name === 'Career',
+              
                   'text-[#3A495C]': $route.name !== 'Career',
                 }"
                 class="fill-current dark:text-[#A9AFB7]"
@@ -512,7 +512,7 @@
                 stroke="currentColor"
                 class="w-6 h-6 hover:text-gray-400"
                 :class="{
-                  'text-white': $route.name === 'Career',
+                  
                   'text-black': $route.name !== 'Career',
                 }"
               >

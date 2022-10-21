@@ -1,10 +1,11 @@
 <template>
   <section class="w-full flex bg-white dark:bg-[#1C1C1C] py-24 font-Inter">
-    <div class="m-auto w-full max-w-[1150px] relative">
+    <div class="m-auto w-full max-w-[1150px] relative p-6">
       <div class="w-full grid grid-cols-2 gap-10">
         <div
           class="
-            col-span-1
+            md:col-span-1
+            col-span-2
             relative
             w-full
             bg-[#2B71C4]
@@ -16,13 +17,13 @@
           "
         >
           <div class="w-full">
-            <div class="pl-6 pt-10 w-full max-w-[532px] space-y-5">
+            <div class="md:pl-10 md:pt-10 pl-6 pr-2 py-6 md:py-0 w-full max-w-[532px] space-y-3 md:space-y-5">
               <span
                 class="
                   font-Inter font-semibold
                   text-white
                   dark:text-white
-                  text-5xl
+                  md:text-5xl text-2xl
                 "
                 >Our Vision</span
               >
@@ -30,9 +31,9 @@
                 class="
                   text-[#ECEDEF]
                   dark:text-[#ECEDEF]
-                  text-lg
+                  md:text-lg text-sm leading-[24px] md:leading-[30px]
                   font-medium font-Inter
-                  max-w-[440px]
+                  md:max-w-[440px] 
                 "
               >
                 We are focused on the future technological expression of the
@@ -42,22 +43,30 @@
                 digital assets.
               </p>
             </div>
-            <div class="absolute bottom-0 right-0">
+           <div class=" h-[200px] md:h-[300px]">
+             <div class="absolute bottom-0 left-0 md:right-0">
               <img
                 src="../../../assets/wallexcoinsmall.png"
-                class="w-full h-full object-cover group-hover:scale-110"
+                class="w-full h-full object-cover group-hover:scale-110 md:block hidden"
+                alt=""
+              />
+                <img
+                src="../../../assets/Vector11.png"
+                class="w-full h-full object-cover group-hover:scale-110 md:hidden"
                 alt=""
               />
             </div>
+           </div>
           </div>
         </div>
         <div
           class="
-            col-span-1
+            md:col-span-1
+            col-span-2
             w-full
             bg-[#161616CC]
             rounded-3xl
-            overflow-hidden
+            overflow-hidden h-[555px] md:h-[840px] lg:h-[632px]
             relative
             group
             cursor-pointer
@@ -70,14 +79,14 @@
               alt=""
             />
           </div>
-          <div class="w-full px-10 pt-10  absolute top-0 left-0">
-            <div class="w-full max-w-[532px] space-y-5">
-              <span class="font-Inter font-semibold text-[#FFFFFF] text-5xl"
+          <div class="w-full md:pl-10 md:pt-10 pl-6 pr-2 py-6 md:py-0  absolute top-0 left-0">
+            <div class="w-full max-w-[532px] space-y-3 md:space-y-5">
+              <span class="font-Inter font-semibold text-[#FFFFFF] text-2xl md:text-5xl"
                 >Our Mission</span
               >
               <p
                 class="
-                  text-[#ECEDEF] text-lg
+                  text-[#ECEDEF] md:text-lg text-sm leading-[24px] md:leading-[30px]
                   font-medium font-Inter
                   max-w-[440px]
                 "
@@ -104,8 +113,8 @@
           class="
             w-full
             col-span-2
-            px-
-            py-10
+            md:px-10 py-6
+            md:py-10 px-6
             relative
             bg-[#F5F6F7]
             dark:bg-[#272727]
@@ -115,13 +124,13 @@
             cursor-pointer
           "
         >
-          <div class="w-full flex flex-col items-center space-y-8 z-50">
+          <div class="w-full flex flex-col  items-start md:items-center space-y-3 md:space-y-8 z-50">
             <span
               class="
                 dark:text-white
                 text-[#1B2C42]
                 font-semibold
-                text-5xl
+                md:text-5xl text-2xl
                 font-Inter
                 z-50
               "
@@ -129,12 +138,12 @@
             >
             <p
               class="
-                text-lg
+                md:text-lg text-sm
                 font-medium
                 text-start
-                dark:text-[#A9AFB7]
+                dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] 
                 text-[#616C7C]
-                max-w-[691px] font-Inter
+                max-w-[691px] font-Inter leading-[24px] md:leading-[30px] md:text-center
                 z-50
               "
             >
@@ -144,11 +153,11 @@
             </p>
 
             <div
-              class="w-full grid grid-cols-2 gap-5 max-w-[766px] m-auto z-50"
+              class="w-full grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[766px] m-auto z-50 pt-5 md:pt-0"
             >
               <div
                 class="
-                  dark:bg-[#2B71C4]
+                  dark:bg-[#3B3B3B]
                   bg-[#FFFFFF]
                   p-5
                   flex
@@ -174,13 +183,13 @@
                   </svg>
                 </div>
                 <span
-                  class="dark:text-white text-[#1D1D1D] font-medium text-2xl"
+                  class="dark:text-white text-[#1D1D1D] font-medium md:text-2xl text-base"
                   >One mission, one team</span
                 >
               </div>
               <div
                 class="
-                  dark:bg-[#2B71C4]
+                  dark:bg-[#3B3B3B]
                   bg-[#FFFFFF]
                   p-5
                   flex
@@ -225,13 +234,13 @@
                   </svg>
                 </div>
                 <span
-                  class="dark:text-white text-[#1D1D1D] font-medium text-2xl"
+                  class="dark:text-white text-[#1D1D1D] font-medium md:text-2xl text-base"
                   >Customer First</span
                 >
               </div>
               <div
                 class="
-                  dark:bg-[#2B71C4]
+                  dark:bg-[#3B3B3B]
                   bg-[#FFFFFF]
                   p-5
                   flex
@@ -258,13 +267,13 @@
                   </svg>
                 </div>
                 <span
-                  class="dark:text-white text-[#1D1D1D] font-medium text-2xl"
+                  class="dark:text-white text-[#1D1D1D] font-medium md:text-2xl text-base"
                   >Obsessed with the best</span
                 >
               </div>
               <div
                 class="
-                  dark:bg-[#2B71C4]
+                  dark:bg-[#3B3B3B]
                   bg-[#FFFFFF]
                   p-5
                   flex
@@ -289,7 +298,7 @@
                   </svg>
                 </div>
                 <span
-                  class="dark:text-white text-[#1D1D1D] font-medium text-2xl"
+                  class="dark:text-white text-[#1D1D1D] font-medium md:text-2xl text-base"
                   >Get it done, right</span
                 >
               </div>

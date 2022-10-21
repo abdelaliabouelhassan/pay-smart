@@ -13,7 +13,7 @@
         </div>
         <div class="flex flex-col items-start space-y-8">
           <span
-            class="font-normal text-[#616C7C] dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] font-Inter text-lg max-w-[267px] leading-[30px]"
+            class="md:font-normal font-medium text-[#616C7C] dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] font-Inter text-lg md:max-w-[267px] leading-[30px]"
             >Alternative Banking solution delivering innovation and
             freedom.</span
           >

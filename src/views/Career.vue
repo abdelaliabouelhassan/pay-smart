@@ -1,10 +1,12 @@
 <template>
     <div class=" w-full">
         <FirstSection />
+         <ThirdSection class=" dark:hidden md:hidden" />
         <SecondSection />
-        <ThirdSection />
-        <FourthSection />
-        <FifthSection />
+        <ThirdSection class=" dark:block hidden  md:block" />
+         <FourthSection />
+         <FifthSection />
+      
     </div>
 </template>
 <script>

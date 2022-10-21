@@ -58,7 +58,7 @@
         <span class="text-white font-Inter font-semibold text-[32px] md:text-6xl"
           >Careers</span
         >
-        <span class="text-[#C3C8CD] dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] text-center font-medium text-sm md:text-2xl leading-[24px]"
+        <span class="text-[#C3C8CD] max-w-[308px] md:max-w-max dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] text-center font-medium text-sm md:text-2xl leading-[24px]"
           >JOIN US TO BUILD THE BANKING SYSTEM OF THE FUTURE</span
         >
         <div class=" pt-5">

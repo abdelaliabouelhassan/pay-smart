@@ -14,17 +14,17 @@
       class="w-full h-full bg-no-repeat bg-contain bg-right-bottom relative"
     
     >
-      <div class="w-full max-w-[1150px] m-auto pt-24 pb-48 px-5">
-        <div class="w-full grid grid-cols-2 gap-10">
+      <div class="w-full max-w-[1150px] m-auto md:pt-24 pt-11 pb-48 px-5">
+        <div class="w-full grid grid-cols-1  md:grid-cols-2 gap-10">
           <div class="flex flex-col items-start space-y-8 max-w-[539px]">
-            <div class="flex flex-col items-start space-y-4">
-              <h1 class="font-medium text-2xl text-[#ECEDEF] dark:text-white">
+            <div class="flex flex-col items-start space-y-2 md:space-y-4">
+              <h1 class="md:font-medium font-semibold text-base md:text-2xl text-[#ECEDEF] dark:text-white">
                 Careers at Wallex
               </h1>
-              <p class="font-semibold text-6xl text-white">
+              <p class="font-semibold md:text-6xl text-[32px] text-white md:leading-[68px] leading-[42px]">
                 Unlock the Best <br> of Your self and Become Free
               </p>
-              <span class="text-[#C3C8CD]  font-normal font-Inter text-lg"
+              <span class="text-[#C3C8CD] font-medium   md:font-normal font-Inter text-lg leading-[30px]"
                 >Alternative Banking solution delivering innovation and
                 freedom.</span
               >
@@ -34,20 +34,20 @@
                 flex
                 items-center
                 space-x-5
-                py-3
+                md:py-3 py-2
                 px-6
                  bg-white
-                dark:bg-[#2B71C4]
-                hover:bg-opacity-80
+                dark:md:bg-[#2B71C4] dark:bg-white
+                hover:bg-opacity-80 border dark:border-[#0054B8]
                 rounded-full
               "
             >
-              <span class="font-semibold text-base font-Inter dark:text-white text-[#0054B8]"
+              <span class="font-semibold text-base font-Inter dark:text-[#0054B8] dark:md:text-white text-[#0054B8]"
                 >Get Started</span
               >
               <div>
                 <svg
-                 class=" fill-current text-[#0054B8] dark:text-[#FFFFFF]"
+                 class=" fill-current dark:text-[#0054B8] dark:md:text-white text-[#0054B8]"
                   width="10"
                   height="18"
                   viewBox="0 0 10 18"
@@ -65,11 +65,16 @@
             </button>
           </div>
 
-          <div class="w-full h-full">
+          <div class="w-full h-full pt-10 md:pt-0">
             <div class="absolute bottom-0 right-0">
               <img
                 src="../../../assets/wallexcoin.png"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover hidden md:block"
+                alt=""
+              />
+               <img
+                src="../../../assets/wallexcoin11.png"
+                class="w-full h-full object-cover  md:hidden"
                 alt=""
               />
             </div>

@@ -28,7 +28,7 @@
               <p
                 class="
                   text-[#616C7C]
-                  dark:text-[#C3C8CD]
+                  dark:md:text-[#C3C8CD] dark:text-[#A9AFB7]
                   md:text-lg text-sm
                   font-medium font-Inter  leading-[24px] md:leading-[30px]
                 "
@@ -71,7 +71,7 @@
               <p
                 class="
                   text-[#FAFBFB] text-sm md:text-lg leading-[24px] md:leading-[30px]
-                  font-medium font-Inter
+                  font-medium font-Inter md:text-[#C3C8CD] 
                   md:max-w-[440px] max-w-[303px]
                 "
               >
@@ -149,7 +149,7 @@
               <p
                 class="
                   text-[#616C7C]
-                  dark:text-[#A9AFB7]
+                  dark:md:text-[#C3C8CD] dark:text-[#A9AFB7]
                   md:text-lg text-sm
                   font-medium font-Inter
                   max-w-[440px] leading-[24px] md:leading-[30px]
@@ -229,7 +229,8 @@
               <p
                 class="
                   text-[#616C7C]
-                  dark:text-[#C3C8CD]
+                  
+                  dark:md:text-[#C3C8CD] dark:text-[#A9AFB7]
                   md:text-lg text-sm
                   font-medium font-Inter leading-[24px] md:leading-[30px]
                 "

@@ -1,21 +1,21 @@
 <template>
-  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1F1F1F] py-24 font-Inter">
-    <div class="m-auto w-full max-w-[1150px] relative">
-      <div class="w-full flex flex-col items-center space-y-14">
+  <section class="w-full flex bg-[#F5F6F7] dark:bg-[#1F1F1F] py-10 md:py-24 font-Inter">
+    <div class="m-auto w-full max-w-[1150px] relative p-6">
+      <div class="w-full flex flex-col items-center space-y-2 md:space-y-14">
         <span
           class="
             font-Inter font-semibold
             text-[#1B2C42]
             dark:text-white
-            text-5xl
+            md:text-5xl text-[32px] text-center
           "
           >Our Benefits</span
         >
 
-        <div class="w-full grid grid-cols-3 gap-10 pt-10">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 pt-10">
           <div
             class="
-              w-full h-[286px]
+              w-full md:h-[286px] h-[196px]
               bg-white flex
               rounded-3xl
               border
@@ -83,7 +83,7 @@
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434] h-[286px] flex
+              dark:border-[#343434]  md:h-[286px] h-[196px] flex
             "
           >
             <div class="w-full flex m-auto flex-col items-center space-y-5">
@@ -147,7 +147,7 @@
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434] h-[286px] flex
+              dark:border-[#343434] md:h-[286px] h-[196px] flex
             "
           >
             <div class="w-full flex flex-col m-auto items-center space-y-5">
@@ -209,7 +209,7 @@
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434] h-[286px] flex
+              dark:border-[#343434] md:h-[286px] h-[196px] flex
             "
           >
             <div class="w-full flex flex-col m-auto items-center space-y-5">
@@ -282,7 +282,7 @@
                   dark:text-white
                   text-center
                 "
-                >Be part of the <br />
+                >Be part of the <br  class=" hidden md:block"/>
                 financial evolution</span
               >
             </div>
@@ -295,7 +295,7 @@
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434] h-[286px] flex
+              dark:border-[#343434]  md:h-[286px] h-[196px] flex
             "
           >
             <div class="w-full flex flex-col m-auto items-center space-y-5">
@@ -339,8 +339,8 @@
                   dark:text-white
                   text-center
                 "
-                >Health and <br />
-                wellness perks</span
+                >Health and <br class=" hidden md:block" />
+                wellness  <br class="  md:hidden" /> perks</span
               >
             </div>
           </div>
@@ -352,7 +352,7 @@
               border
               dark:bg-[#272727]
               border-[#ECEDEF]
-              dark:border-[#343434] h-[286px] flex
+              dark:border-[#343434]  md:h-[286px] h-[196px] flex
             "
           >
             <div class="w-full flex flex-col m-auto items-center space-y-5">
@@ -402,7 +402,7 @@
                   text-2xl text-[#1B2C42]
                   dark:text-white
                 "
-                >Training and <br> development</span
+                >Training and <br > development</span
               >
             </div>
           </div>

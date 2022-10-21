@@ -1,13 +1,13 @@
 <template>
-  <section class="w-full flex bg-[#0054B8] dark:bg-[#2B71C4] py-24">
+  <section class="w-full flex bg-[#0054B8] dark:bg-[#2B71C4] py-14 md:py-24">
     <div class=" w-full flex flex-col items-center max-w-[887px] m-auto space-y-10">
-        <p class=" text-center text-white font-semibold text-6xl font-Inter ">We’re growing and looking for talented people like you</p>
+        <p class=" text-center text-white font-semibold text-[32px] max-w-[343px] md:max-w-max md:text-6xl font-Inter leading-[42px] md:leading-[68px] ">We’re growing and looking for talented people like you</p>
          <button
               class="
                 flex
                 items-center
                 space-x-5
-                py-3
+                md:py-3 py-2
                 px-6
                  bg-white
                 hover:bg-opacity-80
