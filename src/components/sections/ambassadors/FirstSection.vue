@@ -7,9 +7,9 @@
           w-full
           h-full
           max-w-[1170px]
-          flex
+          flex md:flex-row flex-col space-y-4 md:space-y-0 
           items-start
-          justify-between
+          md:justify-between
           m-auto
         "
       >
@@ -21,19 +21,37 @@
                 class="
                   text-2xl text-[#3A495C]
                   font-medium font-Inter
-                  dark:text-[#ECEDEF]
+                  dark:text-[#ECEDEF] md:block hidden
                 "
                 >Wallex BG</span
+              >
+                <span
+                class="
+                  text-base text-[#3A495C]
+                  font-medium font-Inter
+                  dark:text-[#ECEDEF] md:hidden
+                "
+                >Become an Affiliate</span
               >
               <h1
                 class="
                   font-semibold
                   text-6xl text-[#1B2C42]
-                  dark:text-white
+                  dark:text-white hidden md:block
                   lg:whitespace-nowrap
                 "
               >
                 Ambassadors
+              </h1>
+               <h1
+                class="
+                  font-semibold
+                  md:text-6xl text-[32px] text-[#1B2C42]
+                  dark:text-white md:hidden
+                  lg:whitespace-nowrap
+                "
+              >
+                Wallex Aflliates
               </h1>
              </div>
               <p
@@ -41,7 +59,7 @@
                   text-lg
                   font-normal font-Inter
                   text-[#616C7C]
-                  dark:text-[#A9AFB7]
+                  dark:text-[#A9AFB7] hidden md:block
                 "
               >
                 Become a Brand Ambassador
@@ -54,7 +72,7 @@
                 flex
                 items-center
                 space-x-5
-                py-3
+                md:py-3 py-2
                 px-6
                 bg-[#0054B8]
                 dark:bg-[#2B71C4]
@@ -84,7 +102,7 @@
             </button>
           </div>
         </div>
-        <div class=" pr-36">
+        <div class=" hidden md:block pr-36">
           <div class="w-full h-[566px] max-w-[424px] relative z-10">
             <img src="../../../assets/userf.png" class="w-full h-full" alt="" />
             <img
@@ -113,6 +131,14 @@
           class=" absolute top-0 right-0 bounce-ethereum3"
         />
           </div>
+        </div>
+
+        <div class=" w-full relative h-[394px] md:hidden">
+           <img src="../../../assets/userf11.png" class="w-full h-full absolute -bottom-5" alt="" />
+        </div>
+
+        <div>
+
         </div>
       </div>
      </div>

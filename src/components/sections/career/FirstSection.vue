@@ -21,7 +21,7 @@
               <h1 class="md:font-medium font-semibold text-base md:text-2xl text-[#ECEDEF] dark:text-white">
                 Careers at Wallex
               </h1>
-              <p class="font-semibold md:text-6xl text-[32px] text-white md:leading-[68px] leading-[42px]">
+              <p class="font-semibold md:text-6xl text-[32px] text-white md:leading-[68px] leading-[42px] ">
                 Unlock the Best <br> of Your self and Become Free
               </p>
               <span class="text-[#C3C8CD] font-medium   md:font-normal font-Inter text-lg leading-[30px]"

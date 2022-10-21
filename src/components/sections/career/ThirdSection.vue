@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex bg-white dark:bg-[#161616] py-24 font-Inter">
+  <section class="w-full flex bg-white dark:bg-[#161616] pb-10 md:pb-24 pt-24 font-Inter">
     <div class="m-auto w-full max-w-[1150px] flex relative p-6">
       <div class=" m-auto flex lg:flex-row flex-col items-start space-y-4 lg:space-y-0 lg:items-center lg:space-x-10">
         <div class="flex flex-col items-start space-y-4 lg:space-y-10 ">
