@@ -254,8 +254,8 @@
       <div class="flex items-center space-x-4 md:hidden">
         <button @click="open = !open">
           <svg
-            :class="{ 'top-arrow': open }"
-            class="fill-current dark:text-white text-[#25314C]"
+            :class="{ 'top-arrow': open , 'text-white': $route.name == 'Career','text-[#25314C]': $route.name != 'Career'}"
+            class="fill-current dark:text-white "
             width="28"
             height="20"
             viewBox="0 0 28 20"

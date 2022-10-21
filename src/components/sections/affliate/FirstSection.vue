@@ -2,13 +2,13 @@
   <section class="w-full h-[100vh] flex bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
     <div class="w-full relative h-[100vh]">
       <div class=" w-full absolute bottom-[9rem]">
-        <div class="w-full h-full max-w-[1170px] flex items-start m-auto">
+        <div class="w-full h-full max-w-[1170px] flex md:flex-row flex-col space-y-8 md:space-y-0 items-start m-auto">
         <div class="w-[418px] pt-24 pl-2">
-          <div class="flex flex-col items-start space-y-8 w-full z-50">
-            <div class="w-full flex flex-col items-start space-y-3 z-50">
+          <div class="flex flex-col items-start px-4 md:px-0 space-y-4 md:space-y-8 w-full z-50">
+            <div class="w-full flex flex-col items-start space-y-1 md:space-y-3 z-50">
               <span
                 class="
-                  text-2xl text-[#3A495C]
+                  md:text-2xl text-base text-[#3A495C]
                   font-medium font-Inter
                   dark:text-[#ECEDEF]
                 "
@@ -17,7 +17,7 @@
               <h1
                 class="
                   font-semibold
-                  text-6xl text-[#1B2C42]
+                  md:text-6xl text-[32px] text-[#1B2C42]
                   dark:text-white
                   lg:whitespace-nowrap
                 "
@@ -32,7 +32,7 @@
                 flex
                 items-center
                 space-x-5
-                py-3
+                md:py-3 py-2
                 px-6
                 bg-[#0054B8]
                 dark:bg-[#2B71C4]
@@ -62,29 +62,32 @@
             </button>
           </div>
         </div>
-        <div class="w-full h-[542px] max-w-[677.6px] relative z-10">
+        <div class="w-full h-[376px] md:h-[542px] max-w-[677.6px] relative z-10">
           <img
             src="../../../assets/users.png"
-            class="w-full h-full absolute xl:-right-28 lg:-right-20 "
+            class="w-full h-full absolute xl:-right-28 lg:-right-20 sm:block hidden "
+            alt=""
+          />
+           <img
+            src="../../../assets/users111.png"
+            class="w-full h-full absolute xl:-right-28 lg:-right-20 sm:hidden block "
             alt=""
           />
         </div>
       </div>
       </div>
-      <div class="w-full h-full absolute top-0 hidden dark:block ">
-        <img
-          src="../../../assets/darkbg.png"
-          class="w-full h-full bg-cover"
+    
+
+       <img
+          src="../../../assets/hoverheroeffect.png"
+          class="w-full h-full md:h-auto absolute object-none md:object-cover bottom-[24px] md:bottom-auto  top-0 dark:hidden"
           alt=""
         />
-      </div>
-      <div class="w-full h-full absolute top-0 dark:hidden ">
         <img
-          src="../../../assets/bgsection2.png"
-          class="w-full h-full bg-cover"
+          src="../../../assets/hoverheroeffectdark.png"
+          class="w-full h-full absolute object-none md:object-cover bottom-[24px] md:bottom-auto   top-0 dark:block md:hidden"
           alt=""
         />
-      </div>
     </div>
   </section>
 </template>

@@ -5,7 +5,7 @@
         <div class="flex flex-col items-start space-y-4 lg:space-y-10 ">
           <div
             class="
-              bg-white
+              hover:bg-white
               border
               dark:bg-[#26272C] dark:border-[#343434]
               rounded-3xl
@@ -44,7 +44,7 @@
           </div>
           <div
             class="
-              bg-white
+              hover:bg-white
               border
               dark:bg-[#26272C] dark:border-[#343434]
               rounded-3xl
@@ -85,7 +85,7 @@
         <div class="flex flex-col items-start space-y-10 ">
           <div
             class="
-              bg-white
+              hover:bg-white
               border
               dark:bg-[#26272C] dark:border-[#343434]
               rounded-3xl

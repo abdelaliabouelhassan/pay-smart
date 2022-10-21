@@ -114,7 +114,7 @@
             w-full
             col-span-2
             md:px-10 py-6
-            md:py-10 px-6
+            md:py-10 px-4
             relative
             bg-[#F5F6F7]
             dark:bg-[#272727]
@@ -143,7 +143,7 @@
                 text-start
                 dark:md:text-[#A9AFB7] dark:text-[#C3C8CD] 
                 text-[#616C7C]
-                max-w-[691px] font-Inter leading-[24px] md:leading-[30px] md:text-center
+                max-w-[691px]  font-Inter leading-[24px] md:leading-[30px] md:text-center
                 z-50
               "
             >

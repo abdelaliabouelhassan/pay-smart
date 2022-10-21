@@ -1,14 +1,14 @@
 <template>
   <section class="w-full flex bg-[#0054B8] dark:bg-[#161616] py-24 font-Inter">
     <div
-      class="w-full flex flex-col items-center max-w-[887px] m-auto space-y-10"
+      class="w-full flex flex-col items-center max-w-[887px] m-auto space-y-5 md:space-y-10"
     >
-      <div class="flex flex-col items-center space-y-4">
+      <div class="flex flex-col items-center space-y-2 md:space-y-4">
         <span
-          class="text-center text-white font-semibold text-6xl font-Inter"
+          class="text-center text-white font-semibold text-[32px] md:text-6xl font-Inter"
           >AFFILIATE PERKS</span
         >
-        <p class="text-[#C3C8CD] dark:text-[#A9AFB7] text-lg font-semibold">
+        <p class="text-[#C3C8CD] dark:text-[#A9AFB7] text-sm text-center md:text-lg font-semibold max-w-[308px] md:max-w-max leading-[24px] md:leading-[30px]">
           When you invite a new customer to Wallex, you can earn 10 EURST
         </p>
       </div>
@@ -17,19 +17,19 @@
           flex
           items-center
           space-x-5
-          py-3
+          md:py-3 py-2
           px-6
-          bg-white dark:bg-[#2B71C4]
+          bg-white dark:md:bg-[#2B71C4] dark:bg-white
           hover:bg-opacity-80
           rounded-full
         "
       >
-        <span class="font-semibold text-base font-Inter dark:text-[#FFFFFF] text-[#0054B8]"
+        <span class="font-semibold text-base font-Inter dark:md:text-[#FFFFFF] dark:text-[#0054B8] text-[#0054B8]"
           >Get Started</span
         >
         <div>
           <svg
-            class="fill-current text-[#0054B8] dark:text-[#FFFFFF]"
+            class="fill-current dark:md:text-[#FFFFFF] dark:text-[#0054B8] text-[#0054B8]"
             width="10"
             height="18"
             viewBox="0 0 10 18"
