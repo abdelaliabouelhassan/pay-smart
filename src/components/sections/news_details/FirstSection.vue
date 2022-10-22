@@ -6,7 +6,8 @@
       bg-[#FFFFFF]
       font-Inter
       dark:bg-[#161616]
-      py-36
+      md:py-36
+      py-20
       overflow-hidden
     "
   >
@@ -15,8 +16,10 @@
         w-full
         h-full
         max-w-[1150px]
+        p-6
         flex flex-col
-        space-y-10
+        md:space-y-10
+        space-y-2
         items-start
         m-auto
       "
@@ -29,16 +32,20 @@
               text-[#1B2C42]
               dark:text-[#FFFFFF]
               font-semibold
-              text-5xl
+              md:text-5xl
+              text-[32px]
+              leading-[42px]
+              md:leading-[58px]
             "
           >
             Wallex Bank – Banking of the future (Interview)
           </h1>
           <span
             class="
-              text-[#616C7C] text-base
+              text-[#616C7C] text-sm
+              md:text-base
               font-normal font-Inter
-              dark:text-[#A9AFB7]
+              dark:md:text-[#A9AFB7] dark:text-white
             "
             >September 09, 2022</span
           >
@@ -47,8 +54,8 @@
         <div
           class="
             w-full
-            max-h-[500px]
-            h-full
+            md:max-h-[500px] md:h-full
+            h-[375px]
             rounded-3xl
             overflow-hidden
             bg-gray-400
@@ -56,7 +63,12 @@
         >
           <img
             src="../../../assets/wallexbank.png"
-            class="w-full h-full object-cover"
+            class="w-full h-full object-cover hidden md:block"
+            alt=""
+          />
+          <img
+            src="../../../assets/wallexbankowner.png"
+            class="w-full h-full object-cover md:hidden"
             alt=""
           />
         </div>
@@ -65,10 +77,13 @@
       <div class="w-full flex flex-col items-start space-y-10 pt-8">
         <p
           class="
-            text-lg
+            md:text-lg
+            text-start
             font-medium font-Inter
             text-[#616C7C]
-            dark:text-[#A9AFB7]
+            dark:md:text-[#A9AFB7] dark:text-white
+            leading-[24px]
+            md:leading-[30px]
           "
         >
           Many cryptocurrency supporters believe that digital assets will
@@ -84,7 +99,10 @@
             class="
               text-[#1B2C42]
               font-Inter
-              text-[32px]
+              md:text-[32px]
+              text-2xl
+              leading-[36px]
+              md:leading-[42px]
               font-semibold
               dark:text-[#FFFFFF]
             "
@@ -94,10 +112,13 @@
 
           <p
             class="
-              text-lg
+              md:text-lg
+              text-start
               font-medium font-Inter
               text-[#616C7C]
-              dark:text-[#A9AFB7]
+              dark:md:text-[#A9AFB7] dark:text-white
+              leading-[24px]
+              md:leading-[30px]
             "
           >
             They’re building the next level asset and digital asset ecosystem.
@@ -135,7 +156,10 @@
             class="
               text-[#1B2C42]
               font-Inter
-              text-[32px]
+              md:text-[32px]
+              text-2xl
+              leading-[36px]
+              md:leading-[42px]
               font-semibold
               dark:text-[#FFFFFF]
             "
@@ -144,10 +168,13 @@
           </h1>
           <p
             class="
-              text-lg
+              md:text-lg
+              text-start
               font-medium font-Inter
               text-[#616C7C]
-              dark:text-[#A9AFB7]
+              dark:md:text-[#A9AFB7] dark:text-white
+              leading-[24px]
+              md:leading-[30px]
             "
           >
             They have 84 people worldwide working more directly in the company
@@ -160,7 +187,10 @@
             class="
               text-[#1B2C42]
               font-Inter
-              text-[32px]
+              md:text-[32px]
+              text-2xl
+              leading-[36px]
+              md:leading-[42px]
               font-semibold
               dark:text-[#FFFFFF]
             "
@@ -169,10 +199,13 @@
           </h1>
           <p
             class="
-              text-lg
+              md:text-lg
+              text-start
               font-medium font-Inter
               text-[#616C7C]
-              dark:text-[#A9AFB7]
+              dark:md:text-[#A9AFB7] dark:text-white
+              leading-[24px]
+              md:leading-[30px]
             "
           >
             The first biggest challenge was to provide to businesses and
@@ -188,7 +221,10 @@
             class="
               text-[#1B2C42]
               font-Inter
-              text-[32px]
+              md:text-[32px]
+              text-2xl
+              leading-[36px]
+              md:leading-[42px]
               font-semibold
               dark:text-[#FFFFFF]
             "
@@ -197,10 +233,13 @@
           </h1>
           <p
             class="
-              text-lg
+              md:text-lg
+              text-start
               font-medium font-Inter
               text-[#616C7C]
-              dark:text-[#A9AFB7]
+              dark:md:text-[#A9AFB7] dark:text-white
+              leading-[24px]
+              md:leading-[30px]
             "
           >
             Their official plan is to become the first Digital Central Bank.

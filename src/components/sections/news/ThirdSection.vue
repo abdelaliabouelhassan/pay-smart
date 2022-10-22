@@ -6,7 +6,7 @@
       bg-[#0054B8]
       font-Inter
       dark:bg-[#2B71C4]
-      py-36
+      md:py-36 py-14
       overflow-hidden
     "
   >
@@ -14,32 +14,33 @@
       class="
         w-full
         h-full
-        max-w-[1150px]
+        max-w-[1150px] p-6
         flex flex-col
         items-center
         m-auto
-        space-y-8
+        md:space-y-8 space-y-2
       "
     >
-      <span class="text-2xl font-semibold font-Inter text-[#C3C8CD]"
+      <span class="md:text-2xl text-sm font-semibold font-Inter text-[#C3C8CD]"
         >News Room</span
       >
-      <span class="text-6xl font-semibold text-white font-Inter"
+      <span class="md:text-6xl text-[32px] max-w-[308px] md:max-w-max text-center font-semibold text-white font-Inter"
         >What are you looking for?</span
       >
 
-      <div class="w-full max-w-[697px] relative">
+      <div class=" w-full max-w-[697px] pt-5 md:pt-0">
+        <div class="w-full max-w-[697px] relative">
         <input
           type="text"
           class="
             w-full
-            h-[60px]
+            md:h-[60px] h-[44px]
             rounded-full
             bg-white
             placeholder:text-[#A9AFB7]
-            text-base
+            md:text-base text-xs
             font-semibold font-Inter
-            pl-10 pr-44
+            md:pl-10 pl-6 pr-44
             outline-none
           "
           placeholder="Search News"
@@ -51,8 +52,8 @@
             border border-[#0054B8]
             hover:bg-opacity-80
             w-[137px]
-            h-12
-            rounded-full absolute top-1.5 right-2
+            md:h-12 h-[36px]
+            rounded-full absolute md:top-1.5 top-1 right-1 md:right-2
           "
         >
           <div class=" flex
@@ -78,6 +79,7 @@
           >
           </div>
         </button>
+      </div>
       </div>
     </div>
   </section>

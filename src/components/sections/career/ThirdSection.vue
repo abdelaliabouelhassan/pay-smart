@@ -11,7 +11,7 @@
               rounded-3xl
               border-[#EEEEEE]
               hover:shadow-card
-              cursor-pointer w-full lg:w-auto
+              cursor-pointer w-full lg:w-auto md:shadow-none shadow-card
               p-5
             "
           >

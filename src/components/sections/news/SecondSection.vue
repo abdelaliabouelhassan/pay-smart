@@ -6,7 +6,7 @@
       bg-white
       font-Inter
       dark:bg-[#161616]
-      py-36
+      md:py-36 py-0
       overflow-hidden
     "
   >
@@ -17,17 +17,17 @@
         max-w-[1150px]
         flex flex-col
         items-center
-        m-auto
-        space-y-28
+        m-auto p-6
+        md:space-y-28 space-y-6
       "
     >
       <h1
-        class="dark:text-white text-[#1B2C42] font-semibold text-5xl font-Inter"
+        class="dark:text-white text-[#1B2C42] font-semibold text-[48px] md:text-5xl font-Inter"
       >
         News
       </h1>
       <div class="flex flex-col w-full items-start space-y-10">
-        <div class="w-full grid grid-cols-2 gap-8">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
           <div
             class="
               w-full
@@ -38,13 +38,13 @@
             "
           >
             <div
-              class="w-full h-[322px] overflow-hidden rounded-3xl bg-gray-400"
+              class="w-full  h-[200px] md:h-[322px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
                 src="../../../assets/news2.png"
                 class="
                   w-full
-                  h-full
+                  h-full 
                   object-cover
                   hover:scale-125
                   cursor-pointer
@@ -52,7 +52,7 @@
                 alt=""
               />
             </div>
-            <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4 py-4 px-6">
               <span
                 class="
                   text-base
@@ -69,7 +69,7 @@
                   font-Inter font-semibold
                   text-2xl text-[#1B2C42]
                   dark:text-white
-                  max-w-[479]
+                  max-w-[479] leading-[36px]
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
@@ -80,7 +80,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-2.5
+                  md:py-2.5 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -119,15 +119,15 @@
                 dark:hover:bg-[#1F1F1F]
                 p-2
                 rounded-3xl
-                flex
-                items-center
+                flex md:flex-row flex-col items-start
+                md:items-center
               "
             >
               <div
                 class="
                   w-full
-                  h-[224px]
-                  max-w-[224px]
+                  md:h-[224px] h-[200px]
+                  md:max-w-[224px]
                   overflow-hidden
                   rounded-3xl
                   bg-gray-400
@@ -159,8 +159,8 @@
                   href="#"
                   class="
                     no-underline
-                    font-Inter font-medium
-                    text-lg text-[#1B2C42]
+                    font-Inter md:font-medium font-semibold leading-[36px] md:leading-[30px]
+                    md:text-lg text-2xl text-[#1B2C42]
                     dark:text-white
                     max-w-[479]
                   "
@@ -173,7 +173,7 @@
                     flex
                     items-center
                     space-x-5
-                    py-2.5
+                    md:py-2.5 py-2
                     px-6
                     bg-[#0054B8]
                     dark:bg-[#2B71C4]
@@ -210,15 +210,15 @@
                 dark:hover:bg-[#1F1F1F]
                 p-2
                 rounded-3xl
-                flex
-                items-center
+                flex md:flex-row flex-col items-start
+                md:items-center
               "
             >
               <div
                 class="
                   w-full
-                  h-[224px]
-                  max-w-[224px]
+                  md:h-[224px] h-[200px]
+                  md:max-w-[224px]
                   overflow-hidden
                   rounded-3xl
                   bg-gray-400
@@ -250,8 +250,8 @@
                   href="#"
                   class="
                     no-underline
-                    font-Inter font-medium
-                    text-lg text-[#1B2C42]
+                    font-Inter md:font-medium font-semibold leading-[36px] md:leading-[30px]
+                    md:text-lg text-2xl text-[#1B2C42]
                     dark:text-white
                     max-w-[479]
                   "
@@ -264,7 +264,7 @@
                     flex
                     items-center
                     space-x-5
-                    py-2.5
+                    md:py-2.5 py-2
                     px-6
                     bg-[#0054B8]
                     dark:bg-[#2B71C4]
@@ -294,21 +294,22 @@
                 </button>
               </div>
             </div>
+           
           </div>
         </div>
 
-        <div class="w-full grid grid-cols-3 gap-8">
+        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-8">
           <div
             class="
               w-full
               hover:bg-[#F5F6F7]
               dark:hover:bg-[#1F1F1F]
-              p-2
-              rounded-3xl
+              md:p-2
+              md:rounded-3xl flex items-start space-x-4 dark:border-[#26272C] border-[#E0E2E5] md:flex-col md:space-x-0 border border-t-0 border-x-0 py-4 md:py-0 md:border-0
             "
           >
             <div
-              class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
+              class="md:w-full md:h-[200px] w-[80px] h-[80px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
                 src="../../../assets/news5.png"
@@ -322,7 +323,7 @@
                 alt=""
               />
             </div>
-            <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4 md:py-4 md:px-6 max-w-[223px] md:max-w-max">
               <span
                 class="
                   text-base
@@ -337,12 +338,24 @@
                 class="
                   no-underline
                   font-Inter font-semibold
-                  text-2xl text-[#1B2C42]
-                  dark:text-white
-                  max-w-[479]
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]  md:block hidden pb-3 md:pb-0
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
+              </a>
+               <a
+                href="#"
+                class="
+                  no-underline
+                  font-Inter font-semibold
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]   md:hidden pb-3 md:pb-0
+                "
+              >
+                Can Crypto Address the Biggest Obstacle...
               </a>
               <button
               @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
@@ -350,7 +363,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-2.5
+                  md:py-2.5 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -385,12 +398,12 @@
               w-full
               hover:bg-[#F5F6F7]
               dark:hover:bg-[#1F1F1F]
-              p-2
-              rounded-3xl
+              md:p-2
+              md:rounded-3xl flex items-start dark:border-[#26272C] border-[#E0E2E5] space-x-4 md:flex-col md:space-x-0 border border-x-0  border-t-0 py-4 md:py-0 md:border-0
             "
           >
             <div
-              class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
+              class="md:w-full md:h-[200px] w-[80px] h-[80px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
                 src="../../../assets/news6.png"
@@ -404,7 +417,7 @@
                 alt=""
               />
             </div>
-            <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4 md:py-4 md:px-6 max-w-[223px] md:max-w-max">
               <span
                 class="
                   text-base
@@ -419,12 +432,24 @@
                 class="
                   no-underline
                   font-Inter font-semibold
-                  text-2xl text-[#1B2C42]
-                  dark:text-white
-                  max-w-[479]
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]  md:block hidden pb-3 md:pb-0
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
+              </a>
+               <a
+                href="#"
+                class="
+                  no-underline
+                  font-Inter font-semibold
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]   md:hidden pb-3 md:pb-0
+                "
+              >
+                Can Crypto Address the Biggest Obstacle...
               </a>
               <button
               @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
@@ -432,7 +457,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-2.5
+                  md:py-2.5 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -467,12 +492,12 @@
               w-full
               hover:bg-[#F5F6F7]
               dark:hover:bg-[#1F1F1F]
-              p-2
-              rounded-3xl
+              md:p-2
+             md:rounded-3xl flex items-start dark:border-[#26272C] border-[#E0E2E5] space-x-4 md:flex-col md:space-x-0 border  border-t-0 border-x-0 py-4 md:py-0 md:border-0
             "
           >
             <div
-              class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
+              class="md:w-full md:h-[200px] w-[80px] h-[80px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
                 src="../../../assets/news7.png"
@@ -486,7 +511,7 @@
                 alt=""
               />
             </div>
-            <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4 md:py-4 md:px-6 max-w-[223px] md:max-w-max">
               <span
                 class="
                   text-base
@@ -501,12 +526,24 @@
                 class="
                   no-underline
                   font-Inter font-semibold
-                  text-2xl text-[#1B2C42]
-                  dark:text-white
-                  max-w-[479]
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]  md:block hidden pb-3 md:pb-0
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
+              </a>
+               <a
+                href="#"
+                class="
+                  no-underline
+                  font-Inter font-semibold
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]   md:hidden pb-3 md:pb-0
+                "
+              >
+                Can Crypto Address the Biggest Obstacle...
               </a>
               <button
               @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
@@ -514,7 +551,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-2.5
+                  md:py-2.5 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -549,12 +586,12 @@
               w-full
               hover:bg-[#F5F6F7]
               dark:hover:bg-[#1F1F1F]
-              p-2
-              rounded-3xl
+              md:p-2
+              md:rounded-3xl flex items-start dark:border-[#26272C] border-[#E0E2E5] space-x-4 md:flex-col md:space-x-0 border  border-t-0 border-x-0 py-4 md:py-0 md:border-0
             "
           >
             <div
-              class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
+              class="md:w-full md:h-[200px] w-[80px] h-[80px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
                 src="../../../assets/news8.png"
@@ -568,7 +605,7 @@
                 alt=""
               />
             </div>
-            <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4 md:py-4 md:px-6 max-w-[223px] md:max-w-max">
               <span
                 class="
                   text-base
@@ -583,12 +620,24 @@
                 class="
                   no-underline
                   font-Inter font-semibold
-                  text-2xl text-[#1B2C42]
-                  dark:text-white
-                  max-w-[479]
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]  md:block hidden pb-3 md:pb-0
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
+              </a>
+               <a
+                href="#"
+                class="
+                  no-underline
+                  font-Inter font-semibold
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]   md:hidden pb-3 md:pb-0
+                "
+              >
+                Can Crypto Address the Biggest Obstacle...
               </a>
               <button
               @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
@@ -596,7 +645,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-2.5
+                  md:py-2.5 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -631,12 +680,12 @@
               w-full
               hover:bg-[#F5F6F7]
               dark:hover:bg-[#1F1F1F]
-              p-2
-              rounded-3xl
+              md:p-2
+             md:rounded-3xl flex items-start dark:border-[#26272C] border-[#E0E2E5] space-x-4 md:flex-col md:space-x-0 border  border-t-0 border-x-0 py-4 md:py-0 md:border-0
             "
           >
             <div
-              class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
+              class="md:w-full md:h-[200px] w-[80px] h-[80px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
                 src="../../../assets/news9.png"
@@ -650,7 +699,7 @@
                 alt=""
               />
             </div>
-            <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4 md:py-4 md:px-6 max-w-[223px] md:max-w-max">
               <span
                 class="
                   text-base
@@ -665,12 +714,24 @@
                 class="
                   no-underline
                   font-Inter font-semibold
-                  text-2xl text-[#1B2C42]
-                  dark:text-white
-                  max-w-[479]
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]  md:block hidden pb-3 md:pb-0
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
+              </a>
+               <a
+                href="#"
+                class="
+                  no-underline
+                  font-Inter font-semibold
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]   md:hidden pb-3 md:pb-0
+                "
+              >
+                Can Crypto Address the Biggest Obstacle...
               </a>
               <button
               @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
@@ -678,7 +739,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-2.5
+                  md:py-2.5 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -708,17 +769,17 @@
               </button>
             </div>
           </div>
-          <div
+           <div
             class="
               w-full
               hover:bg-[#F5F6F7]
               dark:hover:bg-[#1F1F1F]
-              p-2
-              rounded-3xl
+              md:p-2
+             md:rounded-3xl flex items-start dark:border-[#26272C] border-[#E0E2E5] space-x-4 md:flex-col md:space-x-0  border-t-0 border border-x-0 py-4 md:py-0 md:border-0
             "
           >
             <div
-              class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
+              class="md:w-full md:h-[200px] w-[80px] h-[80px] overflow-hidden rounded-3xl bg-gray-400"
             >
               <img
                 src="../../../assets/news10.png"
@@ -732,7 +793,7 @@
                 alt=""
               />
             </div>
-            <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4 md:py-4 md:px-6 max-w-[223px] md:max-w-max">
               <span
                 class="
                   text-base
@@ -747,12 +808,24 @@
                 class="
                   no-underline
                   font-Inter font-semibold
-                  text-2xl text-[#1B2C42]
-                  dark:text-white
-                  max-w-[479]
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]  md:block hidden pb-3 md:pb-0
                 "
               >
                 Can Crypto Address the Biggest Obstacle Facing the Unbanked?
+              </a>
+               <a
+                href="#"
+                class="
+                  no-underline
+                  font-Inter font-semibold
+                  md:text-2xl text-xl text-[#1B2C42]
+                  dark:text-white leading-[32px] md:leading-[36px]
+                  md:max-w-[479px] max-w-[223px]   md:hidden pb-3 md:pb-0
+                "
+              >
+                Can Crypto Address the Biggest Obstacle...
               </a>
               <button
               @click="goToDetails('biggest-obstacle-facing-the-unbanked')"
@@ -760,7 +833,7 @@
                   flex
                   items-center
                   space-x-5
-                  py-2.5
+                  md:py-2.5 py-2
                   px-6
                   bg-[#0054B8]
                   dark:bg-[#2B71C4]
@@ -790,14 +863,20 @@
               </button>
             </div>
           </div>
+
+          <!--  -->
+        
+         
+          
+         
         </div>
 
-        <div class="max-w-[348px] w-full m-auto pt-10">
-          <div class="grid grid-cols-6 w-full">
+        <div class="max-w-[348px] w-full m-auto md:pt-10 pb-10 md:pb-0 flex">
+          <div class="md:grid flex items-center space-x-4 m-auto md:grid-cols-6 ">
             <button
               class="
-                w-12
-                h-12
+                md:w-12 w-8
+                md:h-12 h-8
                 rounded-full
                 bg-[#0F2138]
                 dark:[#1B2C42]
@@ -824,8 +903,8 @@
             </button>
             <button
               class="
-                w-12
-                h-12
+                md:w-12 w-8
+                md:h-12 h-8
                 rounded-full
                 bg-[#0054B8]
                 dark:border-[#2B71C4] dark:bg-[#2B71C4]
@@ -840,8 +919,8 @@
             </button>
             <button
               class="
-                w-12
-                h-12
+              md:w-12 w-8
+                md:h-12 h-8
                 rounded-full
                 bg-[#E6EEF8]
                 dark:bg-[#26272C] dark:border-[#26272C]
@@ -864,8 +943,8 @@
             </button>
             <button
               class="
-                w-12
-                h-12
+               md:w-12 w-8
+                md:h-12 h-8
                 rounded-full
                 bg-[#E6EEF8]
                 dark:bg-[#26272C] dark:border-[#26272C]
@@ -888,8 +967,8 @@
             </button>
             <button
               class="
-                w-12
-                h-12
+                md:w-12 w-8
+                md:h-12 h-8
                 rounded-full
                 bg-[#E6EEF8]
                 dark:bg-[#26272C] dark:border-[#26272C]
@@ -912,8 +991,8 @@
             </button>
             <button
               class="
-                w-12
-                h-12
+              md:w-12 w-8
+                md:h-12 h-8
                 rounded-full
                 bg-[#0F2138]
                 dark:[#1B2C42]

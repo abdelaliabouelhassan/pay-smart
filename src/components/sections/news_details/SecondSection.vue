@@ -1,12 +1,12 @@
 <template>
-  <section class="w-full flex bg-white dark:bg-[#161616] py-28  font-Inter relative">
-    <div class="m-auto w-full max-w-[1150px]">
+  <section class="w-full flex bg-white dark:bg-[#161616] py-5 md:py-28  font-Inter relative">
+    <div class="m-auto w-full max-w-[1150px] p-6">
       <div class="w-full flex flex-col items-center space-y-14">
-        <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-5xl"
+        <span class="font-Inter font-semibold text-[#1B2C42] dark:text-white text-2xl md:text-5xl"
           >Recommended for you</span
         >
 
-        <div class="w-full grid grid-cols-3 gap-10 pt-10">
+        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
           <div class="w-full hover:bg-[#F5F6F7] dark:hover:bg-[#1F1F1F] p-2 rounded-3xl">
             <div
               class="w-full h-[200px] overflow-hidden rounded-3xl bg-gray-400"
@@ -18,7 +18,7 @@
               />
             </div>
             <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
-              <span class="text-base font-Inter font-medium dark:text-[#616C7C]">2022-08-14</span>
+              <span class="text-base font-Inter font-medium dark:text-[#C3C8CD]">2022-08-14</span>
               <a
                 href="#"
                 class="
@@ -34,7 +34,7 @@
                   flex
                   items-center
                   space-x-2
-                  py-3
+                  md:py-3 py-2
                   px-6
                   bg-[#0054B8] dark:bg-[#2B71C4]
                   hover:bg-opacity-80
@@ -74,7 +74,7 @@
               />
             </div>
              <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
-              <span class="text-base font-Inter font-medium dark:text-[#616C7C]">2022-08-14</span>
+              <span class="text-base font-Inter font-medium dark:text-[#C3C8CD]">2022-08-14</span>
               <a
                 href="#"
                 class="
@@ -90,7 +90,7 @@
                   flex
                   items-center
                   space-x-2
-                  py-3
+                  md:py-3 py-2
                   px-6
                   bg-[#0054B8] dark:bg-[#2B71C4]
                   hover:bg-opacity-80
@@ -130,7 +130,7 @@
               />
             </div>
             <div class="w-full flex flex-col items-start space-y-4 py-4 px-6">
-              <span class="text-base font-Inter font-medium dark:text-[#616C7C]">2022-08-14</span>
+              <span class="text-base font-Inter font-medium dark:text-[#C3C8CD]">2022-08-14</span>
               <a
                 href="#"
                 class="
@@ -146,7 +146,7 @@
                   flex
                   items-center
                   space-x-2
-                  py-3
+                  md:py-3 py-2
                   px-6
                   bg-[#0054B8] dark:bg-[#2B71C4]
                   hover:bg-opacity-80

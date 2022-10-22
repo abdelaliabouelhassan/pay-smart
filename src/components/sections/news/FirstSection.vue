@@ -6,21 +6,21 @@
       bg-[#F5F6F7]
       font-Inter
       dark:bg-[#1C1C1C]
-       pt-52
-      overflow-hidden h-[100vh]
+       md:pt-52 pt-32
+      md:overflow-hidden md:h-[100vh]
     "
   >
-    <div class="w-full relative pb-28 z-50">
-      <div class="w-full h-full max-w-[1150px] flex items-start m-auto">
-        <div class="flex items-center justify-between w-full">
-          <div class="flex flex-col items-start space-y-8 max-w-[515px]">
+    <div class="w-full relative md:pb-28 pb-14 z-50">
+      <div class="w-full h-full max-w-[1150px] flex items-start m-auto px-4 md:px-0">
+        <div class="flex md:items-center md:flex-row items-start flex-col space-y-8 md:space-y-0 md:justify-between w-full">
+          <div class="flex w-full flex-col items-start space-y-2 md:space-y-8 max-w-[515px]">
             <h1
               class="
                 text-[#1B2C42]
                 dark:text-[#FFFFFF]
                 font-semibold
-                text-5xl
-                font-Inter leading-[58px]
+                md:text-5xl text-[32px]
+                font-Inter md:leading-[58px] leading-[42px]
                 z-50
               "
             >
@@ -31,13 +31,24 @@
               class="
                 text-lg text-[#616C7C]
                 dark:text-[#A9AFB7]
-                font-Inter font-normal
-                z-50
+                font-Inter font-normal leading-[30px]
+                z-50 hidden md:block
               "
             >
               The scene is moving quickly, whether you're an e-commerce company
               attempting to determine what the introduction of stablecoins means
               for you or a crypto trading platform...
+            </p>
+             <p
+              class="
+                text-lg text-[#616C7C]
+                dark:text-[#A9AFB7]
+                font-Inter font-normal leading-[30px]
+                z-50 md:hidden pb-6 md:pb-0
+              "
+            >
+              The scene is moving quickly, whether you're an e-commerce company
+              attempting to determine what the...
             </p>
             <button
              @click="goToDetails('dynamics-that-will-control')"
@@ -45,7 +56,7 @@
                 flex
                 items-center
                 space-x-4
-                py-3
+                md:py-3 py-2
                 px-6
                 bg-[#0054B8]
                 dark:bg-[#2B71C4]
@@ -84,23 +95,24 @@
             </button>
           </div>
           <div
-            class="w-full flex flex-col space-y-4 items-center max-w-[486px]"
+            class="w-full flex flex-col space-y-4 items-center md:max-w-[486px]"
           >
             <div
               class="w-full h-full max-w-[486px] max-h-[486px] relative"
               style="filter: drop-shadow(0px 14px 50px rgba(29, 29, 29, 0.1))"
             >
               <div
-                class="w-full h-full overflow-hidden rounded-3xl" 
+                class="w-[full] h-[375px] md:h-full overflow-hidden rounded-3xl" 
               >
-                <img :src="News[active].img" alt="" v-if="News.length > 0" />
+                <img class=" w-full h-full hidden md:block" :src="News[active].img" alt="" v-if="News.length > 0" />
+                <img class=" w-full h-full md:hidden" src="../../../assets/fili1.png" alt="" v-if="News.length > 0" />
               </div>
               <div class="z-50">
                 <button
                  @click="next"
                   class="
                     z-50
-                    absolute
+                    absolute hidden md:flex
                     w-12
                     h-12
                     top-1/2
@@ -109,7 +121,7 @@
                     bg-[#0F2138]
                     dark:bg-[#272727]
                     border border-[#0054B8]
-                    flex hover:bg-opacity-60
+                     hover:bg-opacity-60
                   "
                   style="box-shadow: 0px 4px 30px rgba(29, 29, 29, 0.2)"
                 >
