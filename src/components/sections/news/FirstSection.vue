@@ -159,20 +159,16 @@
           </div>
         </div>
       </div>
-      <div class="w-full h-full absolute top-0 hidden dark:block -z-10">
-        <img
-          src="../../../assets/darkbg.png"
-          class="w-full h-full bg-cover"
+         <img
+          src="../../../assets/hoverheroeffect.png"
+          class="w-full h-full md:h-auto absolute object-none md:object-cover   bottom-40 md:bottom-0 dark:hidden -z-10"
           alt=""
         />
-      </div>
-      <div class="w-full h-full absolute top-0 dark:hidden -z-10">
         <img
-          src="../../../assets/bgsection2.png"
-          class="w-full h-full bg-cover"
+          src="../../../assets/hoverheroeffectdark.png"
+          class="w-full h-full absolute object-none md:object-cover bottom-40 md:bottom-0 dark:block md:hidden -z-10"
           alt=""
         />
-      </div>
     </div>
   </section>
 </template>

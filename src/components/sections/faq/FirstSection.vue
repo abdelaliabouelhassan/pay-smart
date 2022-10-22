@@ -6,21 +6,21 @@
       bg-[#F5F6F7]
       font-Inter
       dark:bg-[#1C1C1C]
-      pt-56
+      md:pt-56 pt-5 
       overflow-hidden
-      h-[100vh]
+      md:h-[100vh]
     "
   >
-    <div class="w-full relative pb-36">
+    <div class="w-full relative md:pb-36 pb-10 ">
       <div
         class="
           w-full
           h-full
           max-w-[1170px]
-          flex
+          flex md:flex-row flex-col  md:space-y-0
           items-start
-          justify-between
-          m-auto
+          md:justify-between space-y-8
+          m-auto px-4 md:px-0
         "
       >
         <div class="max-w-[515px] w-full pt-32 pl-2">
@@ -28,8 +28,8 @@
             <div class="w-full flex flex-col items-start space-y-3 z-50">
               <span
                 class="
-                  text-2xl text-[#3A495C]
-                  font-medium font-Inter
+                  md:text-2xl text-base text-[#3A495C]
+                  md:font-medium font-semibold font-Inter
                   dark:text-[#ECEDEF]
                 "
                 >FAQ</span
@@ -37,7 +37,7 @@
               <h1
                 class="
                   font-semibold
-                  text-6xl text-[#1B2C42]
+                  md:text-6xl text-[32px] leading-[42px] md:leading-[68px] text-[#1B2C42]
                   dark:text-white
                   md:whitespace-nowrap
                 "
@@ -45,6 +45,9 @@
                 What can we help <br />
                 you with?
               </h1>
+              <p class=" md:hidden text-lg font-Inter font-medium text-[#616C7C] dark:text-[#C3C8CD]">
+                Alternative Banking solution delivering innovation and freedom.
+              </p>
             </div>
 
             <div class="w-full relative z-50">
@@ -52,12 +55,12 @@
                 type="text"
                 class="
                   w-full
-                  h-[60px]
+                  md:h-[60px] h-[44px]
                   rounded-full
                   bg-white
                   dark:bg-[#272727]
                   placeholder:text-[#A9AFB7] dark:text-white
-                  text-base
+                  md:text-base text-xs
                   font-semibold font-Inter
                   pl-5
                   pr-44
@@ -74,11 +77,11 @@
                   hover:bg-opacity-80
                   dark:bg-[#2B71C4]
                   w-[137px]
-                  h-12
+                  md:h-12 h-9
                   rounded-full
                   absolute
-                  top-1.5
-                  right-2
+                  md:top-1.5 top-1
+                  md:right-2 right-1
                 "
               >
                 <div class="flex items-center space-x-2 m-auto">
@@ -105,8 +108,8 @@
             </div>
           </div>
         </div>
-        <div class="">
-          <div class="w-full h-[391px] max-w-[416px] relative z-10">
+        <div class="flex  w-full md:w-auto">
+          <div class="w-full m-auto md:h-[391px] max-w-[241px] h-[227px] md:max-w-[416px] relative z-10">
             <!-- <img src="../../../assets/faq.png" class="w-full h-full" alt="" /> -->
             <svg
               class="w-full h-full"
@@ -143,20 +146,21 @@
           </div>
         </div>
       </div>
-      <div class="w-full h-full absolute top-0 hidden dark:block">
+      <div class="w-full h-full absolute hidden dark:block bottom-[-99px] md:bottom-0 ">
         <img
           src="../../../assets/darkbg.png"
-          class="w-full h-full bg-cover"
+          class="w-full h-full object-none md:object-cover"
           alt=""
         />
       </div>
-      <div class="w-full h-full absolute top-0 dark:hidden">
+      <div class="w-full h-full absolute  dark:hidden bottom-[-99px] md:bottom-0">
         <img
           src="../../../assets/bgsection2.png"
-          class="w-full h-full bg-cover"
+          class="w-full h-full object-none md:object-cover"
           alt=""
         />
       </div>
+      
     </div>
   </section>
 </template>

@@ -1,7 +1,7 @@
 <template>
-    <div class=" w-full">
+    <div class=" w-full dark:bg-[#161616]">
         <FirstSection />
-        <SecondSection />
+       <SecondSection />
     </div>
 </template>
 

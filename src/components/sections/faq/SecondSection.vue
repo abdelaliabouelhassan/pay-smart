@@ -1,14 +1,14 @@
 <template>
   <section
-    class="w-full flex font-Inter bg-white relative dark:bg-[#161616] py-60"
+    class="w-full flex font-Inter bg-white relative dark:bg-[#161616] py-10 md:py-60"
   >
-    <div class="m-auto w-full max-w-[1150px]">
+    <div class="m-auto w-full max-w-[1150px] p-6 md:p-0">
      
 
-      <div class="w-full grid grid-cols-2 gap-10">
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10">
         <div class="flex flex-col items-start space-y-10">
           <div
-            class="w-full rounded-3xl px-8 space-y-6 py-[31px] self-start"
+            class="w-full rounded-3xl px-5 md:px-8 space-y-6 py-6 md:py-[31px] self-start"
             :class="{
               'bg-[#2B71C4] ': index == 0,
               ' bg-[#F5F6F7] dark:bg-[#1C1C1C] ': index > 0,
@@ -16,9 +16,9 @@
             v-for="(faq, index) in FaqLeft"
             :key="index"
           >
-            <div class="w-full flex flex-col items-start space-y-3">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-3">
               <div
-                class="text-[36px] font-semibold font-Inter leading-[46px]"
+                class="md:text-[36px] text-[24px] leading-[36px] font-semibold font-Inter md:leading-[46px]"
                 v-html="faq.title"
                 :class="{
                   'text-white': index == 0,
@@ -26,7 +26,7 @@
                 }"
               ></div>
               <span
-                class="text-lg font-medium font-Inter"
+                class="md:text-lg text-sm font-medium font-Inter"
                 :class="{
                   'text-[#ECEDEF]': index == 0,
                   ' text-[#616C7C] dark:text-[#A9AFB7]': index > 0,
@@ -36,7 +36,7 @@
             </div>
             <div class="w-full flex flex-col items-start space-y-4">
               <div
-                class="flex flex-col items-start space-y-4 w-full"
+                class="flex flex-col items-start space-y-2 md:space-y-4 w-full"
                 v-for="(item, key) in faq.faq"
                 :key="key"
               >
@@ -51,7 +51,7 @@
                   @click="item.active = !item.active"
                 >
                   <h2
-                    class="text-2xl font-semibold font-Inter max-w-[420px]"
+                    class="md:text-2xl text-lg leading-[30px] md:leading-[36px] font-semibold font-Inter max-w-[420px]"
                     :class="{
                       'text-white': index == 0,
                       ' text-[#1B2C42] dark:text-white': index > 0,
@@ -94,7 +94,7 @@
         </div>
          <div class="flex flex-col items-start space-y-10">
           <div
-            class="w-full rounded-3xl px-8 space-y-6 py-[31px] self-start"
+            class="w-full rounded-3xl px-5 md:px-8 space-y-6 py-6 md:py-[31px] self-start"
             :class="{
               'bg-[#2B71C4] ': index == -1,
               ' bg-[#F5F6F7] dark:bg-[#1C1C1C] ': index >= 0,
@@ -102,9 +102,9 @@
             v-for="(faq, index) in FaqRight"
             :key="index"
           >
-            <div class="w-full flex flex-col items-start space-y-3">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-3">
               <div
-                class="text-[36px] font-semibold font-Inter leading-[46px]"
+                class="md:text-[36px] text-[24px] leading-[36px] font-semibold font-Inter md:leading-[46px]"
                 v-html="faq.title"
                 :class="{
                   'text-white': index == -1,
@@ -112,7 +112,7 @@
                 }"
               ></div>
               <span
-                class="text-lg font-medium font-Inter"
+                class="md:text-lg text-sm font-medium font-Inter"
                 :class="{
                   'text-[#ECEDEF]': index == -1,
                   ' text-[#616C7C] dark:text-[#A9AFB7]': index >= 0,
@@ -122,7 +122,7 @@
             </div>
             <div class="w-full flex flex-col items-start space-y-4">
               <div
-                class="flex flex-col items-start space-y-4 w-full"
+                 class="flex flex-col items-start space-y-2 md:space-y-4 w-full"
                 v-for="(item, key) in faq.faq"
                 :key="key"
               >
@@ -137,7 +137,7 @@
                   @click="item.active = !item.active"
                 >
                   <h2
-                    class="text-2xl font-semibold font-Inter max-w-[420px]"
+                    class="md:text-2xl text-lg leading-[30px] md:leading-[36px] font-semibold font-Inter max-w-[420px]"
                     :class="{
                       'text-white': index == -1,
                       ' text-[#1B2C42] dark:text-white': index >= 0,
