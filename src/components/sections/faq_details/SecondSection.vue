@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex bg-[#0054B8] dark:bg-[#1C1C1C] py-24">
+  <section class="w-full flex bg-[#0054B8] dark:bg-[#1C1C1C] py-16 md:py-24">
     <div
       class="w-full flex flex-col items-center max-w-[887px] m-auto space-y-10"
     >
@@ -10,13 +10,13 @@
             dark:text-white
             text-white
             font-semibold
-            text-6xl
+            md:text-6xl text-[32px]
             font-Inter
           "
         >
           Need more help?
         </p>
-        <p class="text-[#C3C8CD] text-lg font-medium font-Inter">
+        <p class="text-[#C3C8CD] md:text-lg text-sm font-medium font-Inter text-center max-w-[308px] md:max-w-max">
           Is the answer to your question missing? get in touch with us
         </p>
       </div>
@@ -28,7 +28,7 @@
           py-3
           px-6
           bg-white
-          dark:bg-[#2B71C4] dark:border-[#2B71C4]
+          dark:md:bg-[#2B71C4]  dark:border-[#2B71C4]
           border
           hover:bg-opacity-80
           rounded-full
@@ -40,13 +40,13 @@
             text-base
             font-Inter
             text-[#0054B8]
-            dark:text-white
+            dark:md:text-white
           "
           >Contact us</span
         >
         <div>
           <svg
-            class="fill-current text-[#0054B8] dark:text-white"
+            class="fill-current text-[#0054B8] dark:md:text-white"
             width="10"
             height="18"
             viewBox="0 0 10 18"

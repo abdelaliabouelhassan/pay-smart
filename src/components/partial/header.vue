@@ -128,7 +128,7 @@
           class="flex items-center space-x-2 cursor-pointer relative"
           @click="show = !show"
         >
-          <div class="w-8 h-8 rounded-full overflow-hidden">
+          <div class="w-8 h-8 circle overflow-hidden">
             <img
               class="w-full h-full object-cover"
               :src="selectedLang.flag"
@@ -190,7 +190,7 @@
               href="#"
               class="w-full space-x-2 flex items-center cursor-pointer group"
             >
-              <div class="w-8 h-8 rounded-full overflow-hidden">
+              <div class="w-8 h-8 circle overflow-hidden">
                 <img
                   class="w-full h-full object-cover"
                   :src="item.flag"
@@ -403,7 +403,7 @@
             class="flex items-center space-x-2 cursor-pointer relative"
             @click="show = !show"
           >
-            <div class="w-8 h-8 rounded-full overflow-hidden">
+            <div class="w-8 h-8 circle overflow-hidden">
               <img
                 class="w-full h-full object-cover"
                 :src="selectedLang.flag"
@@ -465,7 +465,7 @@
                 href="#"
                 class="w-full space-x-2 flex items-center cursor-pointer group"
               >
-                <div class="w-8 h-8 rounded-full overflow-hidden">
+                <div class="w-8 h-8 circle overflow-hidden">
                   <img
                     class="w-full h-full object-cover"
                     :src="item.flag"

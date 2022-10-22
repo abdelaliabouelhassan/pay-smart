@@ -6,10 +6,15 @@
 
 * {
     transition: all 0.3s ease-in-out;
-    font-family:  'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 
 .rounded-full {
     border-radius: 8px;
-    }
+}
+
+
+.circle {
+    border-radius: 99999px;
+}

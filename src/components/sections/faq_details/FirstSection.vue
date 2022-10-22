@@ -6,7 +6,9 @@
       bg-[#FFFFFF]
       font-Inter
       dark:bg-[#161616]
-      py-36
+      md:py-36 md:pb-36
+      pt-28
+      pb-10
       overflow-hidden
     "
   >
@@ -21,27 +23,31 @@
         space-y-28
       "
     >
-      <div class="w-full grid grid-cols-3 gap-10">
-        <div class="w-full col-span-1 relative">
-          <div class="flex flex-col items-start space-y-10 w-full">
-            <div>
+      <div class="w-full grid grid-cols-3 md:gap-10">
+        <div class="w-full col-span-3 md:col-span-1 relative ">
+          <div class="flex flex-col items-start space-y-2 md:space-y-10 w-full">
+            <div class="px-6 md:px-0">
               <p
                 class="
                   text-[#616C7C] text-base
                   dark:text-[#A9AFB7]
                   font-normal font-Inter
-                  max-w-[208px]
+                  md:max-w-[208px]
                 "
               >
-                <span class="cursor-pointer">FAQ</span> >
-                <span class="cursor-pointer">General Information</span> >
-                <span class="text-[#0054B8] dark:text-white"
+                <span class="cursor-pointer md:text-base text-sm">FAQ</span> >
+                <span class="cursor-pointer md:text-base text-sm"
+                  >General Information</span
+                >
+                >
+                <span
+                  class="text-[#0054B8] dark:text-white md:text-base text-sm"
                   >Wallex Regional</span
                 >
               </p>
             </div>
 
-            <div class="w-full relative max-w-[273px]">
+            <div class="w-full relative max-w-[273px] hidden md:block px-6 md:px-0">
               <input
                 type="text"
                 class="
@@ -106,28 +112,51 @@
                   font-Inter font-semibold
                   max-w-[265px]
                   dark:text-[#FFFFFF]
+                  hidden
+                  md:block 
                 "
               >
                 General Information
               </h1>
-              <div class="w-full flex flex-col items-start space-y-4">
+              <div class="w-full flex flex-col items-start space-y-4 border-b  dark:border-[#26272C] border-[#E0E2E5] border md:border-0 border-x-0 px-6 md:px-0 border-y-0 pb-4">
                 <span
                   class="
-                    text-xl
+                    md:text-xl
+                    text-base
                     font-semibold font-Inter
                     text-[#1B2C42]
                     dark:text-[#FFFFFF]
                   "
                   >Articles in this section</span
                 >
-
+                <div class="w-full flex justify-between text-center cursor-pointer md:hidden " @click="show = !show">
+                  <span class="text-sm font-medium font-Inter text-white"
+                    >Getting Started</span
+                  >
+                  <button>
+                    <svg
+                     :class="{'top-arrow':show}"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.6927 4.96125C6.86252 5.13108 7.13787 5.13108 7.3077 4.96125L11.5968 0.672166C12.0198 0.249162 12.7056 0.249162 13.1286 0.672166V0.672166C13.5516 1.09517 13.5516 1.781 13.1286 2.204L7.84403 7.48858C7.378 7.95462 6.6224 7.95462 6.15636 7.48858L0.871778 2.204C0.448774 1.781 0.448774 1.09517 0.871779 0.672166V0.672166C1.29478 0.249162 1.98061 0.249162 2.40361 0.672166L6.6927 4.96125Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </button>
+                </div>
                 <div
+                  :class="{'hidden md:block':show}"
                   class="
                     w-full
                     flex flex-col
                     items-starts
                     space-y-1
-                    max-w-[273px]
+                    md:max-w-[273px] md:flex
                   "
                 >
                   <button
@@ -136,7 +165,8 @@
                       hover:bg-[#ECEDEF]
                       dark:hover:bg-[#26272C] dark:bg-[#26272C]
                       w-full
-                      py-3
+                      md:py-3
+                      py-2
                       pl-5
                       pr-4
                       rounded-full
@@ -145,7 +175,8 @@
                   >
                     <span
                       class="
-                        text-base
+                        md:text-base
+                        text-sm
                         font-medium
                         text-[#1B2C42]
                         dark:text-[#FFFFFF]
@@ -156,7 +187,8 @@
                   <button
                     class="
                       w-full
-                      py-3
+                      md:py-3
+                      py-2
                       pl-5
                       pr-4
                       rounded-full
@@ -167,7 +199,8 @@
                   >
                     <span
                       class="
-                        text-base
+                        md:text-base
+                        text-sm
                         font-medium
                         text-[#616C7C]
                         dark:text-[#FFFFFF] dark:hover:bg-[#26272C]
@@ -178,7 +211,8 @@
                   <button
                     class="
                       w-full
-                      py-3
+                      md:py-3
+                      py-2
                       pl-5
                       pr-4
                       rounded-full
@@ -189,7 +223,8 @@
                   >
                     <span
                       class="
-                        text-base
+                        md:text-base
+                        text-sm
                         font-medium
                         text-[#616C7C]
                         dark:text-[#FFFFFF]
@@ -200,7 +235,8 @@
                   <button
                     class="
                       w-full
-                      py-3
+                      md:py-3
+                      py-2
                       pl-5
                       pr-4
                       rounded-full
@@ -224,27 +260,49 @@
             </div>
           </div>
         </div>
-        <div class="w-full col-span-2 space-y-8">
-          <div class="flex flex-col items-start space-y-4">
+        <div class="w-full col-span-3 md:col-span-2 space-y-8">
+          <div class="flex flex-col items-start space-y-4 p-6 md:p-0">
             <h1
               class="
                 dark:text-white
                 font-semibold font-Inter
-                text-5xl text-[#1B2C42]
+                md:text-5xl
+                text-[32px]
+                leading-[42px]
+                md:leading-[58px]
+                text-[#1B2C42]
               "
             >
               Getting Started
             </h1>
             <span
-              class="dark:text-[#A9AFB7] text-base font-normal text-[#616C7C]"
+              class="
+                dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                text-base
+                font-normal
+                text-[#616C7C]
+              "
               >Last updated - 3 months ago
             </span>
           </div>
 
-          <div class="w-full flex flex-col items-start pt-10 space-y-5">
+          <div
+            class="
+              w-full
+              flex flex-col
+              items-start
+              md:pt-10
+              pt-4
+              space-y-4
+              md:space-y-5
+              p-6
+              md:p-0
+            "
+          >
             <h2
               class="
-                text-[32px]
+                md:text-[32px]
+                text-2xl
                 font-semibold font-Inter
                 text-[#1B2C42]
                 dark:text-white
@@ -252,37 +310,49 @@
             >
               Welcome to Wallex regional!
             </h2>
-            <div class="w-full flex flex-col items-start space-y-3">
+            <div
+              class="w-full flex flex-col items-start space-y-5 md:space-y-3"
+            >
               <h3
                 class="
-                  text-lg
+                  md:text-lg
+                  text-base
                   font-semibold font-Inter
                   text-[#1B2C42]
-                  dark:text-white
+                  dark:md:text-white dark:text-[#ECEDEF]
                 "
               >
                 Let’s get started in 5 quick and easy steps:
               </h3>
-              <div class="w-full grid grid-cols-2 gap-y-4">
+              <div class="w-full grid md:grid-cols-2 gap-y-4">
                 <div class="flex items-center space-x-2">
                   <div
                     class="
-                      w-8
-                      h-8
-                      rounded-full
+                      md:w-8
+                      w-6
+                      md:h-8
+                      h-6
+                      circle
                       bg-[#0054B8]
                       dark:bg-[#2B71C4]
                       flex
                     "
                   >
                     <span
-                      class="m-auto text-sm text-white font-semibold font-Inter"
+                      class="
+                        m-auto
+                        text-xs
+                        md:text-sm
+                        text-white
+                        font-semibold font-Inter
+                      "
                       >01</span
                     >
                   </div>
                   <span
                     class="
-                      text-lg
+                      md:text-lg
+                      text-sm
                       font-medium font-Inter
                       text-[#616C7C]
                       dark:text-white
@@ -293,22 +363,31 @@
                 <div class="flex items-center space-x-2">
                   <div
                     class="
-                      w-8
-                      h-8
-                      rounded-full
+                      md:w-8
+                      w-6
+                      md:h-8
+                      h-6
+                      circle
                       bg-[#0054B8]
                       dark:bg-[#2B71C4]
                       flex
                     "
                   >
                     <span
-                      class="m-auto text-sm text-white font-semibold font-Inter"
+                      class="
+                        m-auto
+                        text-xs
+                        md:text-sm
+                        text-white
+                        font-semibold font-Inter
+                      "
                       >04</span
                     >
                   </div>
                   <span
                     class="
-                      text-lg
+                      md:text-lg
+                      text-sm
                       font-medium font-Inter
                       text-[#616C7C]
                       dark:text-white
@@ -319,22 +398,31 @@
                 <div class="flex items-center space-x-2">
                   <div
                     class="
-                      w-8
-                      h-8
-                      rounded-full
+                      md:w-8
+                      w-6
+                      md:h-8
+                      h-6
+                      circle
                       bg-[#0054B8]
                       dark:bg-[#2B71C4]
                       flex
                     "
                   >
                     <span
-                      class="m-auto text-sm text-white font-semibold font-Inter"
+                      class="
+                        m-auto
+                        text-xs
+                        md:text-sm
+                        text-white
+                        font-semibold font-Inter
+                      "
                       >02</span
                     >
                   </div>
                   <span
                     class="
-                      text-lg
+                      md:text-lg
+                      text-sm
                       font-medium font-Inter
                       text-[#616C7C]
                       dark:text-white
@@ -345,22 +433,31 @@
                 <div class="flex items-center space-x-2">
                   <div
                     class="
-                      w-8
-                      h-8
-                      rounded-full
+                      md:w-8
+                      w-6
+                      md:h-8
+                      h-6
+                      circle
                       bg-[#0054B8]
                       dark:bg-[#2B71C4]
                       flex
                     "
                   >
                     <span
-                      class="m-auto text-sm text-white font-semibold font-Inter"
+                      class="
+                        m-auto
+                        text-xs
+                        md:text-sm
+                        text-white
+                        font-semibold font-Inter
+                      "
                       >05</span
                     >
                   </div>
                   <span
                     class="
-                      text-lg
+                      md:text-lg
+                      text-sm
                       font-medium font-Inter
                       text-[#616C7C]
                       dark:text-white
@@ -371,22 +468,31 @@
                 <div class="flex items-center space-x-2">
                   <div
                     class="
-                      w-8
-                      h-8
-                      rounded-full
+                      md:w-8
+                      w-6
+                      md:h-8
+                      h-6
+                      circle
                       bg-[#0054B8]
                       dark:bg-[#2B71C4]
                       flex
                     "
                   >
                     <span
-                      class="m-auto text-sm text-white font-semibold font-Inter"
+                      class="
+                        m-auto
+                        text-xs
+                        md:text-sm
+                        text-white
+                        font-semibold font-Inter
+                      "
                       >03</span
                     >
                   </div>
                   <span
                     class="
-                      text-lg
+                      md:text-lg
+                      text-sm
                       font-medium font-Inter
                       text-[#616C7C]
                       dark:text-white
@@ -398,11 +504,12 @@
             </div>
           </div>
 
-          <div class="w-full pt-10">
+          <div class="w-full md:pt-10 pt-3 p-6 md:p-0">
             <div
               class="
                 w-full
-                h-[274px]
+                md:h-[274px]
+                h-[240px]
                 dark:bg-[#1E1F23]
                 bg-[#F5F8FC]
                 rounded-[20px]
@@ -410,9 +517,14 @@
               "
             >
               <svg
-                width="274"
-                height="274"
-                class="m-auto dark:block hidden"
+                class="
+                  m-auto
+                  dark:block
+                  hidden
+                  w-[200px]
+                  h-[200px]
+                  md:w-[274px] md:h-[274px]
+                "
                 viewBox="0 0 274 274"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -442,7 +554,9 @@
               <svg
                 width="274"
                 height="274"
-                class="m-auto dark:hidden"
+                class="m-auto dark:hidden  w-[200px]
+                  h-[200px]
+                  md:w-[274px] md:h-[274px]"
                 viewBox="0 0 274 274"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -472,11 +586,23 @@
             </div>
           </div>
 
-          <div class="w-full flex flex-col items-start space-y-5 pt-10">
+          <div
+            class="
+              w-full
+              flex flex-col
+              items-start
+              md:space-y-5
+              pt-2
+              md:pt-10
+              p-6
+              md:p-0
+            "
+          >
             <div class="w-full flex flex-col items-start space-y-4">
               <h2
                 class="
-                  text-[32px]
+                  md:text-[32px]
+                  text-[24px]
                   font-semibold font-Inter
                   text-[#1B2C42]
                   dark:text-white
@@ -486,7 +612,8 @@
               </h2>
               <p
                 class="
-                  text-xl
+                  md:text-xl
+                  text-base
                   font-semibold font-Inter
                   text-[#1B2C42]
                   dark:text-white
@@ -529,19 +656,33 @@
             </div>
             <p
               class="
-                text-[#616C7C] text-lg
+                text-[#616C7C]
+                md:text-lg
+                text-sm
                 font-Inter font-medium
-                dark:text-[#A9AFB7]
+                dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
               "
             >
               If you need any help click here to look at a comprehensive guide.
             </p>
           </div>
-          <div class="w-full flex flex-col items-start space-y-5 pt-10">
+          <div
+            class="
+              w-full
+              flex flex-col
+              items-start
+              space-y-5
+              pt-2
+              md:pt-10
+              p-6
+              md:p-0
+            "
+          >
             <div class="w-full flex flex-col items-start space-y-4">
               <h2
                 class="
-                  text-[32px]
+                  md:text-[32px]
+                  text-2xl
                   font-semibold font-Inter
                   text-[#1B2C42]
                   dark:text-white
@@ -551,10 +692,13 @@
               </h2>
               <p
                 class="
-                  text-xl
+                  md:text-xl
+                  text-sm
+                  leading-[24px]
+                  md:leading-[30px]
                   font-semibold font-Inter
                   text-[#616C7C]
-                  dark:text-[#A9AFB7]
+                  dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
                 "
               >
                 You can complete your Verification Process on your Wallex
@@ -573,9 +717,9 @@
                 password guide or our List of recommended 2FA applications.
               </p>
             </div>
-            <div class="h-[285px] w-full">
+            <div class="md:h-[285px] h-[140px] w-full">
               <svg
-                class="w-full h-full"
+                class="w-full h-full md:block hidden"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -601,13 +745,60 @@
                   />
                 </defs>
               </svg>
+              <svg
+                class="w-full h-full md:hidden"
+                width="343"
+                height="142"
+                viewBox="0 0 343 142"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect
+                  y="0.789062"
+                  width="343"
+                  height="140.251"
+                  fill="url(#ggff014hhhhh)"
+                />
+                <defs>
+                  <pattern
+                    id="ggff014hhhhh"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#ggfggff014hhhhhf00"
+                      transform="translate(-0.000650404) scale(0.00123161 0.00301205)"
+                    />
+                  </pattern>
+                  <image
+                    id="ggfggff014hhhhhf00"
+                    width="813"
+                    height="332"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
             </div>
           </div>
-          <div class="w-full flex flex-col items-start space-y-5 pt-10">
+          <div
+            class="
+              w-full
+              flex flex-col
+              items-start
+              space-y-5
+              pt-2
+              md:pt-10
+              p-6
+              md:p-0
+            "
+          >
             <div class="w-full flex flex-col items-start space-y-4">
               <h2
                 class="
-                  text-[32px]
+                  md:text-[32px]
+                  text-2xl
                   font-semibold font-Inter
                   text-[#1B2C42]
                   dark:text-white
@@ -617,10 +808,13 @@
               </h2>
               <p
                 class="
-                  text-xl
+                  md:text-xl
+                  text-sm
                   font-semibold font-Inter
                   text-[#616C7C]
-                  dark:text-[#A9AFB7]
+                  dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                  leading-[24px]
+                  md:leading-[30px]
                 "
               >
                 If you already hold crypto in another wallet, you can deposit
@@ -632,11 +826,23 @@
               </p>
             </div>
           </div>
-          <div class="w-full flex flex-col items-start space-y-5 pt-10">
-            <div class="w-full flex flex-col items-start space-y-4">
+          <div
+            class="
+              w-full
+              flex flex-col
+              items-start
+              space-y-5
+              pt-2
+              md:pt-10
+              p-6
+              md:p-0
+            "
+          >
+            <div class="w-full flex flex-col items-start md:space-y-4">
               <h2
                 class="
-                  text-[32px]
+                  md:text-[32px]
+                  text-2xl
                   font-semibold font-Inter
                   text-[#1B2C42]
                   dark:text-white
@@ -645,7 +851,7 @@
                 Step 4: Buy and Sell Crypto
               </h2>
             </div>
-            <div class="h-[392px]">
+            <div class="md:h-[392px] h-[192.91px]">
               <svg
                 class="w-full h-full"
                 viewBox="0 0 697 392"
@@ -676,11 +882,14 @@
               </svg>
             </div>
           </div>
-          <div class="w-full flex flex-col items-start space-y-5 pt-10">
+          <div
+            class="w-full flex flex-col items-start space-y-5 pt-10 p-6 md:p-0"
+          >
             <div class="w-full flex flex-col items-start space-y-4">
               <h2
                 class="
-                  text-[32px]
+                  md:text-[32px]
+                  text-2xl
                   font-semibold font-Inter
                   text-[#1B2C42]
                   dark:text-white
@@ -696,8 +905,8 @@
                   col-span-2
                   w-full
                   bg-[#F5F6F7]
-                  h-[344px]
-                  dark:bg-[#1E1F23]
+                  md:h-[344px]
+                  dark:md:bg-[#1E1F23] dark:bg-[#1F1F1F]
                   group
                   rounded-3xl
                   overflow-hidden
@@ -705,22 +914,42 @@
                   relative
                 "
               >
-                <div class="w-full flex justify-between items-start">
-                  <div class="pl-10 pt-10 w-full max-w-[552px] space-y-3">
+                <div
+                  class="
+                    w-full
+                    flex
+                    md:flex-row
+                    flex-col
+                    items-end
+                    md:justify-between md:items-start
+                  "
+                >
+                  <div
+                    class="
+                      md:pl-10 md:pt-10
+                      p-6
+                      md:p-0
+                      w-full
+                      max-w-[552px]
+                      space-y-3
+                    "
+                  >
                     <span
                       class="
                         font-Inter font-semibold
                         text-[#1B2C42]
                         dark:text-white
-                        text-[32px]
+                        md:text-[32px]
+                        text-2xl
                       "
                       >Spend Crypto With Card</span
                     >
                     <p
                       class="
                         text-[#616C7C]
-                        dark:text-[#A9AFB7]
-                        text-lg
+                        dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                        md:text-lg
+                        text-sm
                         font-medium font-Inter
                         max-w-[392px]
                       "
@@ -739,7 +968,8 @@
                           bg-[#0054B8]
                           dark:bg-[#2B71C4]
                           py-2
-                          px-6
+                          md:px-6
+                          px-3
                           rounded-full
                           hover:bg-opacity-80
                         "
@@ -769,7 +999,7 @@
                   </div>
                   <div
                     class="
-                      absolute
+                      md:absolute
                       bottom-0
                       right-0
                       max-w-[365px] max-h-[291px]
@@ -777,7 +1007,25 @@
                   >
                     <img
                       src="../../../assets/mobilegift.png"
-                      class="w-full h-full group-hover:scale-110 object-cover"
+                      class="
+                        w-full
+                        h-full
+                        group-hover:scale-110
+                        object-cover
+                        hidden
+                        md:block
+                      "
+                      alt=""
+                    />
+                    <img
+                      src="../../../assets/mobilegift1.png"
+                      class="
+                        w-full
+                        h-full
+                        group-hover:scale-110
+                        object-cover
+                        md:hidden
+                      "
                       alt=""
                     />
                   </div>
@@ -788,8 +1036,9 @@
                   col-span-2
                   w-full
                   bg-[#F5F6F7]
-                  h-[276px]
-                  dark:bg-[#1E1F23]
+                  md:h-[276px]
+                  h-[330px]
+                  dark:md:bg-[#1E1F23] dark:bg-[#1F1F1F]
                   group
                   rounded-3xl
                   overflow-hidden
@@ -797,29 +1046,88 @@
                   relative
                 "
               >
-                <div class="w-full flex justify-between items-start">
-                  <div class="pl-10 pt-10 w-full max-w-[552px] space-y-3">
+                <div
+                  class="
+                    w-full
+                    flex
+                    md:flex-row
+                    flex-col
+                    items-end
+                    md:justify-between md:items-start
+                  "
+                >
+                  <div
+                    class="
+                      md:pl-10 md:pt-10
+                      p-6
+                      md:p-0
+                      w-full
+                      max-w-[552px]
+                      space-y-3
+                    "
+                  >
                     <span
                       class="
                         font-Inter font-semibold
                         text-[#1B2C42]
                         dark:text-white
-                        text-[32px]
+                        md:text-[32px]
+                        text-2xl
                       "
                       >Saving</span
                     >
                     <p
                       class="
                         text-[#616C7C]
-                        dark:text-[#A9AFB7]
-                        text-lg
+                        dark:md:text-[#A9AFB7] dark:text-white
+                        md:text-lg
+                        text-sm
                         font-medium font-Inter
+                        leading-[24px]
+                        md:leading-[30px]
                         max-w-[392px]
                       "
                     >
                       Earn up to 8.5% p.a. on your crypto, <br />
                       and up to 18% p.a. in stablecoins.
                     </p>
+                    <div class="pt-4 md:hidden">
+                      <button
+                        class="
+                          flex
+                          items-center
+                          space-x-4
+                          bg-[#0054B8]
+                          dark:bg-[#2B71C4]
+                          py-2
+                          md:px-6
+                          px-3
+                          rounded-full
+                          hover:bg-opacity-80
+                        "
+                      >
+                        <span
+                          class="text-white font-Inter font-semibold text-base"
+                          >Get Rewarded</span
+                        >
+                        <div>
+                          <svg
+                            width="10"
+                            height="18"
+                            viewBox="0 0 10 18"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L9.70711 8.29289C10.0976 8.68342 10.0976 9.31658 9.70711 9.70711L1.70711 17.7071C1.31658 18.0976 0.683417 18.0976 0.292893 17.7071C-0.0976311 17.3166 -0.0976311 16.6834 0.292893 16.2929L7.58579 9L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
                     <div class="w-full">
                       <div class="px-2 absolute left-5 bottom-10 z-40">
                         <div
@@ -832,7 +1140,12 @@
                           style="backdrop-filter: blur(24px)"
                         >
                           <span
-                            class="text-white text-lg font-Inter font-semibold"
+                            class="
+                              text-white text-sm
+                              leading-[24px]
+                              md:leading-[26px] md:text-lg
+                              font-Inter font-semibold
+                            "
                             >Save and invest to make your life easier with our
                             solutions</span
                           >
@@ -843,7 +1156,25 @@
                   <div class="absolute bottom-0 right-0">
                     <img
                       src="../../../assets/piggybank.png"
-                      class="w-full h-full group-hover:scale-110 object-cover"
+                      class="
+                        w-full
+                        h-full
+                        group-hover:scale-110
+                        object-cover
+                        hidden
+                        md:block
+                      "
+                      alt=""
+                    />
+                    <img
+                      src="../../../assets/piggybank1.png"
+                      class="
+                        w-full
+                        h-full
+                        group-hover:scale-110
+                        object-cover
+                        md:hidden
+                      "
                       alt=""
                     />
                   </div>
@@ -854,8 +1185,8 @@
                   col-span-2
                   w-full
                   bg-[#F5F6F7]
-                  h-[210px]
-                  dark:bg-[#1E1F23]
+                  md:h-[210px]
+                  dark:md:bg-[#1E1F23] dark:bg-[#1F1F1F]
                   group
                   rounded-3xl
                   overflow-hidden
@@ -863,22 +1194,42 @@
                   relative
                 "
               >
-                <div class="w-full flex justify-between items-start">
-                  <div class="pl-10 pt-8 w-full max-w-[552px] space-y-3">
+                <div
+                  class="
+                    w-full
+                    flex
+                    md:flex-row
+                    items-end
+                    flex-col
+                    md:justify-between md:items-start
+                  "
+                >
+                  <div
+                    class="
+                      md:pl-10 md:pt-10
+                      p-6
+                      md:p-0
+                      w-full
+                      max-w-[552px]
+                      space-y-3
+                    "
+                  >
                     <span
                       class="
                         font-Inter font-semibold
                         text-[#1B2C42]
                         dark:text-white
-                        text-[32px]
+                        md:text-[32px]
+                        text-2xl
                       "
                       >Send and Withdraw</span
                     >
                     <p
                       class="
                         text-[#616C7C]
-                        dark:text-[#A9AFB7]
-                        text-lg
+                        dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                        md:text-lg
+                        text-sm
                         font-medium font-Inter
                         max-w-[392px]
                       "
@@ -887,10 +1238,22 @@
                       fees. Withdraw fiat and crypto with a low fee.
                     </p>
                   </div>
-                  <div class="absolute bottom-0 right-0">
+                  <div class="md:absolute bottom-0 right-0">
                     <img
                       src="../../../assets/roket.png"
-                      class="w-full h-full group-hover:scale-110 object-cover"
+                      class="
+                        w-full
+                        h-full
+                        group-hover:scale-110
+                        object-cover
+                        hidden
+                        md:block
+                      "
+                      alt=""
+                    />
+                    <img
+                      src="../../../assets/roket10.png"
+                      class="group-hover:scale-110 object-cover md:hidden"
                       alt=""
                     />
                   </div>
@@ -899,103 +1262,215 @@
             </div>
           </div>
 
-          <div class=" w-full pt-10">
+          <div class="w-full pt-2 md:pt-10">
             <div
-            class="w-full pt-10 h-[186px] border-[#E0E2E5] dark:border-[#26272C]"
-            style="
-              border-width: 1px 0px;
-              border-style: solid;
-              border-radius: 24px;
-            "
-          >
-            <div class="flex flex-col items-start space-y-4">
-              <span class="text-[32px] font-semibold font-Inter dark:text-white text-[#1B2C42]"
-                >Was this article helpful?</span
-              >
-              <div class="flex items-center space-x-4">
-                <button
+              class="
+                w-full
+                pt-10
+                h-[186px]
+                border-[#E0E2E5]
+                dark:border-[#26272C]
+                border-y-[1px] border-x-[0px]
+                p-6
+                md:p-0
+              "
+            >
+              <div class="flex flex-col items-start space-y-4 md:pt-6">
+                <span
                   class="
-                    h-[44px]
-                    w-[120px]
-                    border border-[#0054B8] dark:border-[#2B71C4]
-                    bg-[#0054B8] dark:bg-[#2B71C4]
-                    flex
-                    rounded-full
-                    hover:bg-opacity-60
+                    md:text-[32px]
+                    text-[24px]
+                    font-semibold font-Inter
+                    dark:text-white
+                    text-[#1B2C42]
                   "
+                  >Was this article helpful?</span
                 >
-                  <div class="flex items-center space-x-4 m-auto">
-                    <svg
-                      width="20"
-                      height="14"
-                      viewBox="0 0 20 14"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M19.7071 0.292893C20.0976 0.683417 20.0976 1.31658 19.7071 1.70711L7.70711 13.7071C7.31658 14.0976 6.68342 14.0976 6.29289 13.7071L0.292893 7.70711C-0.0976311 7.31658 -0.0976311 6.68342 0.292893 6.29289C0.683417 5.90237 1.31658 5.90237 1.70711 6.29289L7 11.5858L18.2929 0.292893C18.6834 -0.0976311 19.3166 -0.0976311 19.7071 0.292893Z"
-                        fill="white"
-                      />
-                    </svg>
+                <div class="flex items-center space-x-4">
+                  <button
+                    class="
+                      h-[44px]
+                      w-[120px]
+                      border border-[#0054B8]
+                      dark:border-[#2B71C4]
+                      bg-[#0054B8]
+                      dark:bg-[#2B71C4]
+                      flex
+                      rounded-full
+                      hover:bg-opacity-60
+                    "
+                  >
+                    <div class="flex items-center space-x-4 m-auto">
+                      <svg
+                        width="20"
+                        height="14"
+                        viewBox="0 0 20 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M19.7071 0.292893C20.0976 0.683417 20.0976 1.31658 19.7071 1.70711L7.70711 13.7071C7.31658 14.0976 6.68342 14.0976 6.29289 13.7071L0.292893 7.70711C-0.0976311 7.31658 -0.0976311 6.68342 0.292893 6.29289C0.683417 5.90237 1.31658 5.90237 1.70711 6.29289L7 11.5858L18.2929 0.292893C18.6834 -0.0976311 19.3166 -0.0976311 19.7071 0.292893Z"
+                          fill="white"
+                        />
+                      </svg>
 
-                    <span class="text-base font-semibold font-Inter text-white"
-                      >Yes</span
-                    >
-                  </div>
-                </button>
-                <button
-                  class="
-                    h-[44px]
-                    w-[120px]
-                    border border-[#E6EEF8] dark:border-[#26272C]
-                    bg-[#E6EEF8] dark:bg-[#26272C]
-                    flex
-                    rounded-full
-                    hover:bg-opacity-60
-                  "
-                >
-                  <div class="flex items-center space-x-4 m-auto">
-                    <svg
-                     class=" fill-current text-[#0054B8] dark:text-white"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                       class=" fill-current"
-                        d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L6.58586 8.00008L0.292893 14.293C-0.0976306 14.6836 -0.0976309 15.3167 0.292893 15.7073C0.683418 16.0978 1.31658 16.0978 1.70711 15.7073L8.00008 9.41429L14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L9.41429 8.00008L15.7071 1.70726C16.0976 1.31673 16.0976 0.683569 15.7071 0.293044C15.3166 -0.09748 14.6834 -0.09748 14.2929 0.293044L8.00008 6.58586L1.70711 0.292893Z"
-                        
-                      />
-                    </svg>
+                      <span
+                        class="text-base font-semibold font-Inter text-white"
+                        >Yes</span
+                      >
+                    </div>
+                  </button>
+                  <button
+                    class="
+                      h-[44px]
+                      w-[120px]
+                      border border-[#E6EEF8]
+                      dark:border-[#26272C]
+                      bg-[#E6EEF8]
+                      dark:bg-[#26272C]
+                      flex
+                      rounded-full
+                      hover:bg-opacity-60
+                    "
+                  >
+                    <div class="flex items-center space-x-4 m-auto">
+                      <svg
+                        class="fill-current text-[#0054B8] dark:text-white"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          class="fill-current"
+                          d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L6.58586 8.00008L0.292893 14.293C-0.0976306 14.6836 -0.0976309 15.3167 0.292893 15.7073C0.683418 16.0978 1.31658 16.0978 1.70711 15.7073L8.00008 9.41429L14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L9.41429 8.00008L15.7071 1.70726C16.0976 1.31673 16.0976 0.683569 15.7071 0.293044C15.3166 -0.09748 14.6834 -0.09748 14.2929 0.293044L8.00008 6.58586L1.70711 0.292893Z"
+                        />
+                      </svg>
 
-                    <span
-                      class="text-base font-semibold font-Inter text-[#0054B8] dark:text-white"
-                      >No</span
-                    >
-                  </div>
-                </button>
+                      <span
+                        class="
+                          text-base
+                          font-semibold font-Inter
+                          text-[#0054B8]
+                          dark:text-white
+                        "
+                        >No</span
+                      >
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          </div>
 
-          <div class=" w-full pt-10">
-            <div class=" w-full flex flex-col items-start space-y-6">
-                <span class=" dark:text-white text-[32px] font-Inter font-semibold text-[#1B2C42]">Other articles</span>
-                <div class=" w-full flex flex-col items-start space-y-5">
-                    <span class=" text-xl dark:text-white font-Inter font-semibold text-[#1B2C42]">Let’s get started in 5 quick and easy steps:</span>
-                    <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Wallex Solutions</a>
-                     <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Account Security & Sign in</a>
-                      <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">KYC & KYB, and Verification Process</a>
-                       <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Financial Operations</a>
-                        <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Wallex Regional Card Services</a>
-                         <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Wallex Regional Education & FAQs</a>
-                          <a href="#" class=" dark:text-[#A9AFB7] text-lg font-medium font-Inter text-[#616C7C]">Policies, Terms & Compliance Rules</a>
-                </div>
+          <div class="w-full pt-4 md:pt-10 p-6 md:p-0">
+            <div
+              class="w-full flex flex-col items-start space-y-4 md:space-y-6"
+            >
+              <span
+                class="
+                  dark:text-white
+                  text-2xl
+                  md:text-[32px]
+                  font-Inter font-semibold
+                  text-[#1B2C42]
+                "
+                >Other articles</span
+              >
+              <div
+                class="w-full flex flex-col items-start space-y-4 md:space-y-5"
+              >
+                <span
+                  class="
+                    md:text-xl
+                    text-base
+                    dark:text-white
+                    font-Inter font-semibold
+                    text-[#1B2C42]
+                  "
+                  >Let’s get started in 5 quick and easy steps:</span
+                >
+                <a
+                  href="#"
+                  class="
+                    dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                    text-sm
+                    md:text-lg
+                    font-medium font-Inter
+                    text-[#616C7C]
+                  "
+                  >Wallex Solutions</a
+                >
+                <a
+                  href="#"
+                  class="
+                    dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                    text-sm
+                    md:text-lg
+                    font-medium font-Inter
+                    text-[#616C7C]
+                  "
+                  >Account Security & Sign in</a
+                >
+                <a
+                  href="#"
+                  class="
+                    dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                    text-sm
+                    md:text-lg
+                    font-medium font-Inter
+                    text-[#616C7C]
+                  "
+                  >KYC & KYB, and Verification Process</a
+                >
+                <a
+                  href="#"
+                  class="
+                    dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                    text-sm
+                    md:text-lg
+                    font-medium font-Inter
+                    text-[#616C7C]
+                  "
+                  >Financial Operations</a
+                >
+                <a
+                  href="#"
+                  class="
+                    dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                    text-sm
+                    md:text-lg
+                    font-medium font-Inter
+                    text-[#616C7C]
+                  "
+                  >Wallex Regional Card Services</a
+                >
+                <a
+                  href="#"
+                  class="
+                    dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                    text-sm
+                    md:text-lg
+                    font-medium font-Inter
+                    text-[#616C7C]
+                  "
+                  >Wallex Regional Education & FAQs</a
+                >
+                <a
+                  href="#"
+                  class="
+                    dark:md:text-[#A9AFB7] dark:text-[#C3C8CD]
+                    text-sm
+                    md:text-lg
+                    font-medium font-Inter
+                    text-[#616C7C]
+                  "
+                  >Policies, Terms & Compliance Rules</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -1008,6 +1483,11 @@
 
 <script>
 export default {
+  data(){
+    return {
+      show:false,
+    }
+  },
   methods: {
     goToDetails(slug) {
       this.$router.push({ name: "NewsDetails", params: { slug: slug } });
@@ -1015,3 +1495,12 @@ export default {
   },
 };
 </script>
+
+
+
+
+<style scoped>
+.top-arrow {
+  transform: rotate(180deg);
+}
+</style>
