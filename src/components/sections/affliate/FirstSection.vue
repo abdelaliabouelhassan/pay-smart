@@ -1,8 +1,8 @@
 <template>
-  <section class="w-full md:h-[100vh] flex bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
-    <div class="w-full relative md:h-[100vh]">
+  <section class="w-full md:h-[100vh]  flex bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
+    <div class="w-full relative md:h-[100vh] ">
       <div class=" w-full md:absolute md:bottom-[9rem]">
-        <div class="w-full h-full max-w-[1170px] flex md:flex-row flex-col space-y-8 md:space-y-0 items-start m-auto">
+        <div class="w-full h-full max-w-[1170px] flex md:flex-row flex-col space-y-8 md:space-y-0 tall:space-y-[40rem] tallMax:space-y-[60rem]  items-start m-auto">
         <div class="w-[418px] md:pt-24 pl-2">
           <div class="flex flex-col items-start px-4 md:px-0 space-y-4 md:space-y-8 w-full z-50">
             <div class="w-full flex flex-col items-start space-y-1 md:space-y-3 z-50">

@@ -8,7 +8,7 @@
       dark:bg-[#1C1C1C]
       md:pt-56 pt-5 
       overflow-hidden
-      md:h-[100vh]
+      md:h-[100vh] tall:h-[60vh]
     "
   >
     <div class="w-full relative md:pb-36 pb-10 ">

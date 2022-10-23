@@ -105,7 +105,7 @@
               </button>
             </div>
 
-            <div class="w-full flex flex-col items-start space-y-4">
+            <div class="w-full flex flex-col items-start space-y-2 md:space-y-4">
               <h1
                 class="
                   text-[#1B2C42] text-[32px]
@@ -130,12 +130,13 @@
                   >Articles in this section</span
                 >
                 <div class="w-full flex justify-between text-center cursor-pointer md:hidden " @click="show = !show">
-                  <span class="text-sm font-medium font-Inter text-white"
+                  <span class="text-sm font-medium font-Inter dark:text-white text-[#1B2C42]"
                     >Getting Started</span
                   >
                   <button>
                     <svg
                      :class="{'top-arrow':show}"
+                      class=" fill-current dark:text-white text-[#1B2C42]"
                       width="14"
                       height="8"
                       viewBox="0 0 14 8"
@@ -144,13 +145,13 @@
                     >
                       <path
                         d="M6.6927 4.96125C6.86252 5.13108 7.13787 5.13108 7.3077 4.96125L11.5968 0.672166C12.0198 0.249162 12.7056 0.249162 13.1286 0.672166V0.672166C13.5516 1.09517 13.5516 1.781 13.1286 2.204L7.84403 7.48858C7.378 7.95462 6.6224 7.95462 6.15636 7.48858L0.871778 2.204C0.448774 1.781 0.448774 1.09517 0.871779 0.672166V0.672166C1.29478 0.249162 1.98061 0.249162 2.40361 0.672166L6.6927 4.96125Z"
-                        fill="white"
+                        class=" fill-current"
                       />
                     </svg>
                   </button>
                 </div>
                 <div
-                  :class="{'hidden md:block':show}"
+                  :class="{'hidden md:block':!show}"
                   class="
                     w-full
                     flex flex-col
@@ -260,8 +261,8 @@
             </div>
           </div>
         </div>
-        <div class="w-full col-span-3 md:col-span-2 space-y-8">
-          <div class="flex flex-col items-start space-y-4 p-6 md:p-0">
+        <div class="w-full col-span-3 md:col-span-2 space-y-2 md:space-y-8">
+          <div class="flex flex-col items-start space-y-2 md:space-y-4 p-6 md:p-0">
             <h1
               class="
                 dark:text-white
@@ -591,7 +592,7 @@
               w-full
               flex flex-col
               items-start
-              md:space-y-5
+              md:space-y-5 space-y-1
               pt-2
               md:pt-10
               p-6

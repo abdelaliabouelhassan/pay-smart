@@ -52,6 +52,12 @@ module.exports = {
         'bounce-tether': 'bounce-tether 1.5s infinite',
         'bounce-bitcoin': 'bounce-bitcoin 2s infinite',
       },
+      //3xl screen size height
+      screens: {
+        '3xl': '2000px',
+        'tall': {'raw': '(min-height: 1400px)'},
+        'tallMax': {'raw': '(min-height: 1800px)'},
+      },
         
     },
   },

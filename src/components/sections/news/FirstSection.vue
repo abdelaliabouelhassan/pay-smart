@@ -7,7 +7,7 @@
       font-Inter
       dark:bg-[#1C1C1C]
        md:pt-52 pt-32
-      md:overflow-hidden md:h-[100vh]
+      md:overflow-hidden md:h-[100vh]  tall:h-[60vh]
     "
   >
     <div class="w-full relative md:pb-28 pb-14 z-50">

@@ -1,6 +1,6 @@
 <template>
   <section class="w-full relative flex md:h-[100vh] bg-[#F5F6F7] font-Inter dark:bg-[#1C1C1C] pt-36 overflow-hidden">
-    <div class="w-full md:h-[100vh]">
+    <div class="w-full md:h-[100vh] ">
      <div class=" w-full md:absolute md:bottom-0">
        <div
         class="
@@ -9,7 +9,7 @@
           max-w-[1170px]
           flex md:flex-row flex-col space-y-4 md:space-y-0 
           items-start
-          md:justify-between
+          md:justify-between tall:space-y-[40rem] tallMax:space-y-[60rem]
           m-auto
         "
       >
@@ -36,23 +36,14 @@
               <h1
                 class="
                   font-semibold
-                  text-6xl text-[#1B2C42]
-                  dark:text-white hidden md:block
+                  md:text-6xl text-[32px] text-[#1B2C42]
+                  dark:text-white 
                   lg:whitespace-nowrap
                 "
               >
                 Ambassadors
               </h1>
-               <h1
-                class="
-                  font-semibold
-                  md:text-6xl text-[32px] text-[#1B2C42]
-                  dark:text-white md:hidden
-                  lg:whitespace-nowrap
-                "
-              >
-                Wallex Aflliates
-              </h1>
+              
              </div>
               <p
                 class="

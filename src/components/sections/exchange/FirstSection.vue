@@ -19,7 +19,7 @@
             <h1 class="font-semibold md:text-6xl text-[32px] text-[#1B2C42] dark:text-white z-50">
               Limitless Instant Exchange
             </h1>
-            <p class="md:font-normal font-medium text-[#616C7C] dark:text-[#A9AFB7] text-lg z-50 pb-5 md:pb-0">
+            <p class="md:font-normal font-medium text-[#616C7C] dark:text-[#A9AFB7] md:pl-[2.5px] pl-0.5 text-lg z-50 pb-5 md:pb-0">
               Wallex Exchange is a platform which can manage all your foreign
               exchanges, cross-border payments and collection needs in one
               easy-to-use-platform.
