@@ -35,7 +35,7 @@
             'text-white': $route.name === 'Career',
             'text-[#3A495C]': $route.name !== 'Career',
           }"
-          >Exchange</router-link
+          >{{$t('message.Exchange') }}</router-link
         >
         <router-link
           to="/custody"
@@ -51,7 +51,7 @@
             'text-white': $route.name === 'Career',
             'text-[#3A495C]': $route.name !== 'Career',
           }"
-          >Custody</router-link
+          >{{$t('message.Custody') }}</router-link
         >
         <router-link
           to="/atm"
@@ -558,6 +558,10 @@ export default {
   methods: {
     selecteLang(lang) {
       this.selectedLang = lang;
+      //chage i18n
+     
+      this.$i18n.locale = lang.toLowerCase();
+      localStorage.setItem("lang", lang.toLowerCase());
     },
   },
   computed: {
@@ -588,6 +592,11 @@ export default {
   mounted() {
     if (localStorage.getItem("darkMode") === "enabled") {
       this.DarkMode = true;
+    }
+    //get lang from local storage
+    if (localStorage.getItem("lang")) {
+      this.$i18n.locale = localStorage.getItem("lang");
+      this.selectedLang = localStorage.getItem("lang").toUpperCase();
     }
   },
 };
