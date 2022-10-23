@@ -149,14 +149,24 @@
       <div class="w-full h-full absolute hidden dark:block bottom-[-99px] md:bottom-0 ">
         <img
           src="../../../assets/darkbg.png"
-          class="w-full h-full object-none md:object-cover"
+          class="w-full h-full  object-cover md:block hidden"
+          alt=""
+        />
+        <img
+          src="../../../assets/darkbgmobile.png"
+          class="w-full h-full   md:hidden" 
           alt=""
         />
       </div>
       <div class="w-full h-full absolute  dark:hidden bottom-[-99px] md:bottom-0">
         <img
           src="../../../assets/bgsection2.png"
-          class="w-full h-full object-none md:object-cover"
+          class="w-full h-full object-cover md:block hidden"
+          alt=""
+        />
+         <img
+          src="../../../assets/bgsection2mobile.png"
+          class="w-full h-full  md:hidden"
           alt=""
         />
       </div>
