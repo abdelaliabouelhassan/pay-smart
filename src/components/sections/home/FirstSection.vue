@@ -20,15 +20,18 @@
           class="w-full object-fill m-auto max-w-[283px] md:max-w-[712px] "
         />
          <img
+          id="wallexcoin3"
           src="../../../assets/wallexcoin3.png"
           alt=""
           class=" absolute top-0 -left-72 bounce-wallex md:block hidden"
         />
           <img
+            id="tether"
             src="../../../assets/tether.png"
             alt=""
             class=" absolute top-24 -right-24 bounce-tether md:block hidden">
           <img
+           id="bitcoin1"
             src="../../../assets/bitcoin-1.png"
             alt=""
             class=" absolute bottom-10 -right-64 bounce-bitcoin md:block hidden">
@@ -45,7 +48,7 @@
           alt=""
         />
       </div>
-      <div class="w-full absolute top-32 overflow-hidden px-6">
+      <div class="w-full absolute top-32  px-6">
         <div class="w-full flex flex-col items-center space-y-2">
           <div class="flex flex-col items-center md:-space-y-8  relative">
             <h1
@@ -69,10 +72,10 @@
               Pay with Wallex
             </h1>
             <div class="absolute top-28 -left-56 md:block hidden">
-              <img src="../../../assets/ethereum3.png" class="  bounce-ethereum3" alt="" />
+              <img id="ethereum3" src="../../../assets/ethereum3.png" class="  bounce-ethereum3 z-50" alt="" />
             </div>
              <div class="absolute top-28 -right-56 md:block hidden">
-              <img src="../../../assets/solana.png" class=" bounce-solana" alt="" />
+              <img id="solana" src="../../../assets/solana.png" class=" bounce-solana z-50" alt="" />
             </div>
           </div>
           <div class="flex flex-col items-center space-y-8">
@@ -151,7 +154,32 @@
 
 
 <script>
-export default {};
+export default {
+  //paralix effect
+  mounted() {
+    window.addEventListener("scroll", this.scrollEffect);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.scrollEffect);
+  },
+  methods: {
+    scrollEffect() {
+      const wallexcoin3 = document.getElementById("wallexcoin3");
+      const tether = document.getElementById("tether");
+      const bitcoin1 = document.getElementById("bitcoin1");
+      const ethereum3 = document.getElementById("ethereum3");
+      const solana = document.getElementById("solana");
+      const value = window.scrollY;
+      wallexcoin3.style.transform = `translateY(${value * 0.5}px)`;
+      tether.style.transform = `translateY(${value * 0.2}px)`;
+      bitcoin1.style.transform = `translateY(${value * 0.1}px)`;
+      ethereum3.style.transform = `translateY(${value * 0.2}px)`;
+      solana.style.transform = `translateY(${value * 0.6}px)`;
+    },
+      
+  },
+
+};
 </script>
 
 
