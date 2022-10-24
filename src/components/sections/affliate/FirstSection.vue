@@ -19,7 +19,7 @@
                   font-semibold
                   md:text-6xl text-[32px] text-[#1B2C42]
                   dark:text-white
-                  lg:whitespace-nowrap
+                  lg:whitespace-nowrap md:pl-[1.3px] pl-[1.2px]
                 "
               >
                 Wallex Aflliates

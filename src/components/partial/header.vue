@@ -540,7 +540,7 @@ export default {
   data() {
     return {
       show: false,
-      selectedLang: "BG",
+      selectedLang: "EN",
       DarkMode: false,
       open: false,
       lang: [
@@ -549,7 +549,7 @@ export default {
           flag: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg",
         },
         {
-          name: "UK",
+          name: "EN",
           flag: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg",
         },
       ],
