@@ -286,7 +286,7 @@
               dark:bg-[#26272C] dark:border-[#343434]
               rounded-3xl
               border-[#EEEEEE] bg-white
-              hover:shadow-card
+              hover:shadow-card dark:hover:shadow-2xl dark:shadow-[#272727]
               cursor-pointer
               w-full
               md:shadow-none md:h-[146px] h-auto
@@ -340,7 +340,7 @@
               rounded-3xl
               border-[#EEEEEE]  bg-white
               hover:shadow-card
-              cursor-pointer md:h-[146px] h-auto
+              cursor-pointer md:h-[146px] h-auto dark:hover:shadow-2xl dark:shadow-[#272727]
               w-full
               px-10
               py-6
@@ -391,7 +391,7 @@
               rounded-3xl
               border-[#EEEEEE]  bg-white
               hover:shadow-card
-              cursor-pointer  md:h-[146px] h-auto
+              cursor-pointer  md:h-[146px] h-auto dark:hover:shadow-2xl dark:shadow-[#272727]
               w-full
               px-10 py-6 md:py-0
               flex
