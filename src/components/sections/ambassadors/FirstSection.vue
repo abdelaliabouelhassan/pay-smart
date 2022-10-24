@@ -7,7 +7,7 @@
           w-full
           h-full
           max-w-[1170px]
-          flex md:flex-row flex-col space-y-4 md:space-y-0 
+          flex md:flex-row flex-col space-y-4 md:space-y-[15rem] md:pl-2
           items-start
           md:justify-between tall:space-y-[500rem] tallMax:space-y-[60rem] tallmin:space-y-[25rem]
           m-auto
