@@ -8,7 +8,7 @@
       from-[#282828]
       to-[#030303]
       pt-48
-      relative
+      relative overflow-hidden
     "
   >
     <div class="m-auto w-full md:pt-96 pt-72 ">
