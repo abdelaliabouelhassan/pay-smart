@@ -56,6 +56,7 @@ module.exports = {
       screens: {
         '3xl': '2000px',
         'tall': {'raw': '(min-height: 1400px)'},
+        'tallmin': {'raw': '(min-height: 1000px)'},
         'tallMax': {'raw': '(min-height: 1800px)'},
       },
         

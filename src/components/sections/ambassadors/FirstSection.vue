@@ -9,7 +9,7 @@
           max-w-[1170px]
           flex md:flex-row flex-col space-y-4 md:space-y-0 
           items-start
-          md:justify-between tall:space-y-[40rem] tallMax:space-y-[60rem]
+          md:justify-between tall:space-y-[500rem] tallMax:space-y-[60rem] tallmin:space-y-[25rem]
           m-auto
         "
       >
@@ -136,12 +136,12 @@
      
         <img
           src="../../../assets/hoverheroeffect.png"
-          class="w-full h-full md:h-auto absolute object-none md:object-cover bottom-[24px] md:bottom-auto  top-0 dark:hidden"
+          class="w-full h-full md:h-auto absolute object-none md:object-cover bottom-[24px] md:bottom-0  dark:hidden"
           alt=""
         />
         <img
           src="../../../assets/hoverheroeffectdark.png"
-          class="w-full h-full absolute object-none md:object-cover bottom-[24px] md:bottom-auto   top-0 dark:block md:hidden"
+          class="w-full h-full absolute object-none md:object-cover bottom-[24px] md:bottom-0 dark:block md:hidden"
           alt=""
         />
     </div>
