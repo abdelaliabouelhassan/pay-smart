@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full dark:bg-[#161616] overflow-hidden">
+    <div class=" w-full dark:bg-[#161616]">
         <FirstSection />
         <SecondSection />
         <ThirdSection />

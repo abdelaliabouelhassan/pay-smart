@@ -1,5 +1,5 @@
 <template>
-  <section
+  <!-- <section
     class="
       w-full
       bg-[#0F2138]
@@ -142,7 +142,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <section
     class="
       w-full
@@ -153,24 +153,23 @@
       pt-14
       md:pb-14
       pb-14
-      font-Inter
+      font-Inter overflow-hidden
       relative
-      dark:hidden
+      
     "
   >
-    <div class="absolute bottom-0 md:-bottom-28 flex w-full">
-      <svg class=" m-auto"
-        width="1440"
-        height="1440"
+    <div class="absolute bottom-0 dark:bottom-[-19rem] md:-bottom-28 flex w-full">
+       <svg class=" m-auto "
+       
         viewBox="0 0 1440 1440"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g filter="url(#filter0_f_0_1)">
-          <circle cx="929.5" cy="744.5" r="90.5" fill="#FFBE00" />
+          <circle cx="929.5" cy="744.5" r="90.5"  class=" fill-current text-[#FFBE00] dark:text-[#FFBE00]" />
         </g>
         <g filter="url(#filter1_f_0_1)">
-          <circle cx="720" cy="720" r="220" fill="#C0DDFF" />
+          <circle cx="720" cy="720" r="220"  class=" fill-current text-[#C0DDFF] dark:text-[#1F1F1F]" />
         </g>
         <defs>
           <filter
@@ -242,7 +241,7 @@
             "
           >
             <span class="text-[#0055b7]">Get Started</span>
-            <span> in minutes</span>
+            <span class=" dark:text-white"> in minutes</span>
           </h1>
 
           <button
