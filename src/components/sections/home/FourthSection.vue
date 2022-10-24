@@ -166,7 +166,7 @@
         xmlns="http://www.w3.org/2000/svg"
       >
         <g filter="url(#filter0_f_0_1)">
-          <circle cx="929.5" cy="744.5" r="90.5"  class=" fill-current text-[#FFBE00] dark:text-[#FFBE00]" />
+          <circle cx="929.5" cy="744.5" r="90.5"  class=" fill-current text-[#FFBE00] dark:text-[#5998eb]" />
         </g>
         <g filter="url(#filter1_f_0_1)">
           <circle cx="720" cy="720" r="220"  class=" fill-current text-[#C0DDFF] dark:text-[#1F1F1F]" />
