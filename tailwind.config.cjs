@@ -18,6 +18,7 @@ module.exports = {
       backgroundImage: theme => ({
         'dark-gradient': "radial-gradient(148.62% 210.62% at 50% 100%, #282828 11.49%, #030303 100%)",
         'light-gradient': "radial-gradient(118.87% 80.16% at 55.45% 80.16%, #73ADF1 0%, #196ECF 100%) ",
+        'bluebox-gradient': "radial-gradient(154.04% 96.04% at 93.27% 93.64%, #73ADF1 0%, #196ECF 100%)",
       }),
       //bounce animation
       keyframes: {

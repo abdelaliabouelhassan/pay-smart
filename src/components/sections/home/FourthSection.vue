@@ -158,8 +158,78 @@
       dark:hidden
     "
   >
-    <div class="m-auto w-full max-w-[1150px] p-6">
-      <div class="w-full flex md:flex-row flex-col  space-y-10 items-center md:justify-between">
+    <div class="absolute bottom-0 md:-bottom-28 flex w-full">
+      <svg class=" m-auto"
+        width="1440"
+        height="1440"
+        viewBox="0 0 1440 1440"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_f_0_1)">
+          <circle cx="929.5" cy="744.5" r="90.5" fill="#FFBE00" />
+        </g>
+        <g filter="url(#filter1_f_0_1)">
+          <circle cx="720" cy="720" r="220" fill="#C0DDFF" />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_0_1"
+            x="465"
+            y="280"
+            width="929"
+            height="929"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="187"
+              result="effect1_foregroundBlur_0_1"
+            />
+          </filter>
+          <filter
+            id="filter1_f_0_1"
+            x="0"
+            y="0"
+            width="1440"
+            height="1440"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="250"
+              result="effect1_foregroundBlur_0_1"
+            />
+          </filter>
+        </defs>
+      </svg>
+    </div>
+    <div class="m-auto w-full max-w-[1150px] p-6 z-50">
+      <div
+        class="
+          w-full
+          flex
+          md:flex-row
+          flex-col
+          space-y-10
+          items-center
+          md:justify-between
+        "
+      >
         <div class="flex flex-col items-start space-y-7 md:w-full">
           <h1
             class="
@@ -216,14 +286,14 @@
               border
               dark:bg-[#26272C] dark:border-[#343434]
               rounded-3xl
-              border-[#EEEEEE]
+              border-[#EEEEEE] bg-white
               hover:shadow-card
               cursor-pointer
               w-full
-             
-              md:shadow-none
+              md:shadow-none md:h-[146px] h-auto
               shadow-card
-              px-10 py-5
+              px-10
+              py-5
             "
           >
             <div class="flex items-start space-x-10">
@@ -236,9 +306,9 @@
                 <span
                   class="
                     text-2xl
-                    font-semibold
+                     font-medium
                     dark:text-white
-                    text-[#1B2C42]
+                    text-[#1D1D1D]
                     leading-[36px]
                     max-w-[221px]
                     md:max-w-max
@@ -251,9 +321,9 @@
                     text-sm
                     leading-[24px]
                     md:leading-[30px]
-                    font-medium
+                    font-normal
                     dark:text-[#C3C8CD] dark:md:text-[#A9AFB7]
-                    text-[#616C7C]
+                    text-[#555555]
                     max-w-[221px]
                     md:max-w-max
                   "
@@ -269,14 +339,12 @@
               border
               dark:bg-[#26272C] dark:border-[#343434]
               rounded-3xl
-              border-[#EEEEEE]
+              border-[#EEEEEE]  bg-white
               hover:shadow-card
-              cursor-pointer
+              cursor-pointer md:h-[146px] h-auto
               w-full
-             
-             
-           
-              px-10 py-6
+              px-10
+              py-6
             "
           >
             <div class="flex items-start space-x-10">
@@ -289,9 +357,9 @@
                 <span
                   class="
                     text-2xl
-                    font-semibold
+                     font-medium
                     dark:text-white
-                    text-[#1B2C42]
+                    text-[#1D1D1D]
                     leading-[36px]
                     max-w-[221px]
                     md:max-w-max
@@ -300,13 +368,13 @@
                 >
                 <p
                   class="
-                    md:text-lg
+                     md:text-lg
                     text-sm
                     leading-[24px]
                     md:leading-[30px]
-                    font-medium
+                    font-normal
                     dark:text-[#C3C8CD] dark:md:text-[#A9AFB7]
-                    text-[#616C7C]
+                    text-[#555555]
                     max-w-[221px]
                     md:max-w-max
                   "
@@ -322,16 +390,15 @@
               border
               dark:bg-[#26272C] dark:border-[#343434]
               rounded-3xl
-              border-[#EEEEEE]
+              border-[#EEEEEE]  bg-white
               hover:shadow-card
-              cursor-pointer
+              cursor-pointer  md:h-[146px] h-auto
               w-full
-              
-             
-              px-10 py-6
+              px-10 py-6 md:py-0
+              flex
             "
           >
-            <div class="flex items-center space-x-10 w-full">
+            <div class="flex items-center space-x-10 w-full py-auto">
               <div class="w-[50px] h-[50px] rounded-full flex">
                 <span class="m-auto text-5xl font-semibold text-[#555555]"
                   >03</span
@@ -340,10 +407,10 @@
               <div class="flex flex-col items-start space-y-2 w-full">
                 <span
                   class="
-                    text-2xl
-                    font-semibold
+                     text-2xl
+                     font-medium
                     dark:text-white
-                    text-[#1B2C42]
+                    text-[#1D1D1D]
                     leading-[36px]
                     max-w-[221px]
                     md:max-w-max
@@ -352,13 +419,13 @@
                 >
                 <p
                   class="
-                    md:text-lg
+                   md:text-lg
                     text-sm
                     leading-[24px]
                     md:leading-[30px]
-                    font-medium
+                    font-normal
                     dark:text-[#C3C8CD] dark:md:text-[#A9AFB7]
-                    text-[#616C7C]
+                    text-[#555555]
                     max-w-[221px]
                     md:max-w-max
                   "

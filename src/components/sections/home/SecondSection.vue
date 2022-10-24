@@ -354,14 +354,12 @@
           class="
             md:col-span-1
             col-span-2
-            w-full
-            bg-[#2B71C4]
-            dark:bg-[#2B71C4]
+            w-full bg-bluebox-gradient
             group
             rounded-3xl
             overflow-hidden
             cursor-pointer pb-14
-            relative
+            relative 
           "
         >
           <div class="w-full flex flex-col items-end space-y-4">
