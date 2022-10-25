@@ -7,7 +7,7 @@
            HOW IT WORKS?
           </h1>
           <div class="flex flex-col items-start space-y-4 w-full md:w-auto">
-            <div class="bg-[#1B2C42] dark:bg-[#272727] rounded-3xl p-5 w-full md:w-auto">
+            <div class=" rounded-3xl p-5 w-full md:w-auto" :class="{'bg-[#1B2C42] dark:bg-[#272727]':!hover}">
               <div class="flex items-start space-x-5">
                 <div class="bg-[#0054B8] dark:bg-[#2B71C4] w-[50px] h-[50px] rounded-full flex">
                   <span class="m-auto md:text-2xl text-lg font-semibold text-white"
@@ -24,7 +24,7 @@
                 </div>
               </div>
             </div>
-            <div class="rounded-3xl p-5">
+            <div class="rounded-3xl p-5 hover:bg-[#1B2C42] dark:hover:bg-[#272727]" @mousemove="hover = true" @mouseleave="hover = false">
               <div class="flex items-center space-x-5">
                 <div class="bg-[#3A495C] w-[50px] h-[50px] rounded-full flex">
                   <span class="m-auto  md:text-2xl text-lg font-semibold text-white"
@@ -38,7 +38,7 @@
                 </div>
               </div>
             </div>
-            <div class="rounded-3xl p-5">
+            <div class="rounded-3xl p-5 hover:bg-[#1B2C42] dark:hover:bg-[#272727]" @mousemove="hover = true" @mouseleave="hover = false">
               <div class="flex items-center space-x-5">
                 <div class="bg-[#3A495C] w-[50px] h-[50px] rounded-full flex">
                   <span class="m-auto md:text-2xl text-lg font-semibold text-white"
@@ -94,7 +94,15 @@
   </section>
 </template>
 
-
+<script>
+export default {
+  data() {
+    return {
+      hover:false
+    };
+  },
+}
+</script>
 
 <style scoped>
  .bg-card {
